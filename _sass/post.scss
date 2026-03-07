@@ -1,0 +1,85 @@
+/* 1. THE IMAGE CONTAINER (Centers the box within the image) */
+.page__hero--overlay {
+  margin-bottom: 2em !important; /* Adds space so it never touches body text */
+  min-height: 300px !important;  /* Increased to fit two lines of big text */
+  height: auto !important;      /* ALLOWS it to grow if the title is long */
+  display: flex !important;
+  justify-content: center !important; 
+  align-items: center !important;     
+}
+
+/* 2. THE GRAY BOX (Height must be auto) */
+.page__hero--overlay .wrapper {
+  width: 95% !important;       
+  max-width: 95% !important;   
+  margin: 0 auto !important;    
+  padding: 1.5em 2.5em !important; /* Added more padding for 'breathing room' */
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  
+  text-align: left !important;  
+  height: auto !important;       /* CRITICAL: Box grows with the title */
+  min-height: auto !important;   
+}
+
+/* 3. THE EMBOSSED HERO TITLE (900 Weight + Stroke) */
+.page__hero--overlay h1 {
+  /* --- 1. THE FONT: Must be 900 for the 'Fat' Embossed look --- */
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 900 !important; 
+  
+  /* --- 2. THE COLORS: White Center with Red Outline --- */
+  color: #FFFFFF !important; 
+  -webkit-text-stroke: 1px #F25270 !important; /* The 'Red Inner Line' */
+  -webkit-font-smoothing: antialiased;
+
+  /* --- 3. THE OVERLAP FIX: Prevents lines from touching --- */
+  line-height: 1.2 !important; 
+  
+  /* --- 4. ALIGNMENT & STYLE --- */
+  font-size: 2.5em !important;   
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  text-align: left !important;
+  margin-left: 0 !important;    
+  padding-left: 0 !important;
+  margin-top: 0 !important;      
+}
+
+.page__hero--overlay .page__lead, 
+.page__hero--overlay .page__meta {
+  text-align: left !important;
+  margin-left: 0 !important;    /* Align perfectly under the 'J' of Jobseeker */
+  padding-left: 0 !important;
+  font-size: 0.85em !important;
+  margin-top: 0.3em !important;
+  margin-bottom: 0 !important;
+}
+
+/* 1. THE VERTICAL LINE: Align everything to your Title's 2.0em margin */
+
+.page__lead, 
+.page__meta, 
+.page__content p, 
+.page__content ul, 
+.page__content ol {
+    margin-left: 2.0em !important; 
+    padding-left: 0 !important;
+    text-align: left !important;
+    margin-top: 0.5em !important;
+    font-size: 0.85em !important;
+}
+
+/* 2. THE WIDTH FIX: Stop the text from wrapping too early */
+.page {
+    width: 100% !important;
+    max-width: 100% !important; /* Removes the narrow theme container */
+    overflow-x: hidden !important; /* Safety: prevents any tiny overlaps */
+}
+
+.page__content {
+    /* Stretch text across the screen so it doesn't squeeze */
+    margin-top: 0 !important; 
+    width: 85% !important; 
+    width: calc(100% - 3em) !important; 
+    max-width: 1200px !important;
+}

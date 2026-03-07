@@ -1,11 +1,12 @@
 ---
-layout: single
+layout: posts
 title:  "SAP Build Apps Debugging Tips"
 date:   2026-03-02 00:00:00 +0800
 categories: [work]      # Must be 'article' to show in this section
 tags:  ["Tutorials"]
-excerpt: "Tutorial: Debugging in SAP Build Apps"
-description: "Tutorial: SAP Build Apps Debugging Tips"
+excerpt: "Debugging in SAP Build Apps"
+description: "SAP Build Apps Debugging Tips"
+tagline: "SAP Build Apps Debugging Tips"
 header:
   overlay_image: https://media.istockphoto.com/id/2170713366/photo/sap-system-and-business-process-automation-concept-businessman-with-icons-sap-software-for.jpg?s=1024x1024&w=is&k=20&c=1b0rwlDimb0VGWOPtZvh15FtdbAr7StWSZ0nrtm7gkc= # This shows in the grid
   overlay_color: "transparent" 

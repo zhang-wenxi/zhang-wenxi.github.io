@@ -4,17 +4,20 @@
 .entries-grid {
   display: flex !important;
   flex-wrap: wrap !important;
-  margin-left: 1.5rem !important;
-  margin-right: 1.5rem !important;
-  width: calc(100% - 3.0rem) !important;
-  gap: 0.8em !important;
+  margin-left: 2.0rem !important;
+  margin-right: 2.0rem !important;
+  width: calc(100% - 4.0rem) !important;
+  gap: 1.0em !important;
+  align-items: stretch !important;  /* ← equal height fix */
 }
 
 .grid__item {
-  width: calc(25% - 0.8em) !important;
+  width: calc(25% - 1.0em) !important;
   min-width: 0 !important;
   margin: 0 !important;
   padding: 0 !important;
+  display: flex !important;         /* ← equal height fix */
+  flex-direction: column !important;
 }
 /* KILL conflicting teaser height rules */
 .grid__item .archive__item-teaser {
@@ -68,6 +71,7 @@ h2.archive__item-title,
   margin-bottom: 0 !important;
   width: 100% !important;
   min-width: 0 !important;
+  flex: 1 !important;               /* ← equal height fix */
   display: flex !important;
   flex-direction: column !important;
 }
@@ -78,6 +82,10 @@ h2.archive__item-title,
   overflow: hidden !important;
   border-bottom: thin solid #3F7EA6 !important;
   flex-shrink: 0 !important;
+}
+
+.archive__item-excerpt {
+  flex: 1 !important;               /* ← pushes excerpt to fill remaining space */
 }
 
 .archive__item-teaser img {

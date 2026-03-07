@@ -1,0 +1,27 @@
+.page__footer {
+    margin-top: 0;                     /* Keeps your existing setting */
+    background-color: #F2A2A2 !important; /* <--- YOUR NEW COLOR */
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 3em 0;                    /* Adds professional breathing room */
+    
+    /* Style the text (Follow, Copyright, etc.) */
+    color: #F9F5FF!important;         /* Dark Navy text for high contrast */
+    font-family: "Work Sans", sans-serif;
+}
+
+/* Style the footer links (Feed, Jekyll, etc.) */
+.page__footer a {
+    color: #F9F5FF !important;         /* Dark Navy links to match your text */
+    font-weight: 700;
+    text-decoration: none !important;
+    transition: opacity 0.2s ease;
+}
+
+.page__footer a:hover {
+    opacity: 0.7;                      /* Subtle fade effect on hover */
+}
+
+/* Style the social icons in the footer */
+.page__footer .social-icons i {
+    color: #F9F5FF !important;
+}

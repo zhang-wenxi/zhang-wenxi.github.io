@@ -57,6 +57,7 @@ h3.archive__subtitle {
   padding: 0 !important; 
   width: 100%;
 }
+
 .archive__item-teaser {
   /* 1. THE CROPPER: This acts like a window, hiding anything outside */
   height: 150px !important; /* Set your desired fixed height here */
@@ -91,7 +92,14 @@ h3.archive__subtitle {
   
   display: block;
 }
-
+.archive__item-title::before,
+.archive__item-title a::before {
+  display: none !important;
+  content: none !important;
+  width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
 /* Force Title, left edge */
 .archive__item-title{
   margin-left: 00 !important;

@@ -1,9 +1,10 @@
 ---
-layout: single
+layout: posts
 title:  "SAP Sales Order Approval Workflow"
 date:   2026-03-02 00:00:00 +0800
 categories: [work]
 tags:  ["Tutorials"]
+tagline: "SAP Sales Order Approval Workflow"
 excerpt: "Tutorial: SAP Sales Order Approval Workflow low-code/no-code automation"
 description: "Tutorial: SAP Sales Order Approval Workflow Automation"
 header:

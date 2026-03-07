@@ -1,6 +1,6 @@
 ---
-layout: categories_writing
-title: My Writing
+layout: categories_work
+title: "My Writing"
 author_profile: true
 author:  wenxi
 classes: wide

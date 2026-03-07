@@ -1,0 +1,192 @@
+body {
+    color: #3D3635 !important; /* Soft Dark Chocolate Gray */
+    -webkit-font-smoothing: antialiased; /* Makes fonts look sharper/thinner */
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #F2955E
+}
+
+a:visited {
+    color: #3F7EA6
+}
+
+h1,
+h2 {
+    color: #F25270;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 100 !important; 
+    
+    /* 2. THE SIZE: Using the 65px from your screenshot */
+    font-size: 30px !important; 
+    line-height: 1.1 !important; 
+    letter-spacing: 1px !important;
+    -webkit-text-stroke: 0.5px #D95959 !important;
+    -webkit-font-smoothing: antialiased;
+    
+    /* 1. THE GAP KILLER: This removes the theme's built-in top margin */
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    /* 2. THE ALIGNMENT: Ensures it starts on the same vertical line */
+    margin-left: 0 !important;
+}
+
+/* --- THE PERFECT WEIGHT H3 (Roboto 250) --- */
+h3 {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300 !important; 
+    
+    /* 2. THE SIZE: Using the 65px from your screenshot */
+    font-size: 30px !important; 
+    line-height: 40px !important; 
+    /* Tight line height snaps it to the top */
+    letter-spacing: 1px !important;
+    
+    /* 3. THE LOOK: Matches the 'VIDEO/PHOTO' all-caps style */
+    text-transform: uppercase !important;
+    color: #F25270 !important;
+
+    /* 4. THE ALIGNMENT: Keeps it snapped to the top of your photo */
+    margin-top: 50px !important; /* Matching margin-block-end */
+    margin-bottom: 30px !important; /* Matching margin-block-end */
+    padding-top: 0 !important;
+    padding-bottom: 30px !important;
+    margin-left: 0 !important;     
+    border: none !important;
+    box-shadow: none !important;
+    overflow: hidden !important; /* Matching overflow-x/y: hidden */
+}
+
+p,
+.sidebar p,
+.archive__item-title,
+a,
+body {
+    font-family: "Work Sans";
+}
+
+#main {
+    position: relative;
+}
+/* --- PUSH TO EXTREME LEFT --- */
+#main {
+    max-width: 100% !important; 
+    padding-left: 0 !important; /* This keeps the sidebar on the screen edge */
+    padding-right: 0 !important;
+    margin: 0 !important;
+}
+
+.masthead .inner, 
+.page__footer .inner {
+    max-width: 100% !important; 
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/* Adjust the sidebar to sit flush against the left */
+@media only screen and (min-width: 900px) {
+    .sidebar {
+        margin-left: 0 !important;
+        width: 300px; 
+    }
+}
+
+/* --- THE VERTICAL LINE FIX --- */
+.page__title, 
+.page__content p, 
+.archive p {
+    margin-left: 2.0em !important; 
+    margin-top: 0.5em !important; 
+}
+
+.page__title {
+    /* 1. THE FONT: Update to Roboto 900 */
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 900 !important; 
+    
+    /* 2. THE EMBOSSED LOOK: Pale Pink inside, Watermelon Red outline */
+    color: #FFF5F5 !important; 
+    -webkit-text-stroke: 1.2px #F25270 !important; 
+    -webkit-font-smoothing: antialiased;
+
+    /* 3. THE OVERLAP FIX: Increase to 1.15 to stop words from touching */
+    line-height: 1.15 !important; 
+    font-size: 3.0rem !important; /* Made larger to show off the effect */
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+
+    /* 4. KEEP YOUR EXISTING ALIGNMENT */
+    margin-top: 1.0em !important; 
+    margin-bottom: 0.2em !important; 
+    padding-left: 0 !important;    
+    text-indent: 0 !important;    
+    margin-left: 0.7em !important; /* Adjusted slightly for the thicker font */
+}
+/* Move the Photo to the same left line */
+.align-left {
+    margin-top: 0 !important;
+    margin-right: 1.2em !important;
+    margin-bottom: 0.5em !important;
+    /* MUST MATCH .page__title exactly to keep the vertical line straight */
+    margin-left: 1.5em !important; 
+}
+
+/* --- PULL THE TITLE UP in default.scss --- */
+.page__content h2:first-of-type {
+    margin-top: 0 !important; /* This snaps the pink text to the top */
+    padding-top: 0 !important;
+    line-height: 1 !important; /* Prevents invisible 'air' inside the text box */
+}
+/* --- 2. PULL THE CONTENT UP --- */
+.page__content p {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+/* Optional: Specifically target the first paragraph to kill its top margin */
+.page__content p:first-of-type {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Index home page intro */
+h2.title-greeting {
+    /* 1. MATCHING THE PARAGRAPH ALIGNMENT */
+    margin-left: 1.0em !important;      /* Inspector shows 'p' starts at 0 */
+    padding-left: 0 !important;
+    text-indent: 0 !important;
+    letter-spacing: -0.5px !important; /* Calistoga's default spacing pushes the 'H' left; -0.5px pulls it back to the line */
+
+    /* 2. MATCHING THE FONT STYLE */
+    color: #F25270;
+    font-family: 'Calistoga', serif !important;
+    font-weight: 400 !important;
+    font-size: 45px !important;
+
+    /* 3. VERTICAL GAP CONTROL */
+    line-height: 49.5px !important;    /* Tightens the space above the paragraph */
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;  /* Matches the standard 8px margin-block-start seen in your inspector */
+
+    /* 4. RENDERING FIX */
+    display: inline;
+    -webkit-font-smoothing: antialiased; /* Matches the 'p' sharpening */
+}
+
+/* --- TOP GAP CLEANUP (All pages except Posts) --- */
+body:not(.layout--single) {
+
+  /* GAP 1: Moves your Sidebar Image and Text UP */
+  .sidebar.sticky {
+    /* Changed from 3em to 1.0em. Decrease further (e.g. 0.5em) to move more UP */
+    padding-top: 1.0em !important; 
+  }
+
+  /* GAP 2: Moves "My Work" / "About Me" titles UP */
+  .page__title {
+    /* Changed from 1.5em to 0.5em. Set to 0 to hit the very top */
+    margin-top: 0.5em !important; 
+  }
+
+}

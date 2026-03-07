@@ -125,7 +125,15 @@ body.layout--single .page {
   max-width: 100% !important;
   overflow-x: hidden !important;
 }
+body.layout--single .initial-content {
+  display: flex !important;
+  align-items: stretch !important;
+}
 
+body.layout--single .sidebar {
+  min-height: 100% !important;
+  background-color: #F9F5FF !important;
+}
 /* Center content with comfortable reading width */
 body.layout--single .page__inner-wrap {
   margin-top: 0 !important;

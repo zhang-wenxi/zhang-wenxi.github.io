@@ -4,9 +4,9 @@
 .entries-grid {
   display: flex !important;
   flex-wrap: wrap !important;
-  margin-left: 3.0rem !important;
-  margin-right: 3.0rem !important;
-  width: calc(100% - 6.0rem) !important;
+  margin-left: 2.0rem !important;
+  margin-right: 2.0rem !important;
+  width: calc(100% - 4.0rem) !important;
   gap: 1.2em !important;
   align-items: stretch !important;
 }
@@ -19,7 +19,6 @@
   display: flex !important;
   flex-direction: column !important;
 }
-
 /* KILL conflicting teaser height rules */
 .grid__item .archive__item-teaser {
   height: 130px !important;

@@ -2,16 +2,16 @@
 layout: single
 title:  "SAP Sales Order Approval Workflow"
 date:   2026-03-02 00:00:00 +0800
-categories: [work]      # Must be 'article' to show in this section
+categories: [work]
 tags:  ["Tutorials"]
 excerpt: "Tutorial: SAP Sales Order Approval Workflow low-code/no-code automation"
 description: "Tutorial: SAP Sales Order Approval Workflow Automation"
 header:
-  overlay_image: https://media.istockphoto.com/id/1479379119/photo/businessman-using-a-computer-and-dashboard-sap-for-business-process-automation-software-and.jpg?s=1024x1024&w=is&k=20&c=1reoBMCbftk4qd1jeaOKW9QeHX3JxdieobJsHJXuSV8= # This shows in the grid
+  overlay_image: "https://media.istockphoto.com/id/1479379119/photo/businessman-using-a-computer-and-dashboard-sap-for-business-process-automation-software-and.jpg?s=1024x1024&w=is&k=20&c=1reoBMCbftk4qd1jeaOKW9QeHX3JxdieobJsHJXuSV8="
   overlay_color: "transparent" 
-  teaser: "https://media.istockphoto.com/id/1479379119/photo/businessman-using-a-computer-and-dashboard-sap-for-business-process-automation-software-and.jpg?s=1024x1024&w=is&k=20&c=1reoBMCbftk4qd1jeaOKW9QeHX3JxdieobJsHJXuSV8=" # This shows in the grid
+  teaser: "https://media.istockphoto.com/id/1479379119/photo/businessman-using-a-computer-and-dashboard-sap-for-business-process-automation-software-and.jpg?s=1024x1024&w=is&k=20&c=1reoBMCbftk4qd1jeaOKW9QeHX3JxdieobJsHJXuSV8="
   caption: "Photo credit: [istockphoto: KhanchitKhirisutchalual](https://www.istockphoto.com/portfolio/KhanchitKhirisutchalual?mediatype=photography)"
-expiry_date: 2030-01-01  # This will move it to the Archive section
+expiry_date: 2030-01-01
 classes: wide
 ---
 
@@ -37,3 +37,4 @@ I also installed a Date field input component so users can pick or type dates di
     </iframe>
   </div>
 </div>
+

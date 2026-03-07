@@ -3,13 +3,19 @@
    ============================================================ */
 .entries-grid {
   display: grid !important;
-  grid-template-columns: repeat(4, 1fr) !important;
-  grid-gap: 1.5em !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  grid-gap: 1.0em !important;
   align-items: stretch !important;
-  margin-left: 2.0rem !important; 
-  max-width: 900px !important;
-  width: calc(100% - 4.0rem) !important;
+  margin-left: 1.0rem !important; 
+  margin-right: 1.0rem !important;
+  width: calc(100% - 2.0rem) !important;
+  /* REMOVE max-width completely */
 }
+
+.archive__item-teaser {
+  height: 130px !important;
+}
+
 @media only screen and (max-width: 1200px) {
   .entries-grid {
     grid-template-columns: repeat(2, 1fr) !important;

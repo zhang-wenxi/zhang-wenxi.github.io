@@ -1,0 +1,32 @@
+.taxonomy__section {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.5em;
+}
+
+.taxonomy__section+.taxonomy__section {
+    margin-top: 0;
+}
+
+.taxonomy__section h2, 
+.taxonomy__section h3 {
+    margin-top: 0.5em !important;
+}
+
+.taxonomy__index {
+    margin-left: 2em !important; /* Adjust this number (1.5em or 2em) to hit your black line */
+    padding-left: 0 !important;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* 2. STYLE THE BLUE TAG */
+.taxonomy__index a {
+    background-color: #e2f8ff;
+    padding: 0.3em 0.8em;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.85em;
+}

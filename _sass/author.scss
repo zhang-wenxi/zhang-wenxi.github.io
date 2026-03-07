@@ -1,0 +1,186 @@
+/* ============================================================
+   1. GLOBAL LINK STYLES
+   ============================================================ */
+.author__urls.social-icons a,
+.author__urls.social-icons a:visited,
+.page__footer a,
+.page__footer a:visited {
+    color: #103966;
+    font-weight: 700;
+}
+
+.author__name {
+    font-family: 'Roboto', sans-serif !important; /* Forces your new font */
+    color: #D95959 !important;                    /* The pink/red color you see */
+    font-size: 1.4rem !important;                 /* Adjust size as needed */
+    text-transform: none !important;              /* Keeps it 'Zhang Wen Xi' */
+    margin-top: 15px !important;
+    font-weight: 400 !important;
+    line-height: 1 !important; /* SNAPS the text to the top */
+    letter-spacing: 1px !important;
+}
+
+/* Optional: To change the color of the bio text below it */
+.author__bio {
+    font-family: 'Work Sans', sans-serif !important;
+    font-size: 0.85rem !important;
+    color: #666666 !important;
+}
+/* ============================================================
+   2. DESKTOP LAYOUT (@media 900px+)
+   ============================================================ */
+@media only screen and (min-width: 900px) {
+    /* STRETCH: Forces sidebar and content to equal height (Gap Killer) */
+    /* --- GAP KILLER: Only for Archive/Grid Pages --- */
+    /* This works for 'My Work' and 'My Writing' without touching Posts */
+    .layout--categories_writing .initial-content, 
+    .layout--categories_work .initial-content, 
+    .layout--archive .initial-content, 
+    .layout--home .initial-content,
+    .layout--taxonomy .initial-content {
+        display: flex !important;
+        align-items: stretch !important;
+        min-height: 100vh !important;
+    }
+
+    /* SIDEBAR: No Gaps, Sticky, and Sleek */
+    .sidebar.sticky {
+        position: sticky !important;
+        top: 0 !important;
+        width: 300px !important;
+        z-index: 10 !important;
+        height: 100vh !important;       
+        min-height: 100% !important;     
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 3em 1.5em 2.5em 1.5em !important; 
+        overflow-y: auto !important;               
+        background-color: #F9F5FF !important; 
+        border-right: 1px solid #f2f2f2 !important;
+    }
+
+    /* BLUE OVERRIDE: My Work Only */
+    body.blue-sidebar-page .sidebar.sticky {
+        background-color: #A0BED9 !important; 
+        border-right: 1px solid #8EACC5 !important;
+    }
+
+    /* TABLE ALIGNMENT: Aligns Tables with Titles */
+    .page__content table,
+    .archive__section table {
+        margin-left: 1.5em !important; 
+        width: calc(100% - 3em) !important; 
+        border-collapse: collapse !important;
+    }
+
+    .page__content table th:first-child, 
+    .page__content table td:first-child {
+        padding-left: 0 !important;
+        text-align: left !important;
+    }
+}
+/* --- SIDEBAR HOVER (LinkedIn) --- */
+.sidebar a:hover, 
+.sidebar a:hover i, 
+.sidebar a:hover span {
+  color: #F25270 !important;
+  text-decoration: underline !important;
+  text-decoration-color: #F25270 !important;
+  text-underline-offset: 4px; /* Adds space between text and line */
+}
+
+/* ============================================================
+   4. INDEX PAGE CLEANUP
+   ============================================================ */
+.archive__item {
+    border: none !important;      
+    padding-left: 0 !important;   
+    margin-bottom: 0em !important;
+}
+
+.archive__item-teaser, .archive__item-title, .page__meta, .archive__item-excerpt {
+    margin-left: 0 !important;
+    padding-left: 0 !important;     
+    text-align: left !important;
+    border: none !important;
+    margin: 0 !important;
+}
+
+hr { display: none !important; }
+
+/* ============================================================
+   POST PAGE UPDATES (Single Layout Only)
+   ============================================================ */
+body.layout--single {
+   
+    /* --- THE ICON NUDGE (Already working for you) --- */
+    .page__meta i, .page__meta span, .page__meta svg {
+        
+        margin-right: 0px !important; 
+        margin-left: 19px !important; 
+    }
+
+    /* --- THE WIDTH FIX (Targeting the 'Wall') --- */
+    .page, 
+    .initial-content, 
+    .page__content {
+        /* 1. This removes the 800px-1000px limit */
+        max-width: 100% !important; 
+        
+        /* 2. Forces it to fill the screen to the right */
+        width: 100% !important; 
+        
+        /* 3. Removes any right-side padding that pushes text back */
+        margin-right: s0 !important;
+    }
+
+    /* --- THE BUTTONS (Previous/Next) --- */
+    .pagination {
+        margin-left: 40px !important; 
+        /* 1. THE CUT: Decrease 95% to 92% to pull the RIGHT edge back LEFT */
+        /* If it's still too long, change 95% to 93% or 90% */
+        width: 97% !important; 
+        border-top: none !important; 
+        border-bottom: none !important;
+        box-shadow: none !important; /* In case it's a shadow line */
+        display: flex !important;
+        .pagination--pager {
+            flex: 1 !important;
+        }
+    }
+    
+    /* --- NUDGE ONLY THE UPDATED ICON --- */
+    .page__date i, .page__date span { 
+        margin-right: -2px !important; 
+        margin-left: 35px !important; 
+    }
+
+    /* --- THE EMBOSSED ARTICLE TITLE (No Image Version) --- */
+    .page__title {
+        /* 1. THE FONT: Roboto 900 for that 'Fat' embossed feel */
+        font-family: 'Roboto', sans-serif !important;
+        font-weight: 900 !important; 
+        
+        /* 2. THE EMBOSSED COLORS: Pale Pink inside, Watermelon Red outline */
+        /* This ensures it's readable on a white background */
+        color: #FFF0F0 !important; 
+        -webkit-text-stroke: 1.5px #F25270 !important; 
+        -webkit-font-smoothing: antialiased;
+
+        /* 3. THE OVERLAP FIX: Prevents lines from touching */
+        line-height: 1.15 !important; 
+        
+        /* 4. THE STYLE */
+        font-size: 3.0rem !important;   
+        text-transform: uppercase !important;
+        letter-spacing: 1px !important;
+
+        /* 5. ALIGNMENT: Hits your vertical line */
+        margin-left: 0.7em !important; 
+        margin-top: 1.0em !important;
+        margin-bottom: 0.2em !important; 
+        /* ZWX fix the page title aligment on work and writing detail pages */
+        margin: 0 !important; 
+    }
+}
+

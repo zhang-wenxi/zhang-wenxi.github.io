@@ -171,50 +171,69 @@ body:not(.layout--single) .archive__item-excerpt {
    ============================================================ */
 .skills-table-container {
   display: flex !important;
-  flex-wrap: wrap !important;
-  margin-left: 2.0rem !important;
-  width: calc(100% - 4.0rem) !important;
-  padding-left: 0 !important;
-  margin-top: -1.0em !important;
+  flex-wrap: wrap !important; /* This allows columns to stack on mobile */
+
+  /* FIX: Subtract the 3em margin from the total width to prevent overflow */
+  width: calc(100% - 3rem) !important; /* Keeps it inside the screen */
+
+  /* 1. THE FINAL NUDGE: Changed to 0.2em to move right slightly */
+  margin-left: 2em !important; 
+  padding-left: 0 !important; 
+
+   
+  /* 2. THE VERTICAL GAP: Pulls table up tight under the title */
+  margin-top: -1.0em !important; 
+
 }
 
 .skills-column:first-child {
-  flex: 1 1 200px !important;
-  max-width: 350px !important;
+  /* reserves space for 'Product Management' */
+  flex: 1 1 200px !important; /* Grow and shrink as needed, starting at 200px */
+  max-width: 350px !important; 
   margin-right: 15px !important;
   padding-left: 0 !important;
 }
 
 .skills-column:not(:first-child) {
-  flex: 1 1 200px !important;
+  flex: 1 1 200px !important; 
   max-width: 350px !important;
   padding-right: 0 !important;
+
 }
 
 .skills-table-header {
+  /* 1. THE FONT: Use the same Roboto Thin you used for the title */
   font-family: 'Roboto', sans-serif !important;
+    
+  /* 2. THE LOOK: All caps and thin makes it look premium */
   text-transform: uppercase !important;
-  font-size: 1.1rem !important;
+    
+  /* 3. SCALE: 1.4rem is big enough to be 'edgy' but small enough to fit 4 columns */
+  font-size: 1.4rem !important; 
   letter-spacing: 1px !important;
-  line-height: 1 !important;
+  line-height: 1 !important; /* SNAPS the text to the top */
+  font-size: 1.1rem !important;
   color: #F25270 !important;
-  white-space: nowrap !important;
-  margin-bottom: 0.3em !important;
+  white-space: nowrap !important; 
+  margin-bottom: 0.3em !important; 
   padding-left: 0 !important;
   display: block !important;
+
 }
 
 .skills-table-list {
   list-style: none !important;
   padding: 0 !important;
   margin: 0 !important;
+
 }
 
 .skills-table-list li {
   font-size: 0.95rem !important;
   color: #666 !important;
-  padding: 0.15em 0 !important;
+  padding: 0.15em 0 !important; 
   white-space: nowrap !important;
+
 }
 
 /* ============================================================

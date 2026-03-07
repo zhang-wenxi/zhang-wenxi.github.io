@@ -4,21 +4,22 @@
 .entries-grid {
   display: flex !important;
   flex-wrap: wrap !important;
-  margin-left: 2.0rem !important;
-  margin-right: 2.0rem !important;
-  width: calc(100% - 4.0rem) !important;
-  gap: 1.0em !important;
-  align-items: stretch !important;  /* ← equal height fix */
+  margin-left: 3.0rem !important;
+  margin-right: 3.0rem !important;
+  width: calc(100% - 6.0rem) !important;
+  gap: 1.2em !important;
+  align-items: stretch !important;
 }
 
 .grid__item {
-  width: calc(25% - 1.0em) !important;
+  width: calc(25% - 1.2em) !important;
   min-width: 0 !important;
   margin: 0 !important;
   padding: 0 !important;
-  display: flex !important;         /* ← equal height fix */
+  display: flex !important;
   flex-direction: column !important;
 }
+
 /* KILL conflicting teaser height rules */
 .grid__item .archive__item-teaser {
   height: 130px !important;

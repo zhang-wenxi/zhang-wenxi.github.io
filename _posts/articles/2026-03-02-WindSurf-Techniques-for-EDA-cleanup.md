@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: posts
 title: "Windsurf Techniques for EDA cleanup"
 author_profile: false
 date:   2026-03-02

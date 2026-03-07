@@ -1,0 +1,59 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+
+<h3>Prioritization Options</h3>
+<div class="container text-right">
+    <div class="row">
+        <div class="col">
+            <select id="summer_sub_select" class="form-select" aria-label="Default select example">
+                <option value="linear">Linear</option>
+                <option value="ratio">Ratio</option>
+                <option value="pivot">Pivots</option>
+            </select>
+        </div>
+    </div>
+</div>
+<table>
+    <thead>
+        <tr>
+            <td>Feature</td>
+            <td>Jan</td>
+            <td>Feb</td>
+            <td>Mar</td>
+            <td>Apr</td>
+            <td>May</td>
+            <td>Jun</td>
+            <td>Jul</td>
+            <td>Aug</td>
+            <td>Sep</td>
+            <td>Oct</td>
+            <td>Nov</td>
+            <td>Dec</td>
+        </tr>
+    </thead>
+    <!-- <tbody>
+        {% for feature in site.data.prioritize_linear %}
+        <tr>
+            <td>{{feature.feature}}</td>
+            {% for i in range (1...12) %}
+                {% for team in feature.team %}
+                {% if tasks.mo_start == i %}
+                <td>
+                    <ul>
+                        <li>{{tasks.task}}</li>
+                        <li>{{tasks.team}}</li>
+                    </ul>
+                </td>
+                {% else %}
+                <td></td>
+                {% endif %}
+                {%endfor%}
+            {%endfor%}
+        </tr>
+        {% endfor %}
+    </tbody> -->
+</table>

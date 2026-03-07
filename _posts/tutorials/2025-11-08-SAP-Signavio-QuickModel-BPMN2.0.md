@@ -1,9 +1,10 @@
 ---
-layout: single
+layout: posts
 title:  "SAP Signavio QuickModel BPMN 2.0"
 date:   2026-03-02 00:00:00 +0800
 categories: [work]      # Must be 'article' to show in this section
 tags:  ["Tutorials"]
+tagline: "SAP Signavio QuickModel BPMN 2.0"
 excerpt: "Tutorial: Fast Process Modeling with SAP Signavio"
 description: "Tutorial: Fast Process Modeling with SAP Signavio"
 header:

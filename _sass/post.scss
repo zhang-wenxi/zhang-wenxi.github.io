@@ -1,92 +1,141 @@
-/* 1. THE IMAGE CONTAINER (Centers the box within the image) */
+/* ============================================================
+   1. THE IMAGE CONTAINER
+   ============================================================ */
 .page__hero--overlay {
-  margin-bottom: 2em !important; /* Adds space so it never touches body text */
-  min-height: 300px !important;  /* Increased to fit two lines of big text */
-  height: auto !important;      /* ALLOWS it to grow if the title is long */
+  margin-bottom: 2em !important;
+  min-height: 300px !important;
+  height: auto !important;
   display: flex !important;
-  justify-content: center !important; 
-  align-items: center !important;     
+  justify-content: center !important;
+  align-items: center !important;
 }
 
-/* 2. THE GRAY BOX (Height must be auto) */
+/* ============================================================
+   2. THE GRAY BOX
+   ============================================================ */
 .page__hero--overlay .wrapper {
-  width: 95% !important;       
-  max-width: 95% !important;   
-  margin: 0 auto !important;    
-  padding: 1.5em 2.5em !important; /* Added more padding for 'breathing room' */
+  width: 95% !important;
+  max-width: 95% !important;
+  margin: 0 auto !important;
+  padding: 1.5em 2.5em !important;
   background-color: rgba(0, 0, 0, 0.4) !important;
-  
-  text-align: left !important;  
-  height: auto !important;       /* CRITICAL: Box grows with the title */
-  min-height: auto !important;   
+  text-align: left !important;
+  height: auto !important;
+  min-height: auto !important;
 }
 
-/* 3. THE EMBOSSED HERO TITLE (900 Weight + Stroke) */
+/* ============================================================
+   3. HERO TITLE
+   ============================================================ */
 .page__hero--overlay h1 {
-  /* --- 1. THE FONT: Must be 900 for the 'Fat' Embossed look --- */
   font-family: 'Roboto', sans-serif !important;
-  font-weight: 900 !important; 
-  
-  /* --- 2. THE COLORS: White Center with Red Outline --- */
-  color: #FFFFFF !important; 
-  -webkit-text-stroke: 1px #F25270 !important; /* The 'Red Inner Line' */
+  font-weight: 900 !important;
+  color: #FFFFFF !important;
+  -webkit-text-stroke: 1px #F25270 !important;
   -webkit-font-smoothing: antialiased;
-
-  /* --- 3. THE OVERLAP FIX: Prevents lines from touching --- */
-  line-height: 1.2 !important; 
-  
-  /* --- 4. ALIGNMENT & STYLE --- */
-  font-size: 2.5em !important;   
+  line-height: 1.2 !important;
+  font-size: 2.5em !important;
   text-transform: uppercase !important;
   letter-spacing: 1px !important;
   text-align: left !important;
-  margin-left: 0 !important;    
-  padding-left: 0 !important;
-  margin-top: 0 !important;      
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-.page__hero--overlay .page__lead, 
+/* ============================================================
+   4. HERO META AND LEAD (inside gray box)
+   ============================================================ */
+.page__hero--overlay .page__lead,
 .page__hero--overlay .page__meta {
   text-align: left !important;
-  margin-left: 0 !important;    /* Align perfectly under the 'J' of Jobseeker */
-  padding-left: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
   font-size: 0.85em !important;
   margin-top: 0.3em !important;
-  margin-bottom: 0 !important;
 }
 
-/* 1. THE VERTICAL LINE: Align everything to your Title's 2.0em margin */
+/* ============================================================
+   5. CALENDAR ICON ALIGNMENT (post page only)
+   ============================================================ */
+body.layout--single .page__meta {
+  display: flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+  margin-left: 2.0em !important;
+  padding-left: 0 !important;
+  margin-top: 0.5em !important;
+  font-size: 0.85em !important;
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+}
 
-.page__lead, 
-.page__meta, 
-.page__content p, 
-.page__content ul, 
+body.layout--single .page__meta i,
+body.layout--single .page__meta span,
+body.layout--single .page__meta svg {
+  display: inline-flex !important;
+  align-items: center !important;
+  vertical-align: middle !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1 !important;
+}
+
+/* ============================================================
+   6. CONTENT VERTICAL LINE ALIGNMENT
+   ============================================================ */
+.page__lead,
+.page__content p,
+.page__content ul,
 .page__content ol {
-    margin-left: 2.0em !important; 
-    padding-left: 0 !important;
-    text-align: left !important;
-    margin-top: 0.5em !important;
-    font-size: 0.85em !important;
+  margin-left: 2.0em !important;
+  padding-left: 0 !important;
+  text-align: left !important;
+  margin-top: 0.5em !important;
+  font-size: 0.85em !important;
 }
 
-/* 2. THE WIDTH FIX: Stop the text from wrapping too early */
-.page {
-    width: 100% !important;
-    max-width: 100% !important; /* Removes the narrow theme container */
-    overflow-x: hidden !important; /* Safety: prevents any tiny overlaps */
+/* ============================================================
+   7. FULL WIDTH BODY FOR POST PAGES (no sidebar)
+   ============================================================ */
+body.layout--single .page__content {
+  margin-top: 0 !important;
+  width: calc(100% - 3em) !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 2em !important;
+  padding-right: 2em !important;
 }
 
-.page__content {
-    /* Stretch text across the screen so it doesn't squeeze */
-    margin-top: 0 !important; 
-    width: 85% !important; 
-    width: calc(100% - 3em) !important; 
-    max-width: 1200px !important;
+/* Stretch the main container full width on post pages */
+body.layout--single #main {
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
+
+body.layout--single .page {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Center content with comfortable reading width */
+body.layout--single .page__inner-wrap {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding-left: 2em !important;
+  padding-right: 2em !important;
+}
+
+/* ============================================================
+   8. GALLERY IMAGES
+   ============================================================ */
 img.gallery {
-    max-width: 200px;
-    float: left;
-    margin-right: 10px;
-    margin-top: 10px;
-    border: thin solid #ccc;
+  max-width: 200px !important;
+  float: left !important;
+  margin-right: 10px !important;
+  margin-top: 10px !important;
+  border: thin solid #ccc !important;
 }

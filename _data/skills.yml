@@ -1,0 +1,103 @@
+engineering:
+  - title: Python
+    level: Advanced
+  - title: SQL
+    level: Advanced
+  - title: PowerBI
+    level: Advanced
+  - title: Tableau
+    level: Advanced
+  - title: MongoDB
+    level: Advanced
+  - title: BigQuery
+    level: Advanced
+  - title: Redis
+    level: Advanced
+  - title: JavaScript
+    level: Advanced
+  - title: NodeJS
+    level: Advanced
+  - title: ReactJS
+    level: Advanced
+  - title: Git
+    level: Advanced
+  - title: Jira
+    level: Advanced
+  - title: HTML5
+    level: Advanced
+  - title: CSS
+    level: Advanced
+  - title: SCSS
+    level: Advanced
+
+operations:
+  - title: Strategy
+    level: Advanced
+  - title: Leadership
+    level: Intermediate
+  - title: Analytics
+    level: Advanced
+  - title: Budgeting
+    level: Intermediate # Categorized as Mgmt
+  - title: Proposals
+    level: Advanced
+  - title: Problem-solving
+    level: Advanced
+  - title: Communication
+    level: Advanced
+  - title: Teamwork
+    level: Advanced
+  - title: Writing
+    level: Advanced
+  - title: Presentations
+    level: Advanced
+  - title: Speaking
+    level: Advanced
+  - title: Research
+    level: Advanced
+
+product:
+  - title: Discovery
+    level: Advanced
+  - title: Roadmap
+    level: Advanced
+  - title: Research
+    level: Advanced
+  - title: Marketing
+    level: Advanced
+  - title: Competitive
+    level: Advanced
+  - title: Lifecycle
+    level: Intermediate # Categorized as Mgmt
+  - title: Planning
+    level: Intermediate # Categorized as Mgmt
+  - title: Strategy
+    level: Advanced
+  - title: Market
+    level: Advanced
+  - title: Analysis
+    level: Advanced
+
+experience:
+  - title: Storyboarding
+    level: Advanced
+  - title: Prototyping
+    level: Advanced
+  - title: Testing
+    level: Advanced
+  - title: Personas
+    level: Advanced
+  - title: Layout
+    level: Advanced
+  - title: Typography
+    level: Advanced
+  - title: Branding
+    level: Advanced
+  - title: Mockups
+    level: Advanced
+  - title: Flow
+    level: Advanced
+  - title: Illustration
+    level: Advanced
+  - title: Color
+    level: Advanced

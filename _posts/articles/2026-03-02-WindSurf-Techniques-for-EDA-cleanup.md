@@ -4,7 +4,7 @@ title: "Windsurf Techniques for EDA cleanup"
 author_profile: false
 date:   2026-03-02
 excerpt: "A data visualisation project for salary fairness."
-categories: [mywriting]
+categories: [writing]
 header:
   overlay_image: "/assets/images/articles/windsurf/teaser.png" # This shows in the grid
   overlay_color: "transparent" 

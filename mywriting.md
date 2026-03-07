@@ -1,8 +1,9 @@
 ---
 layout: categories_writing
 title: "My Writing"
-author_profile: false
+author_profile: true
 author: wenxi
+permalink: /mywriting/
 classes: wide
 ---
 

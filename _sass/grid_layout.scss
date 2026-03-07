@@ -5,6 +5,7 @@
   display: flex !important;
   flex-wrap: wrap !important;
   margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
   width: calc(100% - 3.0rem) !important;
   gap: 1.0em !important;
 }
@@ -14,6 +15,12 @@
   min-width: 0 !important;
   margin: 0 !important;
   padding: 0 !important;
+}
+/* KILL conflicting teaser height rules */
+.grid__item .archive__item-teaser {
+  height: 130px !important;
+  max-height: 130px !important;
+  min-height: 130px !important;
 }
 
 @media only screen and (max-width: 900px) {
@@ -43,6 +50,15 @@ h3.archive__subtitle {
   clear: both !important;
 }
 
+/* KILL orange margin on title */
+h2.archive__item-title,
+.archive__item-title {
+  margin: 0 !important;
+  margin-inline-start: 0 !important;
+  padding: 0.5em !important;
+  line-height: 1.2 !important;
+  font-size: 0.9em !important;
+}
 /* ============================================================
    3. ARCHIVE ITEM — Leigh's simple approach
    ============================================================ */
@@ -89,11 +105,12 @@ h3.archive__subtitle {
   content: none !important;
 }
 
+/* KILL the block display causing giant space */
 .archive__item-title a,
 .archive__item-title a:visited {
+  display: inline !important;
   color: #F2955E !important;
   text-decoration: none !important;
-  display: block !important;
   transition: color 0.3s ease !important;
 }
 

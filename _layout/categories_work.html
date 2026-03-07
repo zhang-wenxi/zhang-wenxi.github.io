@@ -4,34 +4,37 @@ layout: archive
 
 {{ content }}
 
-
+<!-- 1. The Taxonomy Index (Blue Bars) -->
 <ul class="taxonomy__index">
-    {% assign sorted_tags = site.tags | sort %}
-    {% for tag in sorted_tags %}
-    {% assign cat_tags = tag[1] | where: "categories", "work" | sort %}
-    {% if cat_tags != empty %}
-    <li>
+  {% assign sorted_tags = site.tags | sort %}
+  {% for tag in sorted_tags %}
+    {% comment %} 
+      tag[0] is the Name (e.g., Tutorials), tag[1] is the Posts 
+    {% endcomment %}
+    {% assign cat_posts = tag[1] | where: "categories", "work" %}
+    {% if cat_posts.size > 0 %}
+      <li>
         <a href="#{{ tag[0] | slugify }}">
-            <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ cat_posts.size }}</span>
         </a>
-    </li>
+      </li>
     {% endif %}
-    {% endfor %}
+  {% endfor %}
 </ul>
 
+<!-- 2. The Post Sections (Grid) -->
 {% assign entries_layout = page.entries_layout | default: 'grid' %}
 {% for tag in sorted_tags %}
-{% assign cat_tags = tag[1] | where: "categories", "work" | sort %}
-{% if cat_tags != empty %}
-<section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
-    <h2 class="archive__subtitle">{{ tag[0] }}</h2>
-    <div class="entries-{{ entries_layout }}">
-        {% for post in tag.last %}
-        {% include archive-single.html type=entries_layout %}
+  {% assign cat_posts = tag[1] | where: "categories", "work" %}
+  {% if cat_posts.size > 0 %}
+    <section id="{{ tag[0] | slugify }}" class="taxonomy__section">
+      <h2 class="archive__subtitle">{{ tag[0] }}</h2>
+      <div class="entries-{{ entries_layout }}">
+        {% for post in cat_posts %}
+          {% include archive-single.html type=entries_layout %}
         {% endfor %}
-    </div>
-    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }}
-        &uarr;</a>
-</section>
-{% endif %}
+      </div>
+      <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+    </section>
+  {% endif %}
 {% endfor %}

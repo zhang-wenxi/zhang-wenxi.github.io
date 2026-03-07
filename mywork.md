@@ -1,6 +1,6 @@
 ---
 layout: categories_work
-title: "My Writing"
+title: "My Work"
 author_profile: true
 author:  wenxi
 permalink: /mywork/

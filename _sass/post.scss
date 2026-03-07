@@ -60,7 +60,7 @@
 body.layout--single .page__meta {
   display: flex !important;
   align-items: center !important;
-  gap: 5px !important;
+  gap: 8px !important;
   margin-left: 2.0em !important;
   padding-left: 0 !important;
   margin-top: 0.5em !important;
@@ -127,10 +127,10 @@ body.layout--single .page {
 
 /* Center content with comfortable reading width */
 body.layout--single .page__inner-wrap {
-  max-width: 1200px !important;
-  margin: 0 auto !important;
-  padding-left: 2em !important;
-  padding-right: 2em !important;
+  max-width: 100% !important;
+  margin: 0 !important;        /* ← removes auto centering */
+  padding-left: 1em !important;
+  padding-right: 1em !important;
 }
 
 /* ============================================================

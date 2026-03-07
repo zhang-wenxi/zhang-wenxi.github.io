@@ -5,9 +5,9 @@ author_profile: false
 date:   2026-03-02 00:00:00 +0800
 excerpt: "A data visualisation project for salary fairness."
 header:
-  overlay_image: /assets/images/articles/winserve/teaser.png # This shows in the grid
+  overlay_image: /assets/images/articles/windsurf/teaser.png # This shows in the grid
   overlay_color: "transparent" 
-  teaser: "/assets/images/articles/winserve/teaser.png" # This shows in the grid
+  teaser: "/assets/images/articles/windsurf/teaser.png" # This shows in the grid
 categories: [writing]
 tags: [Career] # Or whatever name you want for the blue bar
 highlight_home: true     # Must be true to show on the homepage

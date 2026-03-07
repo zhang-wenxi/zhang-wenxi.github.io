@@ -2,7 +2,7 @@
    1. THE IMAGE CONTAINER
    ============================================================ */
 .page__hero--overlay {
-  margin-bottom: 2em !important;
+  margin-bottom: 0em !important;
   min-height: 300px !important;
   height: auto !important;
   display: flex !important;
@@ -104,6 +104,7 @@ body.layout--single .page__meta .page__meta-date {
    ============================================================ */
 body.layout--single .page__content {
   margin-top: 0 !important;
+  padding-top: 0 !important;
   width: calc(100% - 3em) !important;
   max-width: 100% !important;
   margin-left: auto !important;
@@ -127,6 +128,8 @@ body.layout--single .page {
 
 /* Center content with comfortable reading width */
 body.layout--single .page__inner-wrap {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
   max-width: 100% !important;
   margin: 0 !important;        /* ← removes auto centering */
   padding-left: 1em !important;

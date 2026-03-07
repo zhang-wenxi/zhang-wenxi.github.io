@@ -1,8 +1,6 @@
 ---
 layout: categories_work
 title: "My Work"
-author_profile: true
-author: wenxi
 classes: wide
 ---
 

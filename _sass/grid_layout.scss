@@ -74,6 +74,7 @@ h2.archive__item-title,
   flex: 1 !important;               /* ← equal height fix */
   display: flex !important;
   flex-direction: column !important;
+  max-height: 400px !important;  /* ← prevents single cards from stretching too tall */
 }
 
 .archive__item-teaser {

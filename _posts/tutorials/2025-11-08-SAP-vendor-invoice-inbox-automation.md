@@ -1,9 +1,10 @@
 ---
-layout: single
+layout: posts
 title:  "SAP Vendor Invoice Inbox Automation"
 date:   2026-03-02 00:00:00 +0800
 categories: [work]      # Must be 'article' to show in this section
 tags:  ["Tutorials"]
+tagline: "SAP Vendor Invoice Inbox Automation"
 excerpt: "Tutorial: SAP Vendor Invoice Inbox Automation low-code/no-code automation"
 description: "Tutorial: SAP Vendor Invoice Inbox Automation"
 header:

@@ -68,19 +68,23 @@ body.layout--single .page__meta {
   position: static !important;
   left: auto !important;
   top: auto !important;
+  line-height: 1 !important;  /* ← add this */
 }
 
 body.layout--single .page__meta i,
 body.layout--single .page__meta span,
-body.layout--single .page__meta svg {
+body.layout--single .page__meta svg,
+body.layout--single .page__meta .page__meta-date {
   display: inline-flex !important;
   align-items: center !important;
   vertical-align: middle !important;
   margin: 0 !important;
   padding: 0 !important;
-  line-height: 1 !important;
+  line-height: 1 !important;     /* ← add this */
+  font-size: 1em !important;     /* ← normalizes icon size */
+  position: relative !important;
+  top: 0 !important;             /* ← resets any theme nudge */
 }
-
 /* ============================================================
    6. CONTENT VERTICAL LINE ALIGNMENT
    ============================================================ */

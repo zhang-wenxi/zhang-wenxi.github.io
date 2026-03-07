@@ -2,7 +2,7 @@
 layout: home
 classes: wide
 author_profile: true
-author : wenxi
+author: wenxi
 ---
 
 {% assign current_time = site.time | date: '%s' | plus: 0 %}

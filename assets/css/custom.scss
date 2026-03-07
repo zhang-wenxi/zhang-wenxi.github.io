@@ -1,5 +1,8 @@
 --- 
 --- 
+/* 1. Import the theme's base first */
+@import "minimal-mistakes/skins/default"; 
+@import "minimal-mistakes"; 
 @import "default";
 @import "author";
 @import "footer";

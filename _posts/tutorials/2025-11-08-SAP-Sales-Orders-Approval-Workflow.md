@@ -7,6 +7,7 @@ tags:  ["Tutorials"]
 tagline: "SAP Sales Order Approval Workflow"
 excerpt: "Tutorial: SAP Sales Order Approval Workflow low-code/no-code automation"
 description: "Tutorial: SAP Sales Order Approval Workflow Automation"
+author_profile: false
 header:
   overlay_image: "https://media.istockphoto.com/id/1479379119/photo/businessman-using-a-computer-and-dashboard-sap-for-business-process-automation-software-and.jpg?s=1024x1024&w=is&k=20&c=1reoBMCbftk4qd1jeaOKW9QeHX3JxdieobJsHJXuSV8="
   overlay_color: "transparent" 

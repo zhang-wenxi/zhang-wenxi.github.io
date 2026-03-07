@@ -1,46 +1,44 @@
 ---
 layout: archive
-title: "My Writing"
-permalink: /mywriting/
-author_profile: true
-categories: [writing]
-tags: [Tutorials] # Or whatever tag you want
 ---
 
 {{ content }}
-<!-- 1. The Taxonomy Index (Blue Bars) -->
+
+
 <ul class="taxonomy__index">
-  {% assign sorted_tags = site.tags | sort %}
-  {% for tag in sorted_tags %}
-    {% comment %} 
-      tag[0] is the name, tag[1] is the array of posts 
-    {% endcomment %}
-    {% assign cat_posts = tag[1] | where: "categories", "writing" %}
-    {% if cat_posts.size > 0 %}
-      <li>
-        <a href="#{{ tag[0] | slugify }}">
-          <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ cat_posts.size }}</span>
-        </a>
-      </li>
-    {% endif %}
-  {% endfor %}
+    {% assign sorted_tags = site.tags | sort %}
+    {% for tag in sorted_tags %}
+        {% if tag contains "Part" %}
+        {% else %}
+            {% assign cat_tags = tag[1] | where: "categories", "writing" | sort %}
+            {% if cat_tags != empty %}
+            <li>
+                <a href="#{{ tag[0] | slugify }}">
+                    <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+                </a>
+            </li>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
 </ul>
 
-<!-- 2. The Post Sections (Grid) -->
 {% assign entries_layout = page.entries_layout | default: 'grid' %}
-{% for tag in sorted_tags %}
-  {% assign cat_posts = tag[1] | where: "categories", "writing" %}
-  {% if cat_posts.size > 0 %}
-    <section id="{{ tag[0] | slugify }}" class="taxonomy__section">
-      <h2 class="archive__subtitle">{{ tag[0] }}</h2>
-      <div class="entries-{{ entries_layout }}">
-        {% for post in cat_posts %}
-          {% include archive-single.html type=entries_layout %}
-        {% endfor %}
-      </div>
-      <a href="#page-title" class="back-to-top">
-        {{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;
-      </a>
-    </section>
-  {% endif %}
-{% endfor %}
+    {% for tag in sorted_tags %}
+        {% if tag contains "Part" %}
+        {% else %}
+
+            {% assign cat_tags = tag[1] | where: "categories", "writing" | sort %}
+            {% if cat_tags != empty %}
+            <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
+                <h2 class="archive__subtitle">{{ tag[0] }}</h2>
+                <div class="entries-{{ entries_layout }}">
+                    {% for post in tag.last %}
+                    {% include archive-single.html type=entries_layout %}
+                    {% endfor %}
+                </div>
+                <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }}
+                    &uarr;</a>
+            </section>
+            {% endif %}
+        {% endif %}
+    {% endfor %}

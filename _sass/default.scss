@@ -12,25 +12,19 @@ a:visited {
     color: #3F7EA6
 }
 
-h1,
-h2 {
-    color: #F25270;
-    font-family: 'Roboto', sans-serif !important;
-    font-weight: 100 !important; 
-    
-    /* 2. THE SIZE: Using the 65px from your screenshot */
-    font-size: 30px !important; 
-    line-height: 1.1 !important; 
-    letter-spacing: 1px !important;
-    -webkit-text-stroke: 0.5px #D95959 !important;
-    -webkit-font-smoothing: antialiased;
-    
-    /* 1. THE GAP KILLER: This removes the theme's built-in top margin */
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    margin-left: 0 !important;
-    margin-inline-start: 0 !important;  /* ← add this line */
-    padding-inline-start: 0 !important; /* ← add this line */
+h1, h2 {
+  color: #F25270;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 100 !important;
+  font-size: 30px !important;
+  line-height: 1.1 !important;
+  letter-spacing: 1px !important;
+  -webkit-text-stroke: 0.5px #D95959 !important;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 !important;                  /* ← kills all margins */
+  margin-inline-start: 0 !important;     /* ← kills browser logical margin */
+  padding: 0 !important;                 /* ← kills all padding */
+  padding-inline-start: 0 !important;    /* ← kills browser logical padding */
 }
 
 /* --- THE PERFECT WEIGHT H3 (Roboto 250) --- */

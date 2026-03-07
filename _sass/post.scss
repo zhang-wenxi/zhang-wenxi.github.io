@@ -83,3 +83,10 @@
     width: calc(100% - 3em) !important; 
     max-width: 1200px !important;
 }
+img.gallery {
+    max-width: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: thin solid #ccc;
+}

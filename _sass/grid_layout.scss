@@ -80,6 +80,12 @@ h3.archive__subtitle {
   }
 }
 
+.archive__item-body,
+.archive__item > *:not(.archive__item-teaser) {
+  padding-left: 0.5em !important;
+  padding-right: 0.5em !important;
+}
+
 /* Force Title, Date, and Excerpt flush to the 0px left edge */
 .archive__item-title, 
 .archive__item-excerpt, 

@@ -86,6 +86,15 @@ h3.archive__subtitle {
   padding-right: 0.5em !important;
 }
 
+/* ALIGN title, date, excerpt with image left edge */
+.archive__item-title,
+.archive__item-excerpt,
+.page__meta {
+  padding-left: 0.5em !important;
+  margin-left: 0 !important;
+  padding-right: 0.5em !important;
+}
+
 /* Force Title, Date, and Excerpt flush to the 0px left edge */
 .archive__item-title, 
 .archive__item-excerpt, 

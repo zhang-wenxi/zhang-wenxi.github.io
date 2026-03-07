@@ -4,14 +4,12 @@
 .entries-grid {
   display: grid !important;
   grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
-  grid-gap: 1.0em !important;
+  grid-gap: 1.5em !important;        /* increase this for more space between cards */
   align-items: stretch !important;
-  margin-left: 1.0rem !important; 
-  margin-right: 1.0rem !important;
-  width: calc(100% - 2.0rem) !important;
-  /* REMOVE max-width completely */
+  margin-left: 2.0rem !important;    /* increase this for left margin */
+  margin-right: 2.0rem !important;   /* increase this for right margin */
+  width: calc(100% - 4.0rem) !important; /* must be 2x your margin values */
 }
-
 .archive__item-teaser {
   height: 130px !important;
 }

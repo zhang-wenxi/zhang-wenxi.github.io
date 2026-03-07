@@ -10,7 +10,7 @@ header:
   overlay_color: "transparent" 
   teaser: "/assets/images/articles/windsurf/teaser.png" # This shows in the grid
 categories: [writing]
-tags: [Career] # Or whatever name you want for the blue bar
+tags: ["Data Cleansing"] # Or whatever name you want for the blue bar
 highlight_home: true     # Must be true to show on the homepage
 ---
 

@@ -17,7 +17,15 @@ header:
   caption: "Photo credit: [Unsplash: 1981 Digital](https://unsplash.com/@1981digital)"
 expiry_date: 2030-01-01
 ---
-What this visual tells us immediately is that our fairness is not a guessing game—it is a structure. Look at the Professional and Middle Management segments. Notice the sheer density and thickness of the ribbons flowing out of them. This shows that we are successfully concentrating our 'salary lifeblood' exactly where leadership and expertise reside. We aren't just paying for years of service; we are paying for the core engines of our business.
-However, the real story of fairness is in the symmetry. Follow the paths for the Project Manage
-My conclusion? Our salary flow is balanced. We aren't leaking value into the wrong places. We have built a system where the weight of the role matches the width of the reward. We are paying fairly because we are paying for impact."
+This dashboard proves that fairness is a structure, not a guessing game. By anchoring individual estimates against broad market data, we ensure the 'weight' of a role matches the 'width' of the reward. We aren't just tracking salaries; we are measuring impact.
+<div style="padding-left: 40px; margin-top: 20px; margin-bottom: 60px; clear: both;">
+  <div class="streamlit-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 20px;">
+    <iframe 
+      src="https://YOUR_APP_NAME.streamlit.app/](https://20260307-zwx-ds-salarydashboard-pwumsmjsxreotfcm97q996.streamlit.app/?embed=true" 
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
 

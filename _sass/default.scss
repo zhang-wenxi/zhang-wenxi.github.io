@@ -28,8 +28,9 @@ h2 {
     /* 1. THE GAP KILLER: This removes the theme's built-in top margin */
     margin-top: 0 !important;
     padding-top: 0 !important;
-    /* 2. THE ALIGNMENT: Ensures it starts on the same vertical line */
     margin-left: 0 !important;
+    margin-inline-start: 0 !important;  /* ← add this line */
+    padding-inline-start: 0 !important; /* ← add this line */
 }
 
 /* --- THE PERFECT WEIGHT H3 (Roboto 250) --- */

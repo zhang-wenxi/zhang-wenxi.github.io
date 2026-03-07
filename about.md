@@ -62,27 +62,40 @@ permalink: /about/
   }
 </style>
 
-<!-- 4. Logic Script (Fade-in + Toggles) -->
 <script>
   const audio = document.getElementById('bgMusic');
   const playBtn = document.getElementById('playBtn');
   const muteBtn = document.getElementById('muteBtn');
 
-  // Play/Pause Toggle with Fade-In
   if (playBtn && audio) {
     playBtn.addEventListener('click', function() {
+      // Check if the audio is actually ready to play
+      if (audio.readyState < 2) {
+        console.warn("Audio still loading, please wait a moment...");
+        return; 
+      }
+
       if (audio.paused) {
-        // Start fade-in only if the music hasn't started yet
-        if (audio.currentTime === 0) {
-          audio.volume = 0;
-          const fadeIn = setInterval(() => {
-            if (audio.volume < 0.9) { audio.volume += 0.1; }
-            else { audio.volume = 1; clearInterval(fadeIn); }
-          }, 200);
-        }
+        // Set initial volume for fade-in
+        audio.volume = 0;
         
+        // Start playback and THEN handle the UI/Fade
         audio.play().then(() => {
           playBtn.innerHTML = '<i class="fas fa-pause"></i> <span>Pause</span>';
+          
+          // Smooth Fade-In Logic
+          let fadeVolume = 0;
+          const fadeIn = setInterval(() => {
+            if (fadeVolume < 0.9) { 
+              fadeVolume += 0.1;
+              audio.volume = fadeVolume;
+            } else { 
+              audio.volume = 1; 
+              clearInterval(fadeIn); 
+            }
+          }, 200);
+        }).catch(error => {
+          console.error("Playback blocked. Use a different browser or check the file path:", error);
         });
       } else {
         audio.pause();
@@ -95,14 +108,13 @@ permalink: /about/
   if (muteBtn && audio) {
     muteBtn.addEventListener('click', function() {
       audio.muted = !audio.muted;
-      if (audio.muted) {
-        muteBtn.innerHTML = '<i class="fas fa-volume-mute"></i> <span>Unmute</span>';
-      } else {
-        muteBtn.innerHTML = '<i class="fas fa-volume-up"></i> <span>Mute</span>';
-      }
+      muteBtn.innerHTML = audio.muted ? 
+        '<i class="fas fa-volume-mute"></i> <span>Unmute</span>' : 
+        '<i class="fas fa-volume-up"></i> <span>Mute</span>';
     });
   }
 </script>
+
 
 {: .align-left}
 ![Zhang Wen Xi](/assets/images/me.png){:width="400px"}

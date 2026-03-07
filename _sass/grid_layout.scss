@@ -102,8 +102,9 @@ h3.archive__subtitle {
 }
 /* Force Title, left edge */
 .archive__item-title{
-  margin-left: 00 !important;
-  padding-left: 10 !important;
+  margin-left: 0 !important;
+  padding-left: 20 !important;
+  margin-inline-start: 0 !important;
 }
 
 

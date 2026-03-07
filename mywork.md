@@ -1,5 +1,5 @@
 ---
-layout: categories_work
+layout: archive
 title: "My Work"
 classes: wide
 ---

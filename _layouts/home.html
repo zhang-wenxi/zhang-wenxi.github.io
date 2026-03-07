@@ -3,7 +3,7 @@ layout: archive
 ---
 
 {{ content }}
-
+{% assign current_time = 'now' | date: '%s' | plus: 0 %}
 <!-- 1. FAVORITE PROJECTS -->
 <h3 class="archive__subtitle">My Favorite Work</h3>
 <div class="entries-grid">

@@ -22,7 +22,7 @@ This dashboard proves that fairness is a structure, not a guessing game. By anch
 <div style="padding-left: 40px; margin-top: 20px; margin-bottom: 60px; clear: both;">
   <div class="streamlit-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 20px;">
     <iframe 
-      src="https://YOUR_APP_NAME.streamlit.app/](https://20260307-zwx-ds-salarydashboard-pwumsmjsxreotfcm97q996.streamlit.app/?embed=true" 
+      src="https://20260307-zwx-ds-salarydashboard-pwumsmjsxreotfcm97q996.streamlit.app/?embed=true" 
       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
       allowfullscreen>
     </iframe>

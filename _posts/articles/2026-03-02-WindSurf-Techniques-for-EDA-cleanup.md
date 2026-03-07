@@ -6,7 +6,7 @@ date:   2026-03-02 00:00:00 +0800
 excerpt: "A data visualisation project for salary fairness."
 categories: [mywriting]
 header:
-  overlay_image: /assets/images/articles/windsurf/teaser.png # This shows in the grid
+  overlay_image: "/assets/images/articles/windsurf/teaser.png" # This shows in the grid
   overlay_color: "transparent" 
   teaser: "/assets/images/articles/windsurf/teaser.png" # This shows in the grid
 categories: [writing]

@@ -89,7 +89,7 @@ sass:
   sass_dir: _sass
   style: compressed
 
-author: "Zhang Wen Xi" # This MUST match the top line of your authors.yml
+author: wenxi # This MUST match the top line of your authors.yml
 
 # Add this at the bottom of your _config.yml
 defaults:

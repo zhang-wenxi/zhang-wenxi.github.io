@@ -7,18 +7,9 @@ layout: archive
 <!-- 1. The Taxonomy Index (Blue Bars) -->
 <ul class="taxonomy__index">
   {% assign sorted_tags = site.tags | sort %}
-  {% for tag in sorted_tags %}
-    {% comment %} 
-      tag[0] is the Name (e.g., Tutorials), tag[1] is the Posts 
-    {% endcomment %}
-    {% assign cat_posts = tag[1] | where: "categories", "work" %}
 
-  {% endfor %}
 </ul>
 
 <!-- 2. The Post Sections (Grid) -->
 {% assign entries_layout = page.entries_layout | default: 'grid' %}
-{% for tag in sorted_tags %}
-  {% assign cat_posts = tag[1] | where: "categories", "work" %}
 
-{% endfor %}

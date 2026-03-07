@@ -12,13 +12,7 @@ layout: archive
       tag[0] is the Name (e.g., Tutorials), tag[1] is the Posts 
     {% endcomment %}
     {% assign cat_posts = tag[1] | where: "categories", "work" %}
-    {% if cat_posts.size > 0 %}
-      <li>
-        <a href="#{{ tag[0] | slugify }}">
-          <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ cat_posts.size }}</span>
-        </a>
-      </li>
-    {% endif %}
+
   {% endfor %}
 </ul>
 
@@ -26,15 +20,5 @@ layout: archive
 {% assign entries_layout = page.entries_layout | default: 'grid' %}
 {% for tag in sorted_tags %}
   {% assign cat_posts = tag[1] | where: "categories", "work" %}
-  {% if cat_posts.size > 0 %}
-    <section id="{{ tag[0] | slugify }}" class="taxonomy__section">
-      <h2 class="archive__subtitle">{{ tag[0] }}</h2>
-      <div class="entries-{{ entries_layout }}">
-        {% for post in cat_posts %}
-          {% include archive-single.html type=entries_layout %}
-        {% endfor %}
-      </div>
-      <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
-    </section>
-  {% endif %}
+
 {% endfor %}

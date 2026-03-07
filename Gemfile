@@ -1,14 +1,11 @@
 source "https://rubygems.org"
-
 gem "jekyll", "~> 4.4.1"
-
-# Force version 0.4.3 to fix the 'configure_sass' error
-gem "jekyll-remote-theme", "~> 0.4.3"
 gem "faraday-retry"
 gem "jekyll-sass-converter", ">= 2.0"
 gem "logger"
 
 group :jekyll_plugins do
+  gem "jekyll-remote-theme", "~> 0.4.3"  # ← moved here
   gem "jekyll-paginate"
   gem "jekyll-sitemap"
   gem "jekyll-gist"

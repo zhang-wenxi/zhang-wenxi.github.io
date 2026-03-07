@@ -5,11 +5,11 @@
   display: grid !important;
   grid-template-columns: repeat(4, 1fr) !important;
   grid-gap: 1.5em !important;
-  align-items: start !important;
+  align-items: stretch !important;
   margin-left: 2.0rem !important; 
+  max-width: 900px !important;
   width: calc(100% - 4.0rem) !important;
 }
-
 @media only screen and (max-width: 1200px) {
   .entries-grid {
     grid-template-columns: repeat(2, 1fr) !important;
@@ -52,14 +52,20 @@ h3.archive__subtitle {
   padding: 0 !important; 
   width: 100% !important;
   min-width: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.archive__item-excerpt {
+  flex: 1 !important;  /* fills remaining space so all cards same height */
 }
 
 .archive__item-teaser {
-  height: 200px !important;
+  height: 130px !important;
   width: 100% !important;
   overflow: hidden !important;
   border-bottom: thin solid #3F7EA6 !important;
-  margin-bottom: 0.5em !important;
+  margin-bottom: 0 !important;
 }
 
 .archive__item-teaser img {
@@ -119,6 +125,7 @@ h3.archive__subtitle {
   box-shadow: none !important;
   border: none !important;
 }
+
 
 /* ============================================================
    5. DATE AND EXCERPT - SCOPED TO GRID ONLY

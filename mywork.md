@@ -2,7 +2,7 @@
 layout: categories_work
 title: "My Work"
 author_profile: false
-author: Zhang Wen Xi
+author: wenxi
 permalink: /mywork/
 classes: wide
 ---

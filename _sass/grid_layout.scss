@@ -100,14 +100,19 @@ h3.archive__subtitle {
   margin: 0 !important;
   padding: 0 !important;
 }
+
 /* Force Title, left edge */
 .archive__item-title{
   margin-left: 0 !important;
-  padding-left: 20 !important;
+  padding-left: -20 !important;
   margin-inline-start: 0 !important;
 }
 
-
+.entries-grid .grid__item .archive__item h2.archive__item-title {
+  margin-left: 0 !important;
+  margin-inline-start: 0 !important;
+  padding-left: 0.5em !important;
+}
 /* --- 1. THE TITLE (The Stable Stage) --- */
 .archive__item-title {
   margin-top: 0.5em !important;

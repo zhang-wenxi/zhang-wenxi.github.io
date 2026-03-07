@@ -49,6 +49,7 @@ paginate_path: "/page:num/"
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 # Add this line to tell Jekyll which theme 'flavor' to use internally
 minimal_mistakes_skin: "default" 
 plugins:

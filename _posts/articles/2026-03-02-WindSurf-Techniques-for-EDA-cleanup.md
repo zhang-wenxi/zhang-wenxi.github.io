@@ -10,6 +10,7 @@ header:
   overlay_color: "transparent" 
   teaser: "/assets/images/articles/windsurf/teaser.png" # This shows in the grid
 tags: ["Data Cleansing"] # Or whatever name you want for the blue bar
+tagline: "Data Cleansing"
 highlight_home: true     # Must be true to show on the homepage
 ---
 

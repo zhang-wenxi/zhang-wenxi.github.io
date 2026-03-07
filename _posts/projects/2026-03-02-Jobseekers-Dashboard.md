@@ -5,7 +5,8 @@ date:   2026-03-02 00:00:00 +0800
 categories: [work]
 excerpt: "A data visualisation project for salary fairness."
 highlight_home: true
-author_profile: false
+author_profile: true
+author: wenxi
 classes: wide
 tags:  ["Data Visualisation"]
 tagline: "A data visualisation project for salary fairness"

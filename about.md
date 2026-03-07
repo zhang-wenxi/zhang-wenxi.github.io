@@ -8,7 +8,7 @@ permalink: /about/
 ---
 <!-- 1. Audio Element (No Autoplay) -->
 <audio id="bgMusic" loop preload="auto">
-  <source src="{{ '/assets/audio/AlphaMattCole.mp3' | absolute_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/alpha.ogg' | relative_url }}" type="audio/ogg">  
 </audio>
 
 <!-- 2. Floating Controls Container -->

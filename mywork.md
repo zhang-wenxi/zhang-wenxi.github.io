@@ -3,7 +3,6 @@ layout: categories_work
 title: "My Work"
 author_profile: false
 author: wenxi
-permalink: /mywork/
 classes: wide
 ---
 

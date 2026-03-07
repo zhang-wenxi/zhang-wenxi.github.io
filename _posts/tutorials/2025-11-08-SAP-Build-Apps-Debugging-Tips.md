@@ -6,6 +6,7 @@ categories: [work]      # Must be 'article' to show in this section
 tags:  ["Tutorials"]
 excerpt: "Debugging in SAP Build Apps"
 description: "SAP Build Apps Debugging Tips"
+author_profile: false
 tagline: "SAP Build Apps Debugging Tips"
 header:
   overlay_image: https://media.istockphoto.com/id/2170713366/photo/sap-system-and-business-process-automation-concept-businessman-with-icons-sap-software-for.jpg?s=1024x1024&w=is&k=20&c=1b0rwlDimb0VGWOPtZvh15FtdbAr7StWSZ0nrtm7gkc= # This shows in the grid

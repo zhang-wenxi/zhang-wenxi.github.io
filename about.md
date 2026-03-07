@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "About Me"
-author: Zhang Wen Xi
+author: wenxi
 author_profile: true
 classes: wide
 permalink: /about/

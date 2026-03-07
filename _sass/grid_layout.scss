@@ -4,9 +4,9 @@
 .entries-grid {
   display: flex !important;
   flex-wrap: wrap !important;
-  margin-left: 2.0rem !important;
-  margin-right: 2.0rem !important;
-  width: calc(100% - 4.0rem) !important;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+  width: calc(100% - 3.0rem) !important;
   gap: 1.2em !important;
   align-items: stretch !important;
 }
@@ -46,7 +46,7 @@ h3.archive__subtitle {
   border-top: none !important;
   border-bottom: none !important;
   box-shadow: none !important;
-  margin-left: 1.5rem !important;
+  margin-left: 2.0rem !important;
   padding-left: 0 !important;
   margin-top: 1.5em !important;
   margin-bottom: 0.5em !important;
@@ -172,8 +172,8 @@ body:not(.layout--single) .archive__item-excerpt {
 .skills-table-container {
   display: flex !important;
   flex-wrap: wrap !important;
-  width: calc(100% - 3rem) !important;
-  margin-left: 2em !important;
+  margin-left: 2.0rem !important;
+  width: calc(100% - 4.0rem) !important;
   padding-left: 0 !important;
   margin-top: -1.0em !important;
 }

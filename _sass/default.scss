@@ -53,9 +53,33 @@ h3 {
     overflow: hidden !important; /* Matching overflow-x/y: hidden */
 }
 
+.btn--custom {
+  border: 2.5px solid #008CBA;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #008CBA; 
+}
+
+.btn--custom:hover {
+  transform: scale(1.1);
+}
+
+p.career {
+  margin-bottom: 0em;
+}
+
 p,
 .sidebar p,
 .archive__item-title,
+.career,
 a,
 body {
     font-family: "Work Sans";

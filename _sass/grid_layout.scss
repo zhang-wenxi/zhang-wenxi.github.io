@@ -1,30 +1,39 @@
 /* ============================================================
-   1. THE 4-COLUMN GRID & MAIN ALIGNMENT
+   1. THE 4-COLUMN GRID
    ============================================================ */
 .entries-grid {
   display: grid !important;
-  grid-template-columns: repeat(4, 1fr) !important;
+  flex-wrap: wrap !important;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+  width: calc(100% - 3.0rem) !important;
+  gap: 1.2em !important;
+  align-items: stretch !important;
+}
 
-  grid-gap: 1.5em !important;
-  align-items: start !important;
-  
-  /* Master Vertical Line: Aligns with "My Work" and Sidebar */
-  margin-left: 2.0rem !important; 
-  width: calc(100% - 4.0rem) !important;
+.grid__item {
+  width: calc(25% - 1.2em) !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* KILL conflicting teaser height rules */
+.grid__item .archive__item-teaser {
+  height: 130px !important;
+  max-height: 130px !important;
+  min-height: 130px !important;
+}
 
-  @media only screen and (max-width: 1200px) {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
-  @media only screen and (max-width: 600px) {
-    grid-template-columns: 1fr !important;
+@media only screen and (max-width: 900px) {
+  .grid__item {
+    width: calc(50% - 1.0em) !important;
   }
 }
 
-/* Ensure individual grid column wrappers don't add padding */
-.grid__item {
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
+@media only screen and (max-width: 600px) {
+  .grid__item {
+    width: 100% !important;
+  }
 }
 
 /* ============================================================
@@ -51,22 +60,13 @@ h3.archive__subtitle {
   margin-bottom: 0 !important;
   width: 100% !important;
   min-width: 0 !important;
-  flex: 1 !important;               /* ← equal height fix */
-  display: flex !important;
-  flex-direction: column !important;
   max-height: 400px !important;  /* ← prevents single cards from stretching too tall */
 }
 
 .archive__item-teaser {
   height: 130px !important;
   width: 100% !important;
-  overflow: hidden !important;
   border-bottom: thin solid #3F7EA6 !important;
-  flex-shrink: 0 !important;
-}
-
-.archive__item-excerpt {
-  flex: 1 !important;               /* ← pushes excerpt to fill remaining space */
 }
 
 .archive__item-teaser img {

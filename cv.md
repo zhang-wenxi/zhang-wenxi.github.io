@@ -10,12 +10,15 @@ redirect_from:
 
 {% include base_path %}
 
-## PDF version
+{: .align-left}
+![Zhang Wen Xi](/assets/images/me.png){:width="200px"}
 
-Clicking the buttons below you can download a PDF version of my CV.
+## Enterprise Systems & AI Data Platform Specialist
+I began my career as a software engineer before spending over a decade leading business intelligence solutions with Power BI and Tableau and orchestrating SAP S/4HANA implementations across SCM, Finance, and HR.
 
-<a href="../assets/cv_pdf/CV.pdf" download="CV.pdf"><button class="btn btn--custom">CV</button></a>
+Today I design scalable data platforms that connect enterprise operations with modern analytics and AI. My current work includes developing an end to end EDA dashboard for job market profiling covering data cleaning, transformation, modeling, and visualization, and building a big data pipeline using MongoDB and Google BigQuery.
 
+I transform enterprise ERPs into AI decision platforms via data engineering and product strategy.
 
 ## Metrics
 
@@ -23,6 +26,12 @@ Clicking the buttons below you can download a PDF version of my CV.
 
 ## My career in a nutshell
 ---
+## PDF version
+
+Clicking the buttons below you can download a PDF version of my CV.
+
+<a href="../assets/cv_pdf/CV.pdf" download="CV.pdf"><button class="btn btn--custom">CV</button></a>
+
 <p class="career"><b>2026 - in progress</b></p>
 > Enterprise Systems & AI Data Platform Product Specialist<br>
 > *Designed and Build Data Visualisation Dashboard: <a href="https://20260307-zwx-ds-salarydashboard-pwumsmjsxreotfcm97q996.streamlit.app/" target="_blank" rel="noopener">Salary Dashboard</a>*<br>

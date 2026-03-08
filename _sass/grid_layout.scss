@@ -59,6 +59,7 @@ h3.archive__subtitle {
 .archive__item {
   border: thin solid #3F7EA6 !important;
   padding: 0 !important;
+  padding-left: 0 !important; /* Removes any padding from the blue box itself */
   margin-bottom: 0 !important;
   width: 100% !important;
   min-width: 0 !important;

@@ -14,7 +14,7 @@ redirect_from:
 
 Clicking the buttons below you can download a PDF version of my CV.
 
-<a href="../assets/cv_pdf/zhangwenxi.pdf" download="Iacovelli_CV_full.pdf"><button class="btn btn--custom">CV</button></a>
+<a href="../assets/cv_pdf/CV.pdf" download="CV.pdf"><button class="btn btn--custom">CV</button></a>
 
 
 ## Metrics

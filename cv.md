@@ -11,7 +11,7 @@ redirect_from:
 {% include base_path %}
 
 {: .align-left}
-![Zhang Wen Xi](/assets/images/me.png){:width="200px"}
+![wenxi avatar](/assets/images/me.png){: .avatar} 
 
 ## Enterprise Systems & AI Data Platform Specialist
 I began my career as a software engineer before spending over a decade leading business intelligence solutions with Power BI and Tableau and orchestrating SAP S/4HANA implementations across SCM, Finance, and HR.

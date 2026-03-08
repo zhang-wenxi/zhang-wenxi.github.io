@@ -90,23 +90,40 @@ h3.archive__subtitle {
 }
 
 /* ============================================================
-   4. TEXT CONTENT — simple padding on each element
+   4. TEXT CONTENT — with Conda-style hover circle
    ============================================================ */
 .archive__item-title {
   margin: 0 !important;
   margin-inline-start: 0 !important;
-  padding: 0.5em !important;
+  padding: 0.5em 0.5em 0.5em 1.2em !important; /* Increased left padding for the circle gap */
   font-size: 0.9em !important;
   text-align: left !important;
+  position: relative !important; /* Required for the circle position */
 }
 
-.archive__item-title::before,
-.archive__item-title a::before {
-  display: none !important;
-  content: none !important;
+/* THE CONDA CIRCLE - Replaces your old 'display: none' rule */
+.archive__item-title::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 0.2em !important;        /* Positioned in that empty left gap */
+  top: 50% !important;
+  transform: translateY(-50%) scale(0) !important; /* Hidden by default */
+  width: 8px !important;
+  height: 8px !important;
+  background-color: #F2955E !important; /* Matches your link color */
+  border-radius: 50% !important;
+  opacity: 0 !important;
+  transition: transform 0.2s ease-out, opacity 0.2s !important;
+  display: block !important;    /* Overrides any hidden defaults */
 }
 
-/* KILL the block display causing giant space */
+/* THE HOVER TRIGGER */
+.archive__item:hover .archive__item-title::before {
+  transform: translateY(-50%) scale(1) !important; /* Pops circle into view */
+  opacity: 1 !important;
+}
+
+/* KEEP your existing link colors and hover effects below */
 .archive__item-title a,
 .archive__item-title a:visited {
   display: inline !important;
@@ -124,6 +141,7 @@ h3.archive__subtitle {
   background-image: none !important;
   box-shadow: none !important;
 }
+
 
 /* ============================================================
    5. DATE AND EXCERPT

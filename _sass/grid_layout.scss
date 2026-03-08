@@ -84,7 +84,7 @@ h3.archive__subtitle {
   margin-bottom: 0.7em !important; 
   padding: 0.3em 0.5em !important;  /* ← top/bottom 0.3em, left/right 0.5em */
   padding: 0.5em !important;
-
+  margin-left: -0.5px !important; /* NUDGE LEFT: Adjust this value to align with the image */
   text-align: left !important;
 
   a {

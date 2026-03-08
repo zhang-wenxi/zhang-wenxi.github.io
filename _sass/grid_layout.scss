@@ -103,8 +103,9 @@ h2.archive__item-title,
 .archive__item-title {
   margin: 0 !important;
   margin-inline-start: 0 !important;
-  display: inline-block !important; /* This "activates" the transform */
-  transform: translateX(-15px) !important;
+  /* Moves text to the absolute left edge */
+  padding: 0.3em 0 !important; 
+  display: block !important; /* Ensure it takes up the full width */
   font-size: 0.9em !important;
   text-align: left !important;
 }

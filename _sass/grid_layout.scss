@@ -1,175 +1,174 @@
 /* ============================================================
-   1. THE 4-COLUMN GRID & MAIN ALIGNMENT
+   1. THE 4-COLUMN GRID
    ============================================================ */
 .entries-grid {
-  display: grid !important;
-  grid-template-columns: repeat(4, 1fr) !important;
-  grid-gap: 1.5em !important;
-  align-items: start !important;
-  
-  /* Master Vertical Line: Aligns with "My Work" and Sidebar */
-  margin-left: 2.0rem !important; 
-  width: calc(100% - 4.0rem) !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+  width: calc(100% - 3.0rem) !important;
+  gap: 1.2em !important;
+  align-items: stretch !important;
+}
 
-  @media only screen and (max-width: 1200px) {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
-  @media only screen and (max-width: 600px) {
-    grid-template-columns: 1fr !important;
+.grid__item {
+  width: calc(25% - 1.2em) !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+/* KILL conflicting teaser height rules */
+.grid__item .archive__item-teaser {
+  height: 130px !important;
+  max-height: 130px !important;
+  min-height: 130px !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .grid__item {
+    width: calc(50% - 1.0em) !important;
   }
 }
 
-/* Ensure individual grid column wrappers don't add padding */
-.grid__item {
+@media only screen and (max-width: 600px) {
+  .grid__item {
+    width: 100% !important;
+  }
+}
+
+/* ============================================================
+   2. CATEGORY TITLES
+   ============================================================ */
+h2.archive__subtitle,
+h3.archive__subtitle {
+  border-top: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  margin-left: 2.0rem !important;
+  padding-left: 0 !important;
+  margin-top: 1.5em !important;
+  margin-bottom: 0.5em !important;
+  clear: both !important;
+}
+
+/* KILL orange margin on title */
+h2.archive__item-title,
+.archive__item-title {
+  margin: 0 !important;
+  margin-inline-start: 0 !important;
+  padding: 0.5em !important;
+  line-height: 1.2 !important;
+  font-size: 0.9em !important;
+}
+/* ============================================================
+   3. ARCHIVE ITEM — Leigh's simple approach
+   ============================================================ */
+.archive__item {
+  border: thin solid #3F7EA6 !important;
+  padding: 0 !important;
+  margin-bottom: 0 !important;
   width: 100% !important;
+  min-width: 0 !important;
+  flex: 1 !important;               /* ← equal height fix */
+  display: flex !important;
+  flex-direction: column !important;
+  max-height: 400px !important;  /* ← prevents single cards from stretching too tall */
+}
+
+.archive__item-teaser {
+  height: 130px !important;
+  width: 100% !important;
+  overflow: hidden !important;
+  border-bottom: thin solid #3F7EA6 !important;
+  flex-shrink: 0 !important;
+}
+
+.archive__item-excerpt {
+  flex: 1 !important;               /* ← pushes excerpt to fill remaining space */
+}
+
+.archive__item-teaser img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  max-width: none !important;
+}
+
+/* ============================================================
+   4. TEXT CONTENT — simple padding on each element
+   ============================================================ */
+.archive__item-title {
+  margin: 0 !important;
+  margin-inline-start: 0 !important;
+  padding: 0.3em 0.5em !important;  /* ← top/bottom 0.3em, left/right 0.5em */
+  padding: 0.5em !important;
+  font-size: 0.9em !important;
+  text-align: left !important;
+}
+
+.archive__item-title::before,
+.archive__item-title a::before {
+  display: none !important;
+  content: none !important;
+}
+
+/* KILL the block display causing giant space */
+.archive__item-title a,
+.archive__item-title a:visited {
+  display: inline !important;
+  color: #F2955E !important;
+  text-decoration: none !important;
+  transition: color 0.3s ease !important;
+}
+
+.archive__item-title a:hover {
+  color: #F25270 !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 6px !important;
+  text-decoration-color: #F25270 !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/* ============================================================
+   5. DATE AND EXCERPT
+   ============================================================ */
+body:not(.layout--single) .page__meta {
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+  margin: 0 !important;
+  padding: 0 0.5em 0.3em 0.5em !important;
+  font-size: 0.75em !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+}
+
+body:not(.layout--single) .page__meta i,
+body:not(.layout--single) .page__meta span,
+body:not(.layout--single) .page__meta svg {
   margin: 0 !important;
   padding: 0 !important;
 }
 
-/* ============================================================
-   2. CATEGORY TITLES (Consolidated Fix)
-   ============================================================ */
-h2.archive__subtitle, 
-h3.archive__subtitle {
-  /* THE LINE KILLER: Forces all theme borders to disappear */
-  border-top: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-
-  /* ALIGNMENT: Matches your grid perfectly */
-  margin-left: 2.0rem !important; 
-  padding-left: 0 !important;
-
-  /* STYLE: Your preferred font and color */
-  margin-top: 1.5em !important;
-  margin-bottom: 0.5em !important;
-  clear: both;
-}
-
-/* ============================================================
-   3. ARCHIVE ITEM (The Alignment Fix)
-   ============================================================ */
-.archive__item {
-  border: thin solid #3F7EA6;
-  margin-bottom: 1em;
-  /* CRITICAL: Set padding to 0 so text hits the same wall as the image */
-  padding: 0 !important; 
-  width: 100%;
-}
-.archive__item-teaser {
-  /* 1. THE CROPPER: This acts like a window, hiding anything outside */
-  height: 150px !important; /* Set your desired fixed height here */
-  width: 100% !important;   /* Stays within the 1/4 column */
-  overflow: hidden !important;
-  border: thin solid #3F7EA6;
-  margin-bottom: 0.5em;
-
-  img {
-    /* 2. THE FORCE: This forces the image to fill the window */
-    width: 100% !important;
-    height: 100% !important;
-
-    /* 3. THE CUT: This crops the image so it doesn't look squished */
-    object-fit: cover !important; 
-    
-    /* 4. THE POSITION: Focuses on the center of the image */
-    object-position: center !important; 
-    
-    max-width: none !important; /* Allows the 'cut' parts to exist outside the box */
-  }
-}
-
-
-/* Force Title, Date, and Excerpt flush to the 0px left edge */
-.archive__item-title, 
-.archive__item-excerpt, 
-.page__meta,
-.archive__item-title a {
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-  text-align: left !important;
-  
-  display: block;
-}
-
-/* --- 1. THE TITLE (The Stable Stage) --- */
-.archive__item-title {
-  margin-top: 0.5em !important;
-  /* ADJUST THIS: Increase to 0.9em or 1.1em to move the Date further DOWN */
-  margin-bottom: 0.7em !important; 
-  text-align: left !important;
-  font-size: 0.9em;
-  a {
-    display: inline-block !important;
-    /* THE LOCK: This pre-sets the space for the underline so nothing jumps */
-    padding-bottom: 8px !important; 
-    text-decoration: none !important;
-    transition: color 0.3s ease;
-  }
-}
-
-/* --- 2. THE HOVER STATE (The Steady Underline) --- */
-.archive__item-title a:hover {
-  color: #F25270 !important;
-  
-  /* THE LINE: Sits inside the 8px padding we already made above */
-  text-decoration: underline !important;
-  text-decoration-thickness: 2px !important; 
-  text-underline-offset: 6px !important; 
-  text-decoration-color: #F25270 !important;
-
-  /* THE KILLER: Removes theme defaults that block the pink line */
-  background-image: none !important;
-  box-shadow: none !important;
-  border: none !important;
-}
-
-.page__meta {
-  position: relative !important;
-  
-  /* 1. HORIZONTAL NUDGE: Increased from -10px to -32px to hit the line */
-  /* If it's still too far right, change -32px to -35px */
-  left: -38px !important; 
-  
-  /* 2. VERTICAL NUDGE: Pulls the Date UP to close the gap */
-  top: -15px !important; 
-
-  font-size: 0.75em;
-  display: flex !important;
-  align-items: center;
-  gap: 5px;
-  margin-bottom: 0 !important;
-
-  /* Target the icon specifically to remove its own internal padding */
-  i, span, svg {
-    margin-left: 0 !important;
-    padding-left: 0 !important;
-  }
-}
-
-/* --- 2. THE EXCERPT (Tutorial: Fast...) --- */
-.archive__item-excerpt {
-  position: relative !important;
-
-  /* 3. HORIZONTAL NUDGE: Matches the Date alignment exactly */
-  left: -32px !important; 
-
-  /* 4. VERTICAL NUDGE: Pulls the Excerpt UP higher */
-  top: -18px !important; 
-
-  font-size: 0.85em;
+body:not(.layout--single) .archive__item-excerpt {
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+  margin: 0 !important;
+  padding: 0 0.5em 0.5em 0.5em !important;
+  font-size: 0.85em !important;
   line-height: 1.3 !important;
-}
-
-.pagination {
-    /* ... keep your flex and width settings ... */
-
-    /* ADJUST THIS: Increase to 2em or 3em for a bigger gap */
-    margin-bottom: 0.2em !important; 
+  flex: 1 !important;
 }
 
 /* ============================================================
-   4. SKILLS TABLE STYLING (THE FINAL TUNED ALIGNMENT)
+   6. SKILLS TABLE
    ============================================================ */
 .skills-table-container {
   display: flex !important;
@@ -182,11 +181,12 @@ h3.archive__subtitle {
   margin-left: 2em !important; 
   padding-left: 0 !important; 
 
+   
   /* 2. THE VERTICAL GAP: Pulls table up tight under the title */
   margin-top: -1.0em !important; 
+
 }
 
-/* THE FIRST COLUMN: Product Management */
 .skills-column:first-child {
   /* reserves space for 'Product Management' */
   flex: 1 1 200px !important; /* Grow and shrink as needed, starting at 200px */
@@ -195,11 +195,11 @@ h3.archive__subtitle {
   padding-left: 0 !important;
 }
 
-/* THE LAST 3 COLUMNS: Development, Design, Business */
 .skills-column:not(:first-child) {
   flex: 1 1 200px !important; 
   max-width: 350px !important;
   padding-right: 0 !important;
+
 }
 
 .skills-table-header {
@@ -220,13 +220,13 @@ h3.archive__subtitle {
   padding-left: 0 !important;
   display: block !important;
 
-
 }
 
 .skills-table-list {
   list-style: none !important;
   padding: 0 !important;
   margin: 0 !important;
+
 }
 
 .skills-table-list li {
@@ -234,6 +234,7 @@ h3.archive__subtitle {
   color: #666 !important;
   padding: 0.15em 0 !important; 
   white-space: nowrap !important;
+
 }
 
 /* ============================================================

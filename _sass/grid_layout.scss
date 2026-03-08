@@ -83,8 +83,7 @@ h3.archive__subtitle {
   /* ADJUST THIS: Increase to 0.9em or 1.1em to move the Date further DOWN */
   margin-bottom: 0.7em !important; 
   text-align: left !important;
-  padding: 0.3em 0.5em !important;  /* ← top/bottom 0.3em, left/right 0.5em */
-  padding: 0.5em !important;
+
   a {
     display: inline-block !important;
     /* THE LOCK: This pre-sets the space for the underline so nothing jumps */
@@ -142,6 +141,38 @@ h3.archive__subtitle {
     padding-left: 0 !important;
   }
 }
+
+/* ============================================================
+   5. DATE AND EXCERPT
+   ============================================================ */
+body:not(.layout--single) .page__meta {
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+  margin: 0 !important;
+  font-size: 0.75em !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+}
+
+body:not(.layout--single) .page__meta i,
+body:not(.layout--single) .page__meta span,
+body:not(.layout--single) .page__meta svg {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body:not(.layout--single) .archive__item-excerpt {
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+  margin: 0 !important;
+  font-size: 0.85em !important;
+  line-height: 1.3 !important;
+  flex: 1 !important;
+}
+
 
 /* --- 2. THE EXCERPT (Tutorial: Fast...) --- */
 .archive__item-excerpt {

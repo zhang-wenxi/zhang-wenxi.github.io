@@ -18,7 +18,7 @@
   padding: 0 !important;
   display: flex !important;
   flex-direction: column !important;
-  justify-self: start;
+  transform: translateX(-10px);
 }
 /* KILL conflicting teaser height rules */
 .grid__item .archive__item-teaser {

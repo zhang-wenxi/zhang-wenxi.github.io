@@ -3,5 +3,7 @@ main:
     url: "/mywork/"
   - title: "My Writing"
     url: "/mywriting/"
+  - title: "CV"
+    url: /cv/
   - title: "About Me"
     url: "/about/"

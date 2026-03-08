@@ -58,8 +58,8 @@ h3.archive__subtitle {
    ============================================================ */
 .archive__item {
   border: thin solid #3F7EA6 !important;
-  padding: 0 !important;
-  padding-left: 0 !important; /* Removes any padding from the blue box itself */
+  padding: 0 !important;   
+  padding-left: 0 !important;
   margin-bottom: 0 !important;
   width: 100% !important;
   min-width: 0 !important;
@@ -95,11 +95,9 @@ h3.archive__subtitle {
 .archive__item-title {
   margin: 0 !important;
   margin-inline-start: 0 !important;
+  padding: 0.5em !important;
   font-size: 0.9em !important;
   text-align: left !important;
-  margin-left: -15px !important; 
-  display: block !important;
-  padding-left: 0 !important;
 }
 
 .archive__item-title::before,

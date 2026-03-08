@@ -1,41 +1,30 @@
 /* ============================================================
-   1. THE 4-COLUMN GRID
+   1. THE 4-COLUMN GRID & MAIN ALIGNMENT
    ============================================================ */
 .entries-grid {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  margin-left: 1.5rem !important;
-  margin-right: 1.5rem !important;
-  width: calc(100% - 3.0rem) !important;
-  gap: 1.2em !important;
-  align-items: stretch !important;
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+
+  grid-gap: 1.5em !important;
+  align-items: start !important;
+  
+  /* Master Vertical Line: Aligns with "My Work" and Sidebar */
+  margin-left: 2.0rem !important; 
+  width: calc(100% - 4.0rem) !important;
+
+  @media only screen and (max-width: 1200px) {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 1fr !important;
+  }
 }
 
+/* Ensure individual grid column wrappers don't add padding */
 .grid__item {
-  width: calc(25% - 1.2em) !important;
-  min-width: 0 !important;
+  width: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
-  display: flex !important;
-  flex-direction: column !important;
-}
-/* KILL conflicting teaser height rules */
-.grid__item .archive__item-teaser {
-  height: 130px !important;
-  max-height: 130px !important;
-  min-height: 130px !important;
-}
-
-@media only screen and (max-width: 900px) {
-  .grid__item {
-    width: calc(50% - 1.0em) !important;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .grid__item {
-    width: 100% !important;
-  }
 }
 
 /* ============================================================
@@ -91,25 +80,24 @@ h3.archive__subtitle {
 /* ============================================================
    4. TEXT CONTENT — simple padding on each element
    ============================================================ */
+/* --- 1. THE TITLE (The Stable Stage) --- */
 .archive__item-title {
   margin: 0 !important;
+  margin-inline-start: 0 !important;
   margin-top: 0.5em !important;
-  margin-bottom: 0.7em !important;
-  
-  /* PUSHES TEXT RIGHT: Safe, internal movement */
-  padding-left: 15px !important; 
-  
-  /* RESET: Removes the old "ghosting" behavior */
-  transform: none !important;
+  /* ADJUST THIS: Increase to 0.9em or 1.1em to move the Date further DOWN */
+  margin-bottom: 0.7em !important; 
   text-align: left !important;
-  overflow: visible !important;
 
   a {
     display: inline-block !important;
+    /* THE LOCK: This pre-sets the space for the underline so nothing jumps */
     padding-bottom: 8px !important; 
     text-decoration: none !important;
+    transition: color 0.3s ease;
   }
 }
+
 
 .archive__item-title::before,
 .archive__item-title a::before {

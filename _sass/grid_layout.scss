@@ -3,20 +3,29 @@
    ============================================================ */
 .entries-grid {
   display: grid !important;
-  flex-wrap: wrap !important;
-  margin-left: 1.5rem !important;
-  margin-right: 1.5rem !important;
-  width: calc(100% - 3.0rem) !important;
-  gap: 1.2em !important;
-  align-items: stretch !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+
+  grid-gap: 1.5em !important;
+  align-items: start !important;
+  
+  /* Master Vertical Line: Aligns with "My Work" and Sidebar */
+  margin-left: 2.0rem !important; 
+  width: calc(100% - 4.0rem) !important;
+
+  @media only screen and (max-width: 1200px) {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 1fr !important;
+  }
 }
 
 .grid__item {
-  width: calc(25% - 1.2em) !important;
-  min-width: 0 !important;
+  width: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
 }
+
 /* KILL conflicting teaser height rules */
 .grid__item .archive__item-teaser {
   height: 130px !important;
@@ -24,17 +33,6 @@
   min-height: 130px !important;
 }
 
-@media only screen and (max-width: 900px) {
-  .grid__item {
-    width: calc(50% - 1.0em) !important;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .grid__item {
-    width: 100% !important;
-  }
-}
 
 /* ============================================================
    2. CATEGORY TITLES
@@ -64,17 +62,33 @@ h3.archive__subtitle {
 }
 
 .archive__item-teaser {
-  height: 130px !important;
+  height: 150px !important;
   width: 100% !important;
+  overflow: hidden !important;
   border-bottom: thin solid #3F7EA6 !important;
 }
 
-.archive__item-teaser img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
-  object-position: center !important;
-  max-width: none !important;
+.archive__item-teaser {
+  /* 1. THE CROPPER: This acts like a window, hiding anything outside */
+  height: 150px !important; /* Set your desired fixed height here */
+  width: 100% !important;   /* Stays within the 1/4 column */
+  overflow: hidden !important;
+  border: thin solid #3F7EA6;
+  margin-bottom: 0.5em;
+
+  img {
+    /* 2. THE FORCE: This forces the image to fill the window */
+    width: 100% !important;
+    height: 100% !important;
+
+    /* 3. THE CUT: This crops the image so it doesn't look squished */
+    object-fit: cover !important; 
+    
+    /* 4. THE POSITION: Focuses on the center of the image */
+    object-position: center !important; 
+    
+    max-width: none !important; /* Allows the 'cut' parts to exist outside the box */
+  }
 }
 
 /* ============================================================

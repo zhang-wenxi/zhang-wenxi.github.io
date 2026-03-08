@@ -1,0 +1,40 @@
+<script type="text/javascript">
+<!--
+var arxiv_authorid = "iacovelli_f_1";
+var arxiv_format = "pretty";
+var arxiv_max_entries = "5";
+var arxiv_includeComments = "0";
+var arxiv_bg_color = "$background-color";
+var arxiv_border_color = "008CBA";
+var arxiv_entry_color = "$background-color";
+//--></script>
+<style type="text/css">
+div.arxivfeed {margin-bottom: 5px; width:700px;}
+</style>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/myarticles.js">
+</script>
+
+{% if page.author_profile or layout.author_profile or page.sidebar %}
+  <div class="sidebar sticky">
+  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  {% if page.sidebar %}
+    {% for s in page.sidebar %}
+      {% if s.image %}
+        <img src=
+        {% if s.image contains "://" %}
+          "{{ s.image }}"
+        {% else %}
+          "{{ s.image | relative_url }}"
+        {% endif %}
+        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+      {% endif %}
+      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+    {% endfor %}
+    {% if page.sidebar.nav %}
+      {% include nav_list nav=page.sidebar.nav %}
+    {% endif %}
+  <div id="arxivfeed"></div>	
+  {% endif %}
+  </div>
+{% endif %}

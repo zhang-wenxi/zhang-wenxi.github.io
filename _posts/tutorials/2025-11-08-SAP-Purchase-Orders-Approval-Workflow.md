@@ -2,10 +2,10 @@
 layout: posts
 title:  "SAP Purchase Order Approval Workflow"
 date:   2026-03-02 00:00:00 +0800
-categories: [work]      # Must be 'article' to show in this section
+categories: [work]
 tags:  ["Tutorials"]
-excerpt: "Tutorial: SAP Purchase Order Approval Workflow low-code/no-code automation"
-description: "Tutorial: SAP Purchase Order Approval Workflow Automation"
+excerpt: "SAP Purchase Order Approval Workflow low code automation"
+description: "SAP Purchase Order Approval Workflow Automation"
 tagline: "SAP Purchase Order Approval Workflow"
 author_profile: true
 author: wenxi

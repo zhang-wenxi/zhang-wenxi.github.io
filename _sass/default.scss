@@ -53,6 +53,48 @@ h3 {
     overflow: hidden !important; /* Matching overflow-x/y: hidden */
 }
 
+
+/* 1. The new wrapper that forces the indent */
+.custom-layout-wrapper {
+  padding-left: 2em; /* Increase this (e.g., 3em) until it perfectly aligns */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* 2. The flex container for side-by-side alignment */
+.intro-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+/* 3. Keeps text stacked properly */
+.intro-text {
+  display: block; 
+  line-height: 1.4;       /* Unifies the spacing for the whole block */
+  margin-top: -4px;      /* Micro-nudge to align with the top of your photo */
+}
+
+.intro-paragraph {
+  display: inline;
+  font-size: 1.1em;
+  /* Ensure this matches the parent line-height */
+  line-height: inherit; 
+  vertical-align: baseline; 
+}
+
+.title-greeting {
+  display: inline;
+  font-family: 'Calistoga', serif !important;
+  font-size: 45px !important;
+  color: #F25270;
+  line-height: 1;
+  margin-right: 12px;
+  /* FORCE BASELINE ALIGNMENT */
+  vertical-align: baseline; 
+}
+
 .btn--custom {
   padding: 10px 20px;
   text-align: center;
@@ -275,30 +317,6 @@ body {
 .page__content p:first-of-type {
     margin-top: 0 !important;
     padding-top: 0 !important;
-}
-
-/* Index home page intro */
-h2.title-greeting {
-    /* 1. MATCHING THE PARAGRAPH ALIGNMENT */
-    margin-left: 1.0em !important;      /* Inspector shows 'p' starts at 0 */
-    padding-left: 0 !important;
-    text-indent: 0 !important;
-    letter-spacing: -0.5px !important; /* Calistoga's default spacing pushes the 'H' left; -0.5px pulls it back to the line */
-
-    /* 2. MATCHING THE FONT STYLE */
-    color: #F25270;
-    font-family: 'Calistoga', serif !important;
-    font-weight: 400 !important;
-    font-size: 45px !important;
-
-    /* 3. VERTICAL GAP CONTROL */
-    line-height: 49.5px !important;    /* Tightens the space above the paragraph */
-    margin-top: 0 !important;
-    margin-bottom: 8px !important;  /* Matches the standard 8px margin-block-start seen in your inspector */
-
-    /* 4. RENDERING FIX */
-    display: inline;
-    -webkit-font-smoothing: antialiased; /* Matches the 'p' sharpening */
 }
 
 /* --- TOP GAP CLEANUP (All pages except Posts) --- */

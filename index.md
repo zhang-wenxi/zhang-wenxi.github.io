@@ -4,8 +4,6 @@ classes: wide
 author_profile: true
 author: wenxi
 header:
-  overlay_image: /assets/images/portfolio/banner.png
-  overlay_color: "transparent"
   teaser: /assets/images/portfolio/banner.png
 ---
 

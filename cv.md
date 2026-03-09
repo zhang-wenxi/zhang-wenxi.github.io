@@ -15,7 +15,7 @@ redirect_from:
 
   <div class="info-block">
       <div class="metrics-section">
-        <p>Download my CV in <br>PDF version:</p>    
+        <p>Clicking the buttons below you can download a PDF version of my CV</p>    
         <a href="../assets/cv_pdf/CV.pdf" download="CV.pdf" class="btn--custom">CV</a>
       <p><b>Metrics</b><br>
       List of <a href="{{ site.baseurl }}{% link mywork.md %}">mywork</a></p>

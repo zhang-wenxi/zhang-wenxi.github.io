@@ -41,7 +41,9 @@
     .layout--taxonomy .initial-content {
         display: flex !important;
         align-items: stretch !important;
-        min-height: 100vh !important;
+        min-height: 100vh !important;       
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
     }
 
     /* SIDEBAR: No Gaps, Sticky, and Sleek */

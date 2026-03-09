@@ -7,7 +7,8 @@ tags:  ["Tutorials"]
 excerpt: "Tutorial: SAP Purchase Order Approval Workflow low-code/no-code automation"
 description: "Tutorial: SAP Purchase Order Approval Workflow Automation"
 tagline: "SAP Purchase Order Approval Workflow"
-author_profile: false
+author_profile: true
+author: wenxi
 header:
   overlay_image: https://media.istockphoto.com/id/2148463430/photo/sap-business-process-automation-software-and-management-software-businessman-using-digital.jpg?s=1024x1024&w=is&k=20&c=WI0AcQo7K_xdwYJELWoFrDKSfVxZCjyQXgKW20on-Zo= # This shows in the grid
   overlay_color: "transparent" 

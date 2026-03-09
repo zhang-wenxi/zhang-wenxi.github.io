@@ -54,8 +54,6 @@ h3 {
 }
 
 .btn--custom {
-  border: 2.5px solid #008CBA;
-  color: white;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -65,20 +63,126 @@ h3 {
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 8px;
-  background-color: #008CBA; 
-}
+  color: #F9F5FF!important;
+  background-color: #F2A2A2 !important;
+ }
 
 .btn--custom:hover {
   transform: scale(1.1);
-}
-
-p.career {
-  margin-bottom: 0em;
-}
-
+  color: #F25270 !important;
+  background-color: #f2a2a2a2 !important;
+  padding: 10px 20px;  
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+ }
 .cv_font {
-  font-size: .65em;
+  margin-left: 2.0em !important; 
+  max-width: 800px;   
+  border-collapse: collapse !important;
+  border: none !important;      
+  padding-left: 0 !important;   
+  margin-bottom: 0em !important;
+  text-align: left !important;
+  -webkit-font-smoothing: antialiased; /* Makes fonts look sharper/thinner */
+  -moz-osx-font-smoothing: grayscale;
 }
+
+.cv-header-container {
+  display: grid;
+  grid-template-columns: 200px 1fr; /* First column matches image width */
+  gap: 30px;                       /* Clean space between photo and text */
+  margin-bottom: 40px;
+  align-items: start;              /* Snaps text to the top of the photo */
+}
+
+/* --- 1. SHRINK THE AVATAR --- */
+.avatar-main {
+  width: 200px !important;      /* Shrink from 250px to 200px */
+  height: auto;
+  border-radius: 8px;
+  margin-top: 0 !important;
+  float: left;                  /* Helps with alignment */
+}
+
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;         /* PERFECT VERTICAL ALIGNMENT */
+  padding-top: 0 !important;
+}
+.info-block p {
+  margin: 0 0 10px 0 !important;   /* Tightens space above the button */
+  line-height: 1.3;
+}
+/* 1. Kill the gap on 'Download my CV' */
+.info-block p:first-of-type {
+  margin-top: 0 !important;
+  margin-bottom: 15px !important;
+  line-height: 1.2;
+}
+
+/* This targets the 'Download' and 'Metrics' paragraphs specifically */
+.info-block p, 
+.info-block p b, 
+.info-block div.metrics-section p {
+  margin-left: 0 !important;   /* Kills the 2.0em global drift */
+  padding-left: 0 !important;
+  text-indent: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+}
+.career-timeline {
+   /* 1. Reset the Year */
+   p.career {
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+   }
+
+   /* 2. Snap the Pink Bar to the Year */
+   blockquote {
+    margin-left: 0 !important;       /* Aligns bar with the '2' in 2026 */
+    margin-top: 0 !important;        /* Kills the gap between year and bar */
+    margin-bottom: 1.5em !important; /* Spacing between career entries */
+    padding-left: 1.2rem !important; /* Space between the bar and the text */
+    padding-top: 0 !important;       /* Pulls text to the very top of the bar */
+    padding-bottom: 0 !important;
+    border-left: 0.25em solid #F25270;
+    font-style: italic;
+    font-size: 0.95em;
+    background: transparent;
+   }
+   
+   /* 3. Force the text INSIDE the bar to stay left */
+   blockquote p {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    padding-left: 0 !important;
+    text-indent: 0 !important;
+   }
+
+    blockquote b {
+        color: #103966 !important; /* Deep Blue for Job Titles */
+        font-size: 1.05rem;
+        font-style: normal;        /* Professional: Titles shouldn't be italic */
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    /* FIX: Nest these so they ONLY apply to the career section */
+    blockquote i, 
+    blockquote em { 
+        color: #666666 !important; /* Softer gray for descriptions */
+        font-size: 0.95rem;
+    }
+}
+
 
 p,
 .sidebar p,

@@ -42,15 +42,18 @@ h3 {
     text-transform: uppercase !important;
     color: #F25270 !important;
 
-    /* 4. THE ALIGNMENT: Keeps it snapped to the top of your photo */
-    margin-top: 50px !important; /* Matching margin-block-end */
-    margin-bottom: 30px !important; /* Matching margin-block-end */
+    line-height: 1 !important; /* Snaps text to the top of its box */
+
+    /* 2. THE SPACE FIX (Removing the 50px/30px gaps) */
+    margin-top: 0 !important;      /* CHANGED from 50px to 0 to move it UP */
+    margin-bottom: 5px !important; /* Small gap before the bio */
     padding-top: 0 !important;
-    padding-bottom: 30px !important;
+    padding-bottom: 5px !important;  /* CHANGED from 30px to 0 */
+    
+    /* 3. CLEANUP */
     margin-left: 0 !important;     
     border: none !important;
     box-shadow: none !important;
-    overflow: hidden !important; /* Matching overflow-x/y: hidden */
 }
 
 

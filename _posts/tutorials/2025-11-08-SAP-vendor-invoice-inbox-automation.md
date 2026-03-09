@@ -17,15 +17,15 @@ expiry_date: 2030-01-01  # This will move it to the Archive section
 classes: wide
 ---
 Still manually downloading vendor invoices from Outlook? Inbox monitoring, attachment saving, acknowledgment emails…
-By the time you’re done, the next invoice has already arrived.
-Now imagine this instead:
-• Emails with “Invoice” detected automatically
-• Attachments saved into timestamped subfolders
-• Acknowledgment email sent back instantly
-• End to end flow, no manual effort
+By the time you’re done, the next invoice has already arrived.<br>
+Now imagine this instead:<br>
+• Emails with “Invoice” detected automatically<br>
+• Attachments saved into timestamped subfolders<br>
+• Acknowledgment email sent back instantly<br>
+• End to end flow, no manual effort<br>
 
-This is what SAP Build Process Automation delivers: a seamless, fully automated vendor invoice workflow.
-I followed SAP’s hands on tutorial to build this process from scratch — eliminating repetitive inbox tasks and freeing teams to focus on strategic, value added work.
+This is what SAP Build Process Automation delivers: a seamless, fully automated vendor invoice workflow.<br>
+I followed SAP’s hands on tutorial to build this process from scratch — eliminating repetitive inbox tasks and freeing teams to focus on strategic, value added work.<br>
 
 <div style="padding-left: 40px; margin-top: 20px; margin-bottom: 60px; clear: both;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">

@@ -24,7 +24,16 @@ header:
   actions:
     - label: "Learn More"
       url: "https://mmistakes.github.io"
-
+      
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/zhangwenxi"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/zhang-wenxi" 
+      
 # This is the key line for your menu:
 navigation:
   - main

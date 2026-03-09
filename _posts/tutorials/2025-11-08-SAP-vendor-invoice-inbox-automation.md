@@ -6,7 +6,8 @@ categories: [work]      # Must be 'article' to show in this section
 tags:  ["Tutorials"]
 tagline: "SAP Vendor Invoice Inbox Automation"
 excerpt: "Tutorial: SAP Vendor Invoice Inbox Automation low-code/no-code automation"
-author_profile: false
+author_profile: true
+author: wenxi
 description: "Tutorial: SAP Vendor Invoice Inbox Automation"
 header:
   overlay_image: https://media.istockphoto.com/id/1352594748/photo/person-working-on-computer-with-icons-of-sap-business-process-automation-software-erp.jpg?s=1024x1024&w=is&k=20&c=W2-wJoI7GldJIlS4OF0TkdiycAa4wz9nURzcIAT73iE= # This shows in the grid

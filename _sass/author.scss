@@ -31,6 +31,22 @@
     -webkit-font-smoothing: antialiased; /* Makes fonts look sharper/thinner */
     -moz-osx-font-smoothing: grayscale;
 }
+
+.page__footer-follow .social-icons {
+  display: flex;
+  flex-direction: row; /* Forces links to stay on one line */
+  gap: 15px;           /* Adds space between the two links */
+}
+
+.page__footer-follow .social-icons a {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.page__footer-follow .social-icons a:hover {
+  color: #3D3635 !important; /* Pink hover effect */
+}
+
 /* ============================================================
    2. DESKTOP LAYOUT (@media 900px+)
    ============================================================ */

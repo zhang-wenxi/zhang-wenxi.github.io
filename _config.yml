@@ -101,8 +101,15 @@ sass:
 
 author: wenxi # This MUST match the top line of your authors.yml
 
+og_image: "/assets/images/portfolio/banner.png"
+
 # Add this at the bottom of your _config.yml
 defaults:
+  - scope:
+      path: "" # This covers your HOME page and everything else
+    values:
+      header:
+        teaser: /assets/images/portfolio/banner.png
   - scope:
       path: ""
       type: "pages"

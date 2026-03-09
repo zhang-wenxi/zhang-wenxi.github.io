@@ -16,26 +16,24 @@ header:
 expiry_date: 2030-01-01  # This will move it to the Archive section
 classes: wide
 ---
-Still tired of purchase approvals slowing down your business?
-Lost emails, bottlenecks, delayed decisions… by the time approval lands, users are already frustrated.
-Now imagine this instead:
-• Browse products in a catalog
-• Add items to cart
-• Submit purchase request
-• Manager approves in one click
-• Instant notification sent
-This is what SAP Build enables: a shopping to approval flow built with low code automation.
-I followed SAP’s Code Jam Mission to create a fully working process from catalog to PR approval — proving how low code accelerates delivery while keeping governance intact.
-Highlights of the solution:
-🛍️ Product catalog home page
-🛒 Cart with total value calculation
-📤 Purchase request submission
-✅ Manager approval inbox with comments
-📩 Email confirmation after approval
-Low code means faster prototyping, faster approvals, faster business.
-Teams who master it now? They ship faster than competitors 
-
-🔗 https://lnkd.in/gWd9Xp7T
+Still tired of purchase approvals slowing down your business?<br>
+Lost emails, bottlenecks, delayed decisions… by the time approval lands, users are already frustrated.<br>
+Now imagine this instead:<br>
+• Browse products in a catalog<br>
+• Add items to cart<br>
+• Submit purchase request<br>
+• Manager approves in one click<br>
+• Instant notification sent<br>
+This is what SAP Build enables: a shopping to approval flow built with low code automation.<br>
+I followed SAP’s Code Jam Mission to create a fully working process from catalog to PR approval — proving how low code accelerates delivery while keeping governance intact.<br>
+Highlights of the solution:<br>
+🛍️ Product catalog home page<br>
+🛒 Cart with total value calculation<br>
+📤 Purchase request submission<br>
+✅ Manager approval inbox with comments<br>
+📩 Email confirmation after approval<br>
+Low code means faster prototyping, faster approvals, faster business.<br>
+Teams who master it now? They ship faster than competitors <br>
 
 <div style="padding-left: 40px; margin-top: 20px; margin-bottom: 60px; clear: both;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">

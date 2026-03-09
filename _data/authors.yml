@@ -1,8 +1,11 @@
-wenxi:
-  name        : "Zhang Wen Xi"
-  bio         : "Let’s build the future! Reach out via the links below to discuss AI, Product Strategy, or ERP transformation."
+wenxi: 
+  name: "Zhang Wen Xi"
+  bio: "Let’s build the future! Reach out via the links below to discuss AI, Product Strategy, or ERP transformation."
   avatar: "/assets/images/logo.png"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/zhangwenxi"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/zhang-wenxi"

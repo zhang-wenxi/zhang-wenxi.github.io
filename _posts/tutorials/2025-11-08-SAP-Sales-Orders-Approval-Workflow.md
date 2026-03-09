@@ -17,18 +17,17 @@ expiry_date: 2030-01-01
 classes: wide
 ---
 
-Still spending hours chasing sales order approvals?
-Emails, spreadsheets, manual checks, follow ups…
-By the time approval arrives, the customer’s already asking for an update.
-Now imagine this instead:
-•   Request triggers automatically
-•   Data validated in seconds
-•   Approver notified instantly
-•   Status tracked end to end — no coding
-This is what SAP Build enables: low code/no code automation for real business workflows.
-I followed SAP’s hands on tutorial to build an automated sales order approval process from scratch — a game changer for sales ops, supply chain, and digital transformation.
-I also installed a Date field input component so users can pick or type dates directly, improving process literacy even for non developers.
-🔗 https://lnkd.in/gGqj74bu
+Still spending hours chasing sales order approvals?<br>
+Emails, spreadsheets, manual checks, follow ups…<br>
+By the time approval arrives, the customer’s already asking for an update.<br>
+Now imagine this instead:<br>
+•   Request triggers automatically<br>
+•   Data validated in seconds<br>
+•   Approver notified instantly<br>
+•   Status tracked end to end — no coding<br>
+This is what SAP Build enables: low code/no code automation for real business workflows.<br>
+I followed SAP’s hands on tutorial to build an automated sales order approval process from scratch — a game changer for sales ops, supply chain, and digital transformation.<br>
+I also installed a Date field input component so users can pick or type dates directly, improving process literacy even for non developers.<br>
 
 <div style="padding-left: 40px; margin-top: 20px; margin-bottom: 60px; clear: both;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">

@@ -7,7 +7,8 @@ tags:  ["Tutorials"]
 tagline: "SAP Signavio QuickModel BPMN 2.0"
 excerpt: "Tutorial: Fast Process Modeling with SAP Signavio"
 description: "Tutorial: Fast Process Modeling with SAP Signavio"
-author_profile: false
+author_profile: true
+author: wenxi
 header:
   overlay_image: https://media.istockphoto.com/id/2258355731/photo/sap-system-application-products-in-digital-tech-environment.jpg?s=1024x1024&w=is&k=20&c=5Uk49shPYH8NafgoGIc1Mgze8TY9HFGywS5i0ZVnfbs= # This shows in the grid
   overlay_color: "transparent" 

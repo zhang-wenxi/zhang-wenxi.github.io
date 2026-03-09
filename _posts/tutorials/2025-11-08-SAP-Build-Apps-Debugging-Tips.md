@@ -17,21 +17,18 @@ header:
 expiry_date: 2030-01-01  # This will move it to the Archive section
 classes: wide
 ---
-Ever tried debugging SAP Build and felt like you were chasing invisible values? 😅
-Phantom errors, mismatched payloads, endless trial and error… it slows everything down.
-Now imagine this instead:
-• Environment initialized correctly from the start
-• BTP destinations authenticated with service keys
-• OData payload inspected live in DevTools
-• Returned fields cross checked against SAP Build Controls
-• API triggers tested in Postman before deployment
+Ever tried debugging SAP Build and felt like you were chasing invisible values? 😅<br>
+Phantom errors, mismatched payloads, endless trial and error… it slows everything down.<br>
+Now imagine this instead:<br>
+• Environment initialized correctly from the start<br>
+• BTP destinations authenticated with service keys<br>
+• OData payload inspected live in DevTools<br>
+• Returned fields cross checked against SAP Build Controls<br>
+• API triggers tested in Postman before deployment<br>
 These are the practical checks I use to validate logic, confirm connections, and keep automations behaving exactly as designed.
-Deploying directly from SAP Build Apps also ensures Cloud Foundry configurations are handled automatically — saving hours of troubleshooting.
-Useful resources on the environment transition:
-🔗 https://lnkd.in/gjsbArUv
-🔗 https://lnkd.in/g2GG3_Pq
-The result? Faster builds, smoother workflows, and confidence in every automation.
-If you’re building with SAP Build, these steps help you move faster and debug with clarity 🚀
+Deploying directly from SAP Build Apps also ensures Cloud Foundry configurations are handled automatically — saving hours of troubleshooting.<br>
+The result? Faster builds, smoother workflows, and confidence in every automation.<br>
+If you’re building with SAP Build, these steps help you move faster and debug with clarity 🚀<br>
 
 <div style="padding-left: 40px; margin-top: 20px; margin-bottom: 60px; clear: both;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">

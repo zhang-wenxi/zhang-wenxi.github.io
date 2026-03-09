@@ -10,21 +10,26 @@
 }
 
 .author__name {
-    font-family: 'Roboto', sans-serif !important; /* Forces your new font */
-    color: #D95959 !important;                    /* The pink/red color you see */
-    font-size: 1.4rem !important;                 /* Adjust size as needed */
-    text-transform: none !important;              /* Keeps it 'Zhang Wen Xi' */
-    margin-top: 15px !important;
-    font-weight: 400 !important;
-    line-height: 1 !important; /* SNAPS the text to the top */
-    letter-spacing: 1px !important;
+  font-family: 'Roboto', sans-serif !important;
+  color: #D95959 !important;
+  font-size: 1.25rem !important; /* Her size is slightly smaller */
+  font-weight: bold !important;
+  margin: 0 !important; /* This removes the orange/gap you saw */
+}
+
+/* Add this to remove the gap below the logo */
+.author__avatar {
+  margin-bottom: 0 !important;
 }
 
 /* Optional: To change the color of the bio text below it */
 .author__bio {
     font-family: 'Work Sans', sans-serif !important;
-    font-size: 0.85rem !important;
-    color: #666666 !important;
+    font-size: 0.9rem !important;
+    color: #3D3635  !important;
+    margin-top: 5px !important; /* Space between name and bio */
+    -webkit-font-smoothing: antialiased; /* Makes fonts look sharper/thinner */
+    -moz-osx-font-smoothing: grayscale;
 }
 /* ============================================================
    2. DESKTOP LAYOUT (@media 900px+)

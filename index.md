@@ -9,7 +9,7 @@ header:
 
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
-<div class="hero-section" style="background-image: linear-gradient(135deg, rgba(180,90,90,0.90) 0%, rgba(210,120,120,0.80) 40%, rgba(220,150,150,0.65) 70%, rgba(180,90,90,0.90) 100%), url('{{ '/assets/images/portfolio/banner.png' | relative_url }}'); background-size: cover, contain; background-repeat: no-repeat, no-repeat; background-position: center, center;">
+<div class="hero-section" style="background-image: linear-gradient(to right, rgba(201,122,122,0.95) 0%, rgba(210,130,130,0.75) 30%, rgba(210,130,130,0.75) 70%, rgba(201,122,122,0.95) 100%), url('{{ '/assets/images/portfolio/banner.png' | relative_url }}'); background-size: cover; background-repeat: no-repeat; background-position: center;">
   <div class="hero-inner">
 
     <img src="{{ '/assets/images/me.png' | relative_url }}" class="avatar-main"

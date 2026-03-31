@@ -1,4 +1,5 @@
 /* ── HERO FULLSCREEN ── */
+// Fix 2 & 3 — background scale so Z and X aren't cut off
 .hero-section {
   position: relative;
   width: 100vw;
@@ -9,10 +10,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(210,120,120,0.82) 0%, rgba(230,160,160,0.70) 60%, rgba(255,200,200,0.55) 100%),
-              url('/assets/images/portfolio/banner.png') center/cover no-repeat;
+  background: linear-gradient(135deg, rgba(210,120,120,0.82) 0%, rgba(230,160,160,0.70) 60%, rgba(255,200,200,0.55) 100%);
   text-align: center;
   padding: 40px 24px 80px;
+}
 
   &::before {
     content: '';

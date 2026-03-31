@@ -1,8 +1,5 @@
 --- 
 --- 
-/* 1. Import the theme's base first */
-@import "minimal-mistakes/skins/default"; 
-@import "minimal-mistakes"; 
 @import "default";
 @import "author";
 @import "footer";
@@ -11,56 +8,3 @@
 @import "nav";
 @import "post";
 @import "taxonomy";
-/* --- Custom Landing Page Styles --- */
-
-.custom-layout-wrapper {
-  max-width: 1200px;
-  margin: 2em auto;
-  padding: 0 20px;
-}
-
-.intro-container {
-  display: flex !important; /* Force side-by-side */
-  flex-direction: row !important; 
-  align-items: flex-start !important; 
-  gap: 40px !important;
-}
-
-.avatar-main {
-  width: 250px !important; /* Force the image to stay small */
-  height: auto !important;
-  flex-shrink: 0 !important; /* Prevent it from being squished */
-}
-.intro-text {
-  flex: 1;
-  min-width: 300px;
-  display: flex;
-  flex-direction: column;
-}
-
-.title-greeting {
-  font-size: 2.5rem;
-  font-weight: 800;
-  margin-bottom: 15px;
-  display: block;
-}
-
-.intro-paragraph {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: #555;
-  display: block;
-}
-
-/* Style for your new navigation links */
-.intro-nav-links a {
-  font-weight: bold;
-  text-decoration: none;
-  color: #0074d9; /* Or your theme's primary color */
-  transition: color 0.3s ease;
-  
-  &:hover {
-    color: #0056b3;
-    text-decoration: underline;
-  }
-}

@@ -1,5 +1,5 @@
---- 
---- 
+---
+---
 @import "default";
 @import "author";
 @import "footer";
@@ -8,6 +8,7 @@
 @import "nav";
 @import "post";
 @import "taxonomy";
+@import "hero";   // ← add this
 
 .intro-nav-links {
   display: flex;

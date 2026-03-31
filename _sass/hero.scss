@@ -8,8 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* CHANGE from center to flex-start */
-  padding-top: 10vh;            /* Adds space from the top of the screen */
+  justify-content: center;
   text-align: center;
   padding: 60px 24px 80px;
 }
@@ -28,8 +27,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -20px;            /* Nudge the whole block up slightly */
-  gap: 8px;                     /* Tighten the gap between items if needed */
+  gap: 12px;
   max-width: 720px;
 }
 
@@ -88,6 +86,7 @@
 }
 
 .intro-nav-links a:hover {
+  border-bottom: none !important; /* Removes the line when you hover */
   opacity: 0.85;
   color: #3D3635 !important;
 }

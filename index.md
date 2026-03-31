@@ -99,7 +99,7 @@ header:
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-  AOS.init({ once: false, easing: 'ease-out-cubic', offset: 80 });
+  AOS.init({ once: false, easing: 'ease-out-cubic', offset: 80, duration: 1500 });  
   document.querySelector('.scroll-to-home').addEventListener('click', function(e) {
     e.preventDefault();
     document.getElementById('home-content').scrollIntoView({ behavior: 'smooth' });

@@ -51,13 +51,15 @@
 
 .hero-inner .intro-paragraph {
   display: block !important;
-  font-size: 1.5rem !important;     /* bigger — like "Animate On Scroll Library" */
-  font-weight: 400 !important;      /* normal weight, not thin */
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
   color: rgba(255,255,255,0.93) !important;
-  line-height: 1.6;
+  line-height: 1.6 !important;
   max-width: 600px;
   text-shadow: 0 2px 8px rgba(140,50,50,0.25);
   letter-spacing: 0.01em;
+  vertical-align: unset !important;
 }
 
 /* NAV LINKS */

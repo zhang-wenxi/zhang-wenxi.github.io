@@ -78,11 +78,14 @@ h3 {
 
 .intro-paragraph {
   display: inline;
-  font-size: 1.1em;
-  font-weight: 300;
+  font-size: 1.5rem !important;     /* bigger — like "Animate On Scroll Library" */
+  font-weight: 400 !important;      /* normal weight, not thin */
   /* Ensure this matches the parent line-height */
-  line-height: inherit; 
-  vertical-align: baseline; 
+  color: rgba(255,255,255,0.93) !important;
+  line-height: 1.6;
+  max-width: 600px;
+  text-shadow: 0 2px 8px rgba(140,50,50,0.25);
+  letter-spacing: 0.01em;
 }
 
 .title-greeting {

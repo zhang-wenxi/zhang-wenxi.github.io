@@ -1,7 +1,7 @@
 ---
-layout: home
+layout: splash   <-- CHANGE THIS from 'home'
 classes: wide
-author_profile: true
+author_profile: false 
 author: wenxi
 header:
   teaser: /assets/images/portfolio/banner.png

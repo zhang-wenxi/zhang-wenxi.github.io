@@ -20,21 +20,17 @@
 }
 
 .intro-container {
-  display: flex;
-  align-items: center; 
-  justify-content: center;
-  gap: 50px;
-  flex-wrap: wrap; /* Stacks vertically on mobile */
-  text-align: left;
+  display: flex !important; /* Force side-by-side */
+  flex-direction: row !important; 
+  align-items: flex-start !important; 
+  gap: 40px !important;
 }
 
 .avatar-main {
-  width: 250px;       /* Adjust size as needed */
-  height: auto;
-  border-radius: 50%; /* Makes it a circle if the image is square */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 250px !important; /* Force the image to stay small */
+  height: auto !important;
+  flex-shrink: 0 !important; /* Prevent it from being squished */
 }
-
 .intro-text {
   flex: 1;
   min-width: 300px;

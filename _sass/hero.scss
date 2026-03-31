@@ -1,5 +1,4 @@
 /* ── HERO FULLSCREEN ── */
-// Fix 2 & 3 — background scale so Z and X aren't cut off
 .hero-section {
   position: relative;
   width: 100vw;
@@ -15,13 +14,12 @@
   padding: 40px 24px 80px;
 }
 
-  &::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: rgba(255,255,255,0.08);
-    pointer-events: none;
-  }
+.hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.08);
+  pointer-events: none;
 }
 
 .hero-inner {
@@ -32,43 +30,34 @@
   align-items: center;
   gap: 20px;
   max-width: 720px;
+}
 
-  .avatar-main {
-    width: 130px !important;
-    height: 130px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid rgba(255,255,255,0.7);
-    box-shadow: 0 8px 32px rgba(180,80,80,0.25);
-  }
+.hero-inner .avatar-main {
+  width: 130px !important;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(255,255,255,0.7);
+  box-shadow: 0 8px 32px rgba(180,80,80,0.25);
+}
 
-  .title-greeting {
-    font-size: 3rem !important;
-    font-weight: 800;
-    color: #fff !important;
-    line-height: 1.1;
-    text-shadow: 0 2px 16px rgba(160,60,60,0.3);
-    -webkit-text-stroke: 0 !important;
-  }
+.hero-inner .title-greeting {
+  font-size: 3rem !important;
+  font-weight: 800;
+  color: #fff !important;
+  line-height: 1.1;
+  text-shadow: 0 2px 16px rgba(160,60,60,0.3);
+  -webkit-text-stroke: 0 !important;
+}
 
-  .intro-paragraph {
-    display: block !important;
-    font-size: 1.15rem;
-    color: rgba(255,255,255,0.93) !important;
-    line-height: 1.7;
-    max-width: 600px;
-    text-shadow: 0 1px 6px rgba(140,50,50,0.2);
-  }
-  
-  .intro-paragraph {
-    display: block !important;
-    font-size: 1.15rem;
-    font-weight: 300 !important;   // Fix 1 — match nav link weight
-    color: rgba(255,255,255,0.93) !important;
-    line-height: 1.7;
-    max-width: 600px;
-    text-shadow: 0 1px 6px rgba(140,50,50,0.2);
-  }
+.hero-inner .intro-paragraph {
+  display: block !important;
+  font-size: 1.15rem;
+  font-weight: 300 !important;
+  color: rgba(255,255,255,0.93) !important;
+  line-height: 1.7;
+  max-width: 600px;
+  text-shadow: 0 1px 6px rgba(140,50,50,0.2);
 }
 
 /* NAV LINKS */
@@ -79,29 +68,29 @@
   gap: 28px;
   justify-content: center;
   margin-top: 8px;
+}
 
-  a {
-    color: #fff !important;
-    font-weight: 700;
-    font-size: 1rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    text-decoration: none;
-    border-bottom: 2px solid rgba(255,255,255,0.5);
-    padding-bottom: 2px;
-    transition: border-color 0.2s, opacity 0.2s;
+.intro-nav-links a {
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(255,255,255,0.5);
+  padding-bottom: 2px;
+  transition: border-color 0.2s, opacity 0.2s;
+}
 
-    &:hover {
-      border-color: #fff;
-      opacity: 0.85;
-    }
-  }
+.intro-nav-links a:hover {
+  border-color: #fff;
+  opacity: 0.85;
 }
 
 /* SCROLL DOWN cue */
 .scroll-cue {
   position: absolute;
-  bottom: 60px;           // was 32px — move up
+  bottom: 60px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -110,18 +99,18 @@
   gap: 6px;
   color: rgba(255,255,255,0.95);
   font-size: 0.75rem;
-  font-weight: 600;       // thicker label text
+  font-weight: 600;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   cursor: pointer;
   animation: bounce 1.8s infinite;
+}
 
-  svg {
-    width: 28px;          // was 22px — bigger
-    height: 28px;
-    stroke: rgba(255,255,255,0.95);
-    stroke-width: 3;      // was 2.5 — thicker chevron
-  }
+.scroll-cue svg {
+  width: 28px;
+  height: 28px;
+  stroke: rgba(255,255,255,0.95);
+  stroke-width: 3;
 }
 
 @keyframes bounce {
@@ -129,12 +118,13 @@
   50%       { transform: translateX(-50%) translateY(8px); }
 }
 
-/* AOS override — bigger drop */
+/* AOS override */
 [data-aos="fade-down"] {
   transform: translateY(-60px) !important;
   opacity: 0;
   transition-property: transform, opacity !important;
 }
+
 [data-aos="fade-down"].aos-animate {
   transform: translateY(0) !important;
   opacity: 1;

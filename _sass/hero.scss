@@ -4,15 +4,15 @@
   width: 100vw;
   left: 50%;
   transform: translateX(-50%);
-  min-height: 80vh;        /* Fix 2 — was 100vh, reduce so scroll-cue stays visible */
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;  
-  background-color: #c97a7a;
+  justify-content: center;
   text-align: center;
-  padding: 40px 24px 120px;  /* Fix 2 — increase bottom padding so cue has room */
+  padding: 40px 24px 120px;
 }
+
 .hero-section::before {
   content: '';
   position: absolute;

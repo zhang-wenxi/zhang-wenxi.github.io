@@ -52,8 +52,8 @@ header:
 
 {% assign current_time = 'now' | date: '%s' | plus: 0 %}
 
-<h3 class="archive__subtitle">My Favorite Work</h3>
-<div class="entries-grid">
+<h3 class="archive__subtitle" data-aos="fade-up" data-aos-duration="600">My Favorite Work</h3>
+<div class="entries-grid" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   {% for post in site.posts %}
     {% if post.highlight_home and post.categories contains 'work' %}
       {% if post.expiry_date %}
@@ -68,8 +68,8 @@ header:
   {% endfor %}
 </div>
 
-<h3 class="archive__subtitle">My Favorite Writing</h3>
-<div class="entries-grid">
+<h3 class="archive__subtitle" data-aos="fade-up" data-aos-duration="600">My Favorite Writing</h3>
+<div class="entries-grid" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   {% for post in site.posts %}
     {% if post.highlight_home and post.categories contains 'writing' %}
       {% if post.expiry_date %}
@@ -84,8 +84,8 @@ header:
   {% endfor %}
 </div>
 
-<h3 class="archive__subtitle">Archive (Past Projects &amp; Posts)</h3>
-<div class="entries-grid">
+<h3 class="archive__subtitle" data-aos="fade-up" data-aos-duration="600">Archive (Past Projects &amp; Posts)</h3>
+<div class="entries-grid" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   {% for post in site.posts %}
     {% if post.expiry_date %}
       {% assign post_expiry = post.expiry_date | date: '%s' | plus: 0 %}
@@ -100,7 +100,7 @@ header:
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-  AOS.init({ once: true, easing: 'ease-out-cubic', offset: 0 });
+  AOS.init({ once: false, easing: 'ease-out-cubic', offset: 80 });
   document.querySelector('.scroll-to-home').addEventListener('click', function(e) {
     e.preventDefault();
     document.getElementById('home-content').scrollIntoView({ behavior: 'smooth' });

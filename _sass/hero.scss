@@ -31,6 +31,19 @@
   align-items: center;
   gap: 20px;
   max-width: 720px;
+  
+  .title-greeting {
+    color: #fff !important;
+    -webkit-text-stroke: 0 !important;
+    font-size: 3rem;
+  }
+
+  .intro-paragraph {
+    display: block !important;
+    color: rgba(255,255,255,0.93) !important;
+    font-size: 1.15rem;
+    line-height: 1.7;
+  }
 }
 
 .hero-inner .avatar-main {

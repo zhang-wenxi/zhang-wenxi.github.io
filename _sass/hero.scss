@@ -4,16 +4,15 @@
   width: 100vw;
   left: 50%;
   transform: translateX(-50%);
-  min-height: 100vh;
+  min-height: 80vh;        /* Fix 2 — was 100vh, reduce so scroll-cue stays visible */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(210,120,120,0.82) 0%, rgba(230,160,160,0.70) 60%, rgba(255,200,200,0.55) 100%);
+  /* NO background here — handled by inline style in index.md */
   text-align: center;
-  padding: 40px 24px 80px;
+  padding: 40px 24px 120px;  /* Fix 2 — increase bottom padding so cue has room */
 }
-
 .hero-section::before {
   content: '';
   position: absolute;
@@ -90,27 +89,27 @@
 /* SCROLL DOWN cue */
 .scroll-cue {
   position: absolute;
-  bottom: 60px;
+  bottom: 24px;          /* closer to actual bottom edge */
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
-  color: rgba(255,255,255,0.95);
+  gap: 8px;
+  color: #fff;           /* pure white, not rgba */
   font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.15em;
+  font-weight: 700;      /* bolder text */
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   cursor: pointer;
   animation: bounce 1.8s infinite;
 }
 
 .scroll-cue svg {
-  width: 28px;
-  height: 28px;
-  stroke: rgba(255,255,255,0.95);
-  stroke-width: 3;
+  width: 32px;           /* bigger */
+  height: 32px;
+  stroke: #fff;          /* pure white */
+  stroke-width: 3.5;     /* thicker */
 }
 
 @keyframes bounce {

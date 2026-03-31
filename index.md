@@ -9,7 +9,7 @@ header:
 
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
-<div class="hero-section">
+<div class="hero-section" style="background-image: linear-gradient(135deg, rgba(210,120,120,0.82) 0%, rgba(230,160,160,0.70) 60%, rgba(255,200,200,0.55) 100%), url('{{ '/assets/images/portfolio/banner.png' | relative_url }}'); background-size: cover, 75%; background-repeat: no-repeat, no-repeat; background-position: center, center;">
   <div class="hero-inner">
 
     <img src="/assets/images/me.png" class="avatar-main"
@@ -42,7 +42,7 @@ header:
 
   <div class="scroll-cue" onclick="document.getElementById('home-content').scrollIntoView({behavior:'smooth'})">
     <span>Scroll Down</span>
-    <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
       <polyline points="6 9 12 15 18 9"/>
     </svg>
   </div>

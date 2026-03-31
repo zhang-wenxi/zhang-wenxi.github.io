@@ -12,7 +12,7 @@ header:
 <div class="hero-section" style="background-image: linear-gradient(135deg, rgba(210,120,120,0.82) 0%, rgba(230,160,160,0.70) 60%, rgba(255,200,200,0.55) 100%), url('{{ '/assets/images/portfolio/banner.png' | relative_url }}'); background-size: cover, 75%; background-repeat: no-repeat, no-repeat; background-position: center, center;">
   <div class="hero-inner">
 
-    <img src="/assets/images/me.png" class="avatar-main"
+    <img src="{{ '/assets/images/me.png' | relative_url }}" class="avatar-main"
          data-aos="fade-in" data-aos-duration="800">
 
     <span class="title-greeting"

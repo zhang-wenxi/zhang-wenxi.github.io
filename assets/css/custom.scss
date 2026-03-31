@@ -9,12 +9,3 @@
 @import "post";
 @import "taxonomy";
 @import "hero";   // ← add this
-
-.intro-nav-links {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 24px;
-  margin-top: 24px;
-  align-items: center;
-}

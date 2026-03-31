@@ -6,9 +6,12 @@ author: wenxi
 header:
   teaser: /assets/images/portfolio/banner.png
 ---
+
 <div class="custom-layout-wrapper"> 
   <div class="intro-container">
+    <!-- Added data-aos="fade-in" here -->
     <img src="/assets/images/me.png" class="avatar-main" data-aos="fade-in">    
+    
     <div class="intro-text">
       <!-- 1. The Greeting -->
       <span class="title-greeting" data-aos="fade-up">Hey, There!</span>

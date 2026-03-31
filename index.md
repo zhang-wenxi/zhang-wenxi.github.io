@@ -26,7 +26,6 @@ header:
       who transforms complex ERPs into intelligent decision platforms,
       designing scalable data pipelines and analytics dashboards powered by modern AI.
     </span>
-
     <div class="intro-nav-links">
       <a href="#home-content" class="scroll-to-home"
          data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">Home</a>

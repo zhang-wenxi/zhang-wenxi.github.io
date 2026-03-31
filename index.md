@@ -1,3 +1,11 @@
+---
+layout: home
+classes: wide
+author_profile: true
+author: wenxi
+header:
+  teaser: /assets/images/portfolio/banner.png
+---
 <div class="custom-layout-wrapper"> 
   <div class="intro-container">
     <img src="/assets/images/me.png" class="avatar-main" data-aos="fade-in">    

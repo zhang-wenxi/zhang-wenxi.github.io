@@ -1,98 +1,106 @@
 ---
-layout: home
+layout: splash
 classes: wide
-author_profile: true
+author_profile: false
 author: wenxi
 header:
-  teaser: "/assets/images/portfolio/banner.png" 
+  teaser: "/assets/images/portfolio/banner.png"
 ---
 
-<!-- AOS CSS -->
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
-<div class="custom-layout-wrapper"> 
-  <div class="intro-container">
-    <img src="/assets/images/me.png" class="avatar-main" data-aos="fade-in" data-aos-duration="800">    
-    <div class="intro-text">
+<div class="hero-section">
+  <div class="hero-inner">
 
-      <!-- Fly in from top -->
-      <span class="title-greeting" data-aos="fade-down" data-aos-duration="700">Hey, There!</span>
+    <img src="/assets/images/me.png" class="avatar-main"
+         data-aos="fade-in" data-aos-duration="800">
 
-      <!-- Fly in from top, slight delay -->
-      <span class="intro-paragraph" data-aos="fade-down" data-aos-duration="800" data-aos-delay="200">
-        I'm Wen Xi, an Enterprise Systems &amp; AI Data Platform Specialist who transforms complex ERPs into intelligent decision platforms, designing scalable data pipelines and analytics dashboards powered by modern AI.
-      </span>
+    <span class="title-greeting"
+          data-aos="fade-down" data-aos-duration="900" data-aos-delay="100">
+      Hey, There!
+    </span>
 
-      <!-- Nav links: horizontal, alternating left/right -->
-      <div class="intro-nav-links">
-        <a href="#home-content" class="scroll-to-home" data-aos="fade-right" data-aos-duration="600" data-aos-delay="400">Home</a>
-        <a href="/mywork/" data-aos="fade-left"  data-aos-duration="600" data-aos-delay="550">My Work</a>
-        <a href="/mywriting/" data-aos="fade-right" data-aos-duration="600" data-aos-delay="700">Writing</a>
-        <a href="/about/" data-aos="fade-left"  data-aos-duration="600" data-aos-delay="850">About Me</a>
-      </div>
+    <span class="intro-paragraph"
+          data-aos="fade-down" data-aos-duration="900" data-aos-delay="300">
+      I'm Wen Xi, an Enterprise Systems &amp; AI Data Platform Specialist
+      who transforms complex ERPs into intelligent decision platforms,
+      designing scalable data pipelines and analytics dashboards powered by modern AI.
+    </span>
 
+    <div class="intro-nav-links">
+      <a href="#home-content" class="scroll-to-home"
+         data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">Home</a>
+      <a href="/mywork/"
+         data-aos="fade-left" data-aos-duration="600" data-aos-delay="620">My Work</a>
+      <a href="/mywriting/"
+         data-aos="fade-right" data-aos-duration="600" data-aos-delay="740">Writing</a>
+      <a href="/about/"
+         data-aos="fade-left" data-aos-duration="600" data-aos-delay="860">About Me</a>
     </div>
+
+  </div>
+
+  <div class="scroll-cue" onclick="document.getElementById('home-content').scrollIntoView({behavior:'smooth'})">
+    <span>Scroll Down</span>
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="6 9 12 15 18 9"/>
+    </svg>
   </div>
 </div>
 
-<!-- ANCHOR: Home link scrolls here -->
 <div id="home-content"></div>
 
-<!-- 1. FAVORITE PROJECTS -->
+{% assign current_time = 'now' | date: '%s' | plus: 0 %}
+
 <h3 class="archive__subtitle">My Favorite Work</h3>
 <div class="entries-grid">
-    {% for post in site.posts %}
-        {% if post.highlight_home and post.categories contains 'work' %}
-            {% if post.expiry_date %}
-                {% assign post_expiry = post.expiry_date | date: '%s' | plus: 0 %}
-                {% if post_expiry > current_time %}
-                    {% include archive-single.html type="grid" %}
-                {% endif %}
-            {% else %}
-                {% include archive-single.html type="grid" %}
-            {% endif %}
+  {% for post in site.posts %}
+    {% if post.highlight_home and post.categories contains 'work' %}
+      {% if post.expiry_date %}
+        {% assign post_expiry = post.expiry_date | date: '%s' | plus: 0 %}
+        {% if post_expiry > current_time %}
+          {% include archive-single.html type="grid" %}
         {% endif %}
-    {% endfor %}
+      {% else %}
+        {% include archive-single.html type="grid" %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 </div>
 
-<!-- 2. FAVORITE ARTICLES -->
 <h3 class="archive__subtitle">My Favorite Writing</h3>
 <div class="entries-grid">
-    {% for post in site.posts %}
-        {% if post.highlight_home and post.categories contains 'writing' %}
-            {% if post.expiry_date %}
-                {% assign post_expiry = post.expiry_date | date: '%s' | plus: 0 %}
-                {% if post_expiry > current_time %}
-                    {% include archive-single.html type="grid" %}
-                {% endif %}
-            {% else %}
-                {% include archive-single.html type="grid" %}
-            {% endif %}
+  {% for post in site.posts %}
+    {% if post.highlight_home and post.categories contains 'writing' %}
+      {% if post.expiry_date %}
+        {% assign post_expiry = post.expiry_date | date: '%s' | plus: 0 %}
+        {% if post_expiry > current_time %}
+          {% include archive-single.html type="grid" %}
         {% endif %}
-    {% endfor %}
+      {% else %}
+        {% include archive-single.html type="grid" %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 </div>
 
-<!-- 3. ARCHIVE -->
 <h3 class="archive__subtitle">Archive (Past Projects &amp; Posts)</h3>
 <div class="entries-grid">
-    {% for post in site.posts %}
-        {% if post.expiry_date %}
-            {% assign post_expiry = post.expiry_date | date: '%s' | plus: 0 %}
-            {% if post_expiry < current_time %}
-                {% include archive-single.html type="grid" %}
-            {% endif %}
-        {% endif %}
-    {% endfor %}
+  {% for post in site.posts %}
+    {% if post.expiry_date %}
+      {% assign post_expiry = post.expiry_date | date: '%s' | plus: 0 %}
+      {% if post_expiry < current_time %}
+        {% include archive-single.html type="grid" %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 </div>
 
 {% include paginator.html %}
 
-<!-- AOS JS + smooth scroll -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-  AOS.init({ once: true, easing: 'ease-out-cubic' });
-
-  // Smooth scroll for Home link
+  AOS.init({ once: true, easing: 'ease-out-cubic', offset: 0 });
   document.querySelector('.scroll-to-home').addEventListener('click', function(e) {
     e.preventDefault();
     document.getElementById('home-content').scrollIntoView({ behavior: 'smooth' });

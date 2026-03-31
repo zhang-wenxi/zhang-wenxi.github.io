@@ -8,8 +8,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  /* NO background here — handled by inline style in index.md */
+  justify-content: center;  
+  background-color: #c97a7a;
   text-align: center;
   padding: 40px 24px 120px;  /* Fix 2 — increase bottom padding so cue has room */
 }
@@ -52,8 +52,8 @@
 .hero-inner .intro-paragraph {
   display: block !important;
   font-family: 'Roboto', sans-serif !important;
-  font-size: 1.5rem !important;
-  font-weight: 700 !important;
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
   color: rgba(255,255,255,0.93) !important;
   line-height: 1.6 !important;
   max-width: 600px;

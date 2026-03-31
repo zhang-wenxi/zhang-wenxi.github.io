@@ -53,7 +53,7 @@
   display: block !important;
   font-family: 'Roboto', sans-serif !important;
   font-size: 1.1rem !important;
-  font-weight: 400 !important;
+  font-weight: 100 !important;
   color: rgba(255,255,255,0.93) !important;
   line-height: 1.6 !important;
   max-width: 600px;
@@ -150,4 +150,8 @@
 .layout--splash article.splash {
   padding: 0 !important;
   margin: 0 !important;
+}
+
+.masthead {
+  border-bottom: none !important;
 }

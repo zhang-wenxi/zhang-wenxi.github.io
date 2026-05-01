@@ -29,10 +29,9 @@ redirect_from:
 
 <p class="career"><b>2025 - Present</b></p>
 > **Data Platform & AI Systems Specialist**<br>
-> **Enterprise Systems & AI Data Platform Product Specialist**<br>
-> *Designed and Build Data Visualisation Dashboard: [Salary Dashboard](https://20260307-zwx-ds-salarydashboard-pwumsmjsxreotfcm97q996.streamlit.app/)*<br>
-> *Building end-to-end data pipelines, MLOps models and analytics dashboards —
-> see [My Work]({{ site.baseurl }}{% link mywork.md %}).*<br>
+> *Designed and Built Data Visualisation Salary Dashboard: [on Streamlit Community Cloud](jobmarketsalary.streamlit.app)*<br>
+> *Built an end-to-end production Medallion ELT Olist pipeline [on Github](https://www.github.com/zhang-wenxi/2026-02-06_DS4_GP5_olist)*<br> 
+> *Built an end-to-end MLOps Olist pipeline [on Huggingface](huggingface.co/spaces/zhang-wenxi/dataco) | [on Streamlit Community Cloud](dataco.streamlit.app)*<br>
 
 <p class="career"><b>2022 - 2025</b></p>
 > **Senior Lead Consultant**<br>

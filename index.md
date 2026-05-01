@@ -14,8 +14,7 @@ header:
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 20px 30px 20px;
-  align-items: center;background-image: linear-gradient(to right, rgba(201,122,122,0.95) 0%, rgba(210,130,130,0.75) 30%, rgba(210,130,130,0.75) 70%, rgba(201,122,122,0.95) 100%), url('{{ '/assets/images/portfolio/banner.png' | relative_url }}'); background-size: cover, 100% 100%; background-repeat: no-repeat, no-repeat; background-position: center, center;">
+  padding: 60px 20px 30px 20px;background-image: linear-gradient(to right, rgba(201,122,122,0.95) 0%, rgba(210,130,130,0.75) 30%, rgba(210,130,130,0.75) 70%, rgba(201,122,122,0.95) 100%), url('{{ '/assets/images/portfolio/banner.png' | relative_url }}'); background-size: cover, 100% 100%; background-repeat: no-repeat, no-repeat; background-position: center, center;">
   <div class="hero-inner">
 
     <img src="{{ '/assets/images/me.png' | relative_url }}" class="avatar-main"

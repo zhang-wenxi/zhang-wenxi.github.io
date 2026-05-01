@@ -10,7 +10,7 @@ header:
   overlay_color: "transparent"
   teaser: "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   caption: "Photo credit: [Unsplash: Deng Xiang](https://unsplash.com/@dengxiangs)"
-tags: ["Machine Learning"]
+tags: ["Machine Learning", "Supply chain"]
 tagline: "Machine Learning"
 highlight_home: true
 ---
@@ -53,11 +53,9 @@ h2{font-family:'Playfair Display',serif;font-size:24px;font-weight:700;margin:2r
 .tags{margin-bottom:1rem}
 </style>
 <div class="article">
-  <div class="tags"><span class="tag">MLOps</span><span class="tag">Feature Engineering</span><span class="tag">Supply Chain</span></div>
-  <div class="kicker">Data & Machine Learning</div>
-  <h1>Why better features will always beat better tuning</h1>
-  <p class="deck">The shipments were going late in completely predictable ways. Nobody caught the patterns. Until we stopped rushing past the data.</p>
   <div class="byline">By Wen Xi Zhang &nbsp;·&nbsp; DataCo Late Delivery Predictor</div>
+  <h1>The shipments were going late in completely predictable ways. Nobody caught the patterns. Until we stopped rushing past the data.</h1>
+ 
 
   <p class="drop-cap">In my past work, I saw shipments go late in ways that were completely predictable. Not weather. Not port strikes. Just patterns sitting quietly in the data that nobody caught before the parcel was already on the wrong truck. That frustration built this project.</p>
 

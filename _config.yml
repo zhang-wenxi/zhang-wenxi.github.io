@@ -24,7 +24,15 @@ header:
   actions:
     - label: "Learn More"
       url: "https://mmistakes.github.io"
-      
+
+# Add this block anywhere at the top level (no indentation)
+reading_time:
+  words_per_minute: 150
+  translations:
+    about: "≈"
+    minute: "min"
+    minutes: "mins"
+    
 footer:
   links:
     - label: "LinkedIn"

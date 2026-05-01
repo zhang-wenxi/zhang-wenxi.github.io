@@ -3,101 +3,67 @@ engineering:
     level: Advanced
   - title: SQL
     level: Advanced
-  - title: PowerBI
-    level: Advanced
-  - title: Tableau
-    level: Advanced
-  - title: MongoDB
+  - title: dbt
     level: Advanced
   - title: BigQuery
     level: Advanced
-  - title: Redis
+  - title: Medallion Architecture
     level: Advanced
-  - title: JavaScript
+  - title: Dagster and Meltano
     level: Advanced
-  - title: NodeJS
+  - title: Kimball Star-Schema
     level: Advanced
-  - title: ReactJS
-    level: Advanced
-  - title: Git
-    level: Advanced
-  - title: Jira
-    level: Advanced
-  - title: HTML5
-    level: Advanced
-  - title: CSS
-    level: Advanced
-  - title: SCSS
-    level: Advanced
-
-operations:
-  - title: Strategy
-    level: Advanced
-  - title: Leadership
-    level: Intermediate
-  - title: Analytics
-    level: Advanced
-  - title: Budgeting
-    level: Intermediate # Categorized as Mgmt
-  - title: Proposals
-    level: Advanced
-  - title: Problem-solving
-    level: Advanced
-  - title: Communication
-    level: Advanced
-  - title: Teamwork
-    level: Advanced
-  - title: Writing
-    level: Advanced
-  - title: Presentations
-    level: Advanced
-  - title: Speaking
-    level: Advanced
-  - title: Research
-    level: Advanced
-
-product:
-  - title: Discovery
-    level: Advanced
-  - title: Roadmap
-    level: Advanced
-  - title: Research
-    level: Advanced
-  - title: Marketing
-    level: Advanced
-  - title: Competitive
-    level: Advanced
-  - title: Lifecycle
-    level: Intermediate # Categorized as Mgmt
-  - title: Planning
-    level: Intermediate # Categorized as Mgmt
-  - title: Strategy
-    level: Advanced
-  - title: Market
-    level: Advanced
-  - title: Analysis
+  - title: Pandas and Plotly
     level: Advanced
 
 experience:
-  - title: Storyboarding
+  - title: XGBoost
     level: Advanced
-  - title: Prototyping
+  - title: Scikit-learn
     level: Advanced
-  - title: Testing
+  - title: SHAP Explainability
     level: Advanced
-  - title: Personas
+  - title: ZenML and MLflow
     level: Advanced
-  - title: Layout
+  - title: MLOps Pipelines
     level: Advanced
-  - title: Typography
+  - title: Stacking Ensemble
     level: Advanced
-  - title: Branding
+  - title: Binary Classification
     level: Advanced
-  - title: Mockups
+  - title: Predictive Modelling
     level: Advanced
-  - title: Flow
+
+operations:
+  - title: SCM and Procurement
     level: Advanced
-  - title: Illustration
+  - title: Finance and HR Ops
     level: Advanced
-  - title: Color
+  - title: ERP Data Modelling
+    level: Advanced
+  - title: RFM Segmentation
+    level: Advanced
+  - title: Supply Chain Analytics
+    level: Advanced
+  - title: Business Analysis
+    level: Advanced
+  - title: Data Strategy
+    level: Advanced
+
+product:
+  - title: JIRA and Confluence
+    level: Advanced
+  - title: GitHub
+    level: Advanced
+  - title: Power BI
+    level: Advanced
+  - title: Streamlit
+    level: Advanced
+  - title: Excel
+    level: Advanced
+  - title: Project Management
+    level: Advanced
+  - title: PMP Certified
+    level: Advanced
+  - title: Change Management
     level: Advanced

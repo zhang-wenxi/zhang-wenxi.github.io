@@ -56,12 +56,12 @@ h2{font-family:'Playfair Display',serif;font-size:24px;font-weight:700;margin:2r
   <div class="tags"><span class="tag">MLOps</span><span class="tag">Feature Engineering</span><span class="tag">Supply Chain</span></div>
   <div class="kicker">Data & Machine Learning</div>
   <h1>Why better features will always beat better tuning</h1>
-  <p class="deck">The shipments were going late in completely predictable ways. Nobody caught the patterns — until we stopped rushing past the data.</p>
+  <p class="deck">The shipments were going late in completely predictable ways. Nobody caught the patterns. Until we stopped rushing past the data.</p>
   <div class="byline">By Wen Xi Zhang &nbsp;·&nbsp; DataCo Late Delivery Predictor</div>
 
   <p class="drop-cap">In my past work, I saw shipments go late in ways that were completely predictable. Not weather. Not port strikes. Just patterns sitting quietly in the data that nobody caught before the parcel was already on the wrong truck. That frustration built this project.</p>
 
-  <p>The DataCo Late Delivery Predictor is an end-to-end MLOps pipeline trained on 180,000 real shipment records — built to answer one question: can we flag a late delivery before it ever ships?</p>
+  <p>The DataCo Late Delivery Predictor is an end-to-end MLOps pipeline trained on 180,000 real shipment records. Built to answer one question: can we flag a late delivery before it ever ships?</p>
 
   <div class="stat-row">
     <div class="stat"><span class="stat-num">180K</span><span class="stat-label">shipment records</span></div>
@@ -75,7 +75,7 @@ h2{font-family:'Playfair Display',serif;font-size:24px;font-weight:700;margin:2r
 
   <h2>The step people rush — and why you shouldn't</h2>
 
-  <p>EDA wasn't just data cleaning. It was how I got the scope right. It was how I discovered that shipping mode wasn't just another column — it turned out to be the number one SHAP driver of late deliveries.</p>
+  <p>EDA wasn't just data cleaning. It was how I got the scope right. It was how I discovered that shipping mode wasn't just another column; it turned out to be the number one SHAP driver of late deliveries.</p>
 
   <p>If I had skipped past that, I would have spent weeks tuning a model built on the wrong foundation. No amount of Optuna search or additional CV folds rescues a model that is missing the signal that matters most.</p>
 
@@ -114,13 +114,13 @@ h2{font-family:'Playfair Display',serif;font-size:24px;font-weight:700;margin:2r
     </ul>
   </div>
 
-  <p>Most ML demos stop at the notebook. This one doesn't. The executive Streamlit dashboard surfaces the business cost of each wrong prediction — because a false negative in late delivery has a real dollar figure attached to it.</p>
+  <p>Most ML demos stop at the notebook. This one doesn't. The executive Streamlit dashboard surfaces the business cost of each wrong prediction, because a false negative in late delivery has a real dollar figure attached to it.</p>
 
   <h2>The real unlock is new data</h2>
 
   <p>Yes, you can improve with lower thresholds, more CV folds, and broader Optuna hyperparameter search. Those help at the margins. You have to weigh your resources and be creative about where you spend them.</p>
 
-  <div class="pullquote">"The real unlock is new data — and that conversation has to happen between business and data together."</div>
+  <div class="pullquote">"The real unlock is new data, and that conversation has to happen between business and data together."</div>
 
   <p>What derived features are we missing? What domain knowledge never made it into a column? That conversation is where the model actually gets better. And that means sitting down as a team and asking what we should be collecting next.</p>
 

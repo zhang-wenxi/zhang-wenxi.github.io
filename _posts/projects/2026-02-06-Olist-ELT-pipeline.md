@@ -14,7 +14,7 @@ description: "An end-to-end production data pipeline built on the Brazilian Olis
 header:
   overlay_image: "https://media.istockphoto.com/id/2204965084/photo/fiber-optic-cables-on-ocean-floor-transmitting-data.jpg?s=2048x2048&w=is&k=20&c=qtkZ3DLe7VIN9VsZroz9_sbzzmNnNR9t5oofM72o-dQ="
   overlay_color: "transparent" 
-  teaser: "/assets/images/projects/salaryportal/teaser.png"
+  teaser: "https://media.istockphoto.com/id/2204965084/photo/fiber-optic-cables-on-ocean-floor-transmitting-data.jpg?s=2048x2048&w=is&k=20&c=qtkZ3DLe7VIN9VsZroz9_sbzzmNnNR9t5oofM72o-dQ="
   caption: "Photo credit: [iStock: imaginima](https://www.istockphoto.com/portfolio/imaginima)"
 expiry_date: 2030-01-01
 ---

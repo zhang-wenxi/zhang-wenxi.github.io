@@ -21,7 +21,7 @@ expiry_date: 2030-01-01
 This is a demo that present an end-to-end production data pipeline built on the Brazilian Olist e-commerce dataset — orchestrating extraction, transformation, and visualization across a modern lakehouse stack.
 <div style="padding-left: 40px; margin-top: 20px; margin-bottom: 60px; clear: both;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7447926077672390656?collapsed=1" height="541" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7447185712178970625?collapsed=1" height="541" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
   </div>
 </div>
 

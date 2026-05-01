@@ -119,12 +119,12 @@ permalink: /about/
 {: .align-left}
 ![Zhang Wen Xi](/assets/images/me.png){:width="400px"}
 
-## Enterprise Systems & AI Data Platform Specialist
-I began my career as a software engineer before spending over a decade leading business intelligence solutions with Power BI and Tableau and orchestrating SAP S/4HANA implementations across SCM, Finance, and HR.
+## Data Platform & AI Systems Specialist
+I began as a software engineer developing full-stack applications across front-end interfaces, back-end logic, and relational databases, before spending over a decade delivering business intelligence solutions with Power BI and Tableau across SCM, Finance, and HR.
 
-Today I design scalable data platforms that connect enterprise operations with modern analytics and AI. My current work includes developing an end to end EDA dashboard for job market profiling covering data cleaning, transformation, modeling, and visualization, and building a big data pipeline using MongoDB and Google BigQuery.
+Today I design scalable data platforms that connect enterprise operations with modern analytics and AI — from ELT pipelines and Medallion architecture to predictive modelling and MLOps deployment.
 
-I transform enterprise ERPs into AI decision platforms via data engineering and product strategy.
+My focus: turning operational data into AI-ready decision platforms through data engineering and product strategy.
 
 <h3 class="archive__subtitle">My Skills</h3>
 

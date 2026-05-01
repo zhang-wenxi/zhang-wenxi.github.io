@@ -112,6 +112,8 @@ img.gallery {
   margin-top: 10px !important;
   border: thin solid #ccc !important;
 }
-body:not(.layout--single) .page__meta {
-  padding-left: 0 !important;
+
+/* Force remove left padding only on post pages (using the body class you see) */
+body.layout--single .page__meta {
+    padding-left: 0 !important;
 }

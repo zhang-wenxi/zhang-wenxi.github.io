@@ -24,7 +24,16 @@
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    {% include page__meta.html type=include.type %}
+    <div class="page__meta">
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+      </span>
+      {% assign words = post.content | number_of_words %}
+      {% assign read_time = words | divided_by: 200 %}
+      {% if read_time == 0 %}{% assign read_time = 1 %}{% endif %}
+      <span class="reading-time"> • {{ read_time }} min read</span>
+    </div>
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
 </div>

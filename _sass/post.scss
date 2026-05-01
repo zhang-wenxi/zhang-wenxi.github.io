@@ -144,7 +144,10 @@ body.layout--single .page__inner-wrap {
   padding-left: 1em !important;
   padding-right: 1em !important;
 }
-
+/* Fix calendar icon alignment on post pages (layout--posts) – reduces left margin */
+body.layout--posts .page__meta {
+  margin-left: 0.5em !important;   /* adjust value – 0.5em, 1em, etc. – until it aligns with your title */
+}
 /* ============================================================
    8. GALLERY IMAGES
    ============================================================ */

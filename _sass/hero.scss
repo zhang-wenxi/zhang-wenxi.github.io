@@ -4,13 +4,13 @@
   width: 100vw;
   left: 50%;
   transform: translateX(-50%);
-  min-height: 100vh;   /* change from unset to 100vh */
+  min-height: 90vh;          /* optional: reduce from 100vh to 90vh */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;  /* change from center to space-between */
+  justify-content: center;   /* was space-between */
   text-align: center;
-  padding: 60px 24px 80px;
+  padding: 40px 24px 60px;   /* less bottom padding */
 }
 
 .hero-section::before {
@@ -94,10 +94,11 @@
 
 /* SCROLL DOWN cue */
 .scroll-cue {
-  position: absolute;
-  bottom: 24px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;        /* was absolute */
+  bottom: auto;              /* remove */
+  margin-top: 40px;          /* add this – space between hero text and scroll cue */
+  left: auto;
+  transform: none;           /* remove the translateX */
   display: flex;
   flex-direction: column;
   align-items: center;

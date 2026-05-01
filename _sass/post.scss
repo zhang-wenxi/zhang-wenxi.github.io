@@ -113,7 +113,7 @@ img.gallery {
   border: thin solid #ccc !important;
 }
 
-/* Align calendar icon on post pages – body class is layout--single */
-body.layout--single .page__meta {
-    margin-left: 0.2em !important;   /* adjust as needed – try 0, 0.2em, 0.4em, or negative */
+/* Align calendar icon on post pages – guaranteed to override anything */
+#main .page__meta {
+    margin-left: 0.2em !important;
 }

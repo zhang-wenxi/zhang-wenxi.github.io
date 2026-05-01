@@ -15,6 +15,7 @@ group :jekyll_plugins do
   gem "jekyll-algolia"
   gem "jekyll-seo-tag"
   gem "jekyll-redirect-from"
+  gem 'jekyll_reading_time', '~> 0.1.1'
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do

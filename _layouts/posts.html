@@ -13,18 +13,3 @@ layout: archive
     });
   });
 </script>
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var content = document.querySelector('.page__content, article');
-    if (!content) return;
-    var words = content.innerText.trim().split(/\s+/).length;
-    var readTime = Math.max(1, Math.ceil(words / 200));
-    var dateMeta = document.querySelector('.page__meta-date, .page__meta');
-    if (dateMeta && !document.querySelector('.reading-time')) {
-      var readSpan = document.createElement('span');
-      readSpan.className = 'reading-time';
-      readSpan.innerHTML = ' • ' + readTime + ' min read';
-      dateMeta.parentNode.insertBefore(readSpan, dateMeta.nextSibling);
-    }
-  });
-</script>

@@ -29,6 +29,8 @@ redirect_from:
 
 <p class="career"><b>2025 - Present</b></p>
 > **Data Platform & AI Systems Specialist**<br>
+> **Enterprise Systems & AI Data Platform Product Specialist**<br>
+> *Designed and Build Data Visualisation Dashboard: [Salary Dashboard](https://20260307-zwx-ds-salarydashboard-pwumsmjsxreotfcm97q996.streamlit.app/)*<br>
 > *Building end-to-end data pipelines, MLOps models and analytics dashboards —
 > see [My Work]({{ site.baseurl }}{% link mywork.md %}).*<br>
 

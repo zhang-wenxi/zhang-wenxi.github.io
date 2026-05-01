@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Olist eCommerce Data Pipeline"
-date:   2026-03-02 00:00:00 +0800
+date:   2026-02-06 00:00:00 +0800
 categories: [work]
 excerpt: "Olist eCommerce Medallion ELT pipeline."
 highlight_home: true

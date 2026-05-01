@@ -113,7 +113,8 @@ img.gallery {
   border: thin solid #ccc !important;
 }
 
-/* Force remove left padding only on post pages (using the body class you see) */
-body.layout--single .page__meta {
+/* Fix indentation of calendar icon + date on My Work archive page only */
+body.layout--categories_work .page__meta {
     padding-left: 0 !important;
+    margin-left: 0 !important;
 }

@@ -4,9 +4,6 @@ layout: archive
 
 {{ content }}
 
-<a href="#page-title" class="back-to-top">
-{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;
-</a>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     var metas = document.querySelectorAll('.page__meta');
@@ -14,5 +11,20 @@ layout: archive
       meta.style.setProperty('padding-left', '0', 'important');
       meta.style.setProperty('margin-left', '0', 'important');
     });
+  });
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var content = document.querySelector('.page__content, article');
+    if (!content) return;
+    var words = content.innerText.trim().split(/\s+/).length;
+    var readTime = Math.max(1, Math.ceil(words / 200));
+    var dateMeta = document.querySelector('.page__meta-date, .page__meta');
+    if (dateMeta && !document.querySelector('.reading-time')) {
+      var readSpan = document.createElement('span');
+      readSpan.className = 'reading-time';
+      readSpan.innerHTML = ' • ' + readTime + ' min read';
+      dateMeta.parentNode.insertBefore(readSpan, dateMeta.nextSibling);
+    }
   });
 </script>

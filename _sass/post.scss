@@ -112,7 +112,8 @@ img.gallery {
   margin-top: 10px !important;
   border: thin solid #ccc !important;
 }
-/* Override global rule for post pages – assuming body class is .layout--posts */
-body.layout--posts .page__meta {
-    margin-left: 0.2em !important;
+
+/* Align calendar icon on post pages (body class = layout--archive) */
+body.layout--archive .page__meta {
+    margin-left: 0.2em !important;   /* adjust as needed */
 }

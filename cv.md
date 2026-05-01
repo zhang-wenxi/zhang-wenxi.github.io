@@ -24,53 +24,45 @@ redirect_from:
 </div>
 
 ## My career in a nutshell
+
 <div class="career-timeline" markdown="1">
 
-<p class="career"><b>2026 - in progress</b></p>
-
-> **Enterprise Systems & AI Data Platform Product Specialist**<br>
-> *Designed and Build Data Visualisation Dashboard: [Salary Dashboard](https://20260307-zwx-ds-salarydashboard-pwumsmjsxreotfcm97q996.streamlit.app/)*<br>
+<p class="career"><b>2025 - Present</b></p>
+> **Data Platform & AI Systems Specialist**<br>
+> *Building end-to-end data pipelines, MLOps models and analytics dashboards —
+> see [My Work]({{ site.baseurl }}{% link mywork.md %}).*<br>
 
 <p class="career"><b>2022 - 2025</b></p>
-
-> **Senior Consultant (Team Lead)**<br>
-> *Led a team of 10 members, executing SAP projects.*<br>
+> **Senior Lead Consultant**<br>
+> *Led a team delivering enterprise system upgrades, integrations and logistics projects across retail and operations.*<br>
 
 <p class="career"><b>2021 - 2022</b></p>
-
-> **SAP Consultant**<br>
-> *Delivered greenfield S/4HANA implementations for pharmaceutical and manufacturing clients.*<br>
+> **ERP Consultant, APAC**<br>
+> *Delivered greenfield enterprise implementations for pharmaceutical and manufacturing clients across SD, MM, WM and FI.*<br>
 
 <p class="career"><b>2017 - 2018</b></p>
+> **Enterprise Systems Manager**<br>
+> *Led multi-country expense management rollout across APAC and Netherlands, onboarding 150 users.*<br>
 
-> **SAP Manager**<br>
-> *Led multi-million-dollar SAP Concur global rollout.*<br>
-
-<p class="career"><b>2014 - 2027</b></p>
-
+<p class="career"><b>2014 - 2017</b></p>
 > **Lead Business Analyst**<br>
-> *Led BPR initiatives to streamline Procurement and Sales workflows.*<br>
+> *Led business process re-engineering initiatives to streamline procurement and sales workflows.*<br>
 
 <p class="career"><b>2012 - 2014</b></p>
-
 > **Senior Business Analyst**<br>
-> *Developed 50 departmental reports and dashboards using Power BI and Qliksense.*<br>
+> *Developed 50+ departmental reports and dashboards covering sales performance and APAC revenue analysis.*<br>
 
 <p class="career"><b>2007 - 2010</b></p>
-
-> **Senior System Analyst**<br>
-> *Delivered a project for inventory management with RFID scanner.*<br>
+> **Senior Systems Analyst**<br>
+> *Delivered RFID-based inventory management project across two warehouses.*<br>
 
 <p class="career"><b>2006 - 2007</b></p>
-
 > **Senior Software Engineer**<br>
-> *Developed web course application solutions using ASP.NET and JavaScript*<br>
+> *Developed web application solutions using ASP.NET and JavaScript.*<br>
 
 <p class="career"><b>2003 - 2005</b></p>
-
 > **Senior Software Engineer**<br>
-> *Developed bespoke systems for procurement and HR and integrated SAP ECC*<br>
-
+> *Built bespoke full-stack systems for procurement and HR; integrated with enterprise ERP.*<br>
 <details style="margin-top: 10px;">
   <summary><b>Other</b></summary>
   <div style="margin-left: 20px;">
@@ -78,9 +70,8 @@ redirect_from:
     <br>
     <blockquote>
         Scripting SAP Tutorials<br>
-        Subjects: “Logistics”, "Sales" and “Finance”<br>
+        Subjects: "Logistics", "Sales" and "Finance"<br>
     </blockquote>
   </div>
 </details>
-
-</div>>
+</div>

@@ -7,3 +7,12 @@ layout: archive
 <a href="#page-title" class="back-to-top">
 {{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;
 </a>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var metas = document.querySelectorAll('.page__meta');
+    metas.forEach(function(meta) {
+      meta.style.setProperty('padding-left', '0', 'important');
+      meta.style.setProperty('margin-left', '0', 'important');
+    });
+  });
+</script>

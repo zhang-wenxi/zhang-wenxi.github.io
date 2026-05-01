@@ -28,10 +28,16 @@ redirect_from:
 <div class="career-timeline" markdown="1">
 
 <p class="career"><b>2025 - Present</b></p>
-> **Data Platform & AI Systems Specialist**<br>
-> *Designed and Built Data Visualisation Salary Dashboard: [on Streamlit Community Cloud](https://jobmarketsalary.streamlit.app)*<br>
-> *Built an end-to-end production Medallion ELT Olist pipeline [on Github](https://www.github.com/zhang-wenxi/2026-02-06_DS4_GP5_olist)*<br> 
-> *Built an end-to-end MLOps Olist pipeline [on Huggingface](https://huggingface.co/spaces/zhang-wenxi/dataco) | [on Streamlit Community Cloud](https://dataco.streamlit.app)*<br>
+<blockquote>
+  <b>Data Platform & AI Systems Specialist</b><br>
+  <em>Designed and Built Data Visualisation Salary Dashboard: 
+  <a href="https://jobmarketsalary.streamlit.app" target="_blank">on Streamlit Community Cloud</a></em><br>
+  <em>Built an end-to-end production Medallion ELT Olist pipeline 
+  <a href="https://github.com/zhang-wenxi/2026-02-06_DS4_GP5_olist" target="_blank">on Github</a></em><br>
+  <em>Built an end-to-end MLOps Olist pipeline 
+  <a href="https://huggingface.co/spaces/zhang-wenxi/dataco" target="_blank">on Huggingface</a> | 
+  <a href="https://dataco.streamlit.app" target="_blank">on Streamlit Community Cloud</a></em><br>
+</blockquote>
 
 <p class="career"><b>2022 - 2025</b></p>
 > **Senior Lead Consultant**<br>

@@ -57,34 +57,35 @@
 /* ============================================================
    5. CALENDAR ICON ALIGNMENT (post page only)
    ============================================================ */
-body.layout--single .page__meta {
+body.layout--posts .page__meta {
   display: flex !important;
   align-items: center !important;
   gap: 8px !important;
-  margin-left: 2.0em !important;
+  margin-left: 0 !important;           /* ← changed from 2.0em to 0 */
   padding-left: 0 !important;
   margin-top: 0.5em !important;
   font-size: 0.85em !important;
   position: static !important;
   left: auto !important;
   top: auto !important;
-  line-height: 1 !important;  /* ← add this */
+  line-height: 1 !important;
 }
 
-body.layout--single .page__meta i,
-body.layout--single .page__meta span,
-body.layout--single .page__meta svg,
-body.layout--single .page__meta .page__meta-date {
+body.layout--posts .page__meta i,
+body.layout--posts .page__meta span,
+body.layout--posts .page__meta svg,
+body.layout--posts .page__meta .page__meta-date {
   display: inline-flex !important;
   align-items: center !important;
   vertical-align: middle !important;
   margin: 0 !important;
   padding: 0 !important;
-  line-height: 1 !important;     /* ← add this */
-  font-size: 1em !important;     /* ← normalizes icon size */
+  line-height: 1 !important;
+  font-size: 1em !important;
   position: relative !important;
-  top: 0 !important;             /* ← resets any theme nudge */
+  top: 0 !important;
 }
+
 /* ============================================================
    6. CONTENT VERTICAL LINE ALIGNMENT
    ============================================================ */
@@ -102,7 +103,7 @@ body.layout--single .page__meta .page__meta-date {
 /* ============================================================
    7. FULL WIDTH BODY FOR POST PAGES (no sidebar)
    ============================================================ */
-body.layout--single .page__content {
+body.layout--posts .page__content {
   margin-top: 0 !important;
   padding-top: 0 !important;
   width: calc(100% - 3em) !important;
@@ -113,33 +114,33 @@ body.layout--single .page__content {
   padding-right: 2em !important;
 }
 
-/* Stretch the main container full width on post pages */
-body.layout--single #main {
+body.layout--posts #main {
   max-width: 100% !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-body.layout--single .page {
+body.layout--posts .page {
   width: 100% !important;
   max-width: 100% !important;
   overflow-x: hidden !important;
 }
-body.layout--single .initial-content {
+
+body.layout--posts .initial-content {
   display: flex !important;
   align-items: stretch !important;
 }
 
-body.layout--single .sidebar {
+body.layout--posts .sidebar {
   min-height: 100% !important;
   background-color: #F9F5FF !important;
 }
-/* Center content with comfortable reading width */
-body.layout--single .page__inner-wrap {
+
+body.layout--posts .page__inner-wrap {
   margin-top: 0 !important;
   padding-top: 0 !important;
   max-width: 100% !important;
-  margin: 0 !important;        /* ← removes auto centering */
+  margin: 0 !important;
   padding-left: 1em !important;
   padding-right: 1em !important;
 }

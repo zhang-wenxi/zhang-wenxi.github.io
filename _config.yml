@@ -70,6 +70,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-redirect-from
+  - jekyll_reading_time
 
 search: true
 

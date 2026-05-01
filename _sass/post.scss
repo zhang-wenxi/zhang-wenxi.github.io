@@ -112,4 +112,6 @@ img.gallery {
   margin-top: 10px !important;
   border: thin solid #ccc !important;
 }
-.page__meta:has(.fa-calendar-alt) { padding-left: 0 !important; }
+body:not(.layout--single) .page__meta {
+  padding-left: 0 !important;
+}

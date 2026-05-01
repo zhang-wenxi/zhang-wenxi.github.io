@@ -15,7 +15,7 @@ header:
   overlay_image: "https://images.unsplash.com/photo-1686061593213-98dad7c599b9?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   overlay_color: "transparent" 
   teaser: "/assets/images/projects/salaryportal/teaser.png"
-  caption: "Photo credit: [Unsplash: growtika]([https://unsplash.com/@growtika])
+  caption: "Photo credit: [Unsplash: growtika](https://unsplash.com/@growtika)"
 expiry_date: 2030-01-01
 ---
 This is a demo that present an end-to-end production data pipeline built on the Brazilian Olist e-commerce dataset — orchestrating extraction, transformation, and visualization across a modern lakehouse stack.

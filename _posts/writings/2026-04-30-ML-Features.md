@@ -54,7 +54,7 @@ h2{font-family:'Playfair Display',serif;font-size:24px;font-weight:700;margin:2r
 </style>
 <div class="article">
   <div class="byline">By Wen Xi Zhang &nbsp;·&nbsp; DataCo Late Delivery Predictor</div>
-  <h1>The shipments were going late in completely predictable ways. Nobody caught the patterns. Until we stopped rushing past the data.</h1>
+  <h1>The shipments were going late in completely predictable ways. Nobody caught the patterns. Until we stopped rushing past the data.</h1><br>
  
 
   <p class="drop-cap">In my past work, I saw shipments go late in ways that were completely predictable. Not weather. Not port strikes. Just patterns sitting quietly in the data that nobody caught before the parcel was already on the wrong truck. That frustration built this project.</p>

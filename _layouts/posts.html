@@ -1,18 +1,6 @@
 ---
 layout: archive
 ---
-
-{{ content }}
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var metas = document.querySelectorAll('.page__meta');
-    metas.forEach(function(meta) {
-      meta.style.setProperty('padding-left', '0', 'important');
-      meta.style.setProperty('margin-left', '0', 'important');
-    });
-  });
-</script>
 {% assign words_per_minute = site.words_per_minute | default: 200 %}
 {% assign words = page.content | strip_html | number_of_words %}
 <span class="page__meta-readtime">
@@ -24,3 +12,15 @@ layout: archive
     ⏱️ {{ words | divided_by: words_per_minute }} minute read
   {% endif %}
 </span>
+{{ content }}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var metas = document.querySelectorAll('.page__meta');
+    metas.forEach(function(meta) {
+      meta.style.setProperty('padding-left', '0', 'important');
+      meta.style.setProperty('margin-left', '0', 'important');
+    });
+  });
+</script>
+

@@ -4,11 +4,11 @@
   width: 100vw;
   left: 50%;
   transform: translateX(-50%);
-  min-height: unset;
+  min-height: 100vh;   /* change from unset to 100vh */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;  /* change from center to space-between */
   text-align: center;
   padding: 60px 24px 80px;
 }

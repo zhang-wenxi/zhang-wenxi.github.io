@@ -144,8 +144,9 @@ body.layout--single .page__inner-wrap {
   padding-right: 1em !important;
 }
 
-body.layout--single .page__meta {
-  margin-left: 0.4em !important;   /* try 0.35em or 0.5em if needed */
+/* For post pages – adjust calendar icon margin */
+body.layout--posts .page__meta {
+  margin-left: 0.2em !important;   /* adjust as needed – 0, 0.2em, 0.5em */
 }
 
 /* ============================================================
@@ -157,4 +158,8 @@ img.gallery {
   margin-right: 10px !important;
   margin-top: 10px !important;
   border: thin solid #ccc !important;
+}
+/* Force calendar icon alignment on any post page */
+.page__meta {
+  margin-left: 0.2em !important;
 }

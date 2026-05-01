@@ -36,3 +36,17 @@ layout: archive
     </section>
   {% endif %}
 {% endfor %}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Fix date indentation
+    document.querySelectorAll('.page__meta').forEach(function(meta) {
+      meta.style.setProperty('padding-left', '0', 'important');
+      meta.style.setProperty('margin-left', '0', 'important');
+    });
+    // Fix post title indentation (align with date)
+    document.querySelectorAll('.archive__item-title').forEach(function(title) {
+      title.style.setProperty('margin-left', '0', 'important');
+      title.style.setProperty('padding-left', '0', 'important');
+    });
+  });
+</script>

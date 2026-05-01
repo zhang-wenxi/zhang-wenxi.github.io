@@ -145,8 +145,9 @@ body.layout--single .page__inner-wrap {
 }
 
 /* Fix calendar icon alignment on post pages (layout--posts) – reduces left margin */
-body.layout--posts .page__meta {
-  margin-left: 0.5em !important;   /* adjust value – 0.5em, 1em, etc. – until it aligns with your title */
+/* Override calendar icon indentation on post pages */
+body.layout--single .page__meta {
+  margin-left: 0.2em !important;   /* adjust as needed – 0, 0.2em, 0.5em */
 }
 
 /* ============================================================

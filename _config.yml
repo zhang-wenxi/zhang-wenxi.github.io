@@ -131,4 +131,5 @@ defaults:
     values:
       layout: "single"
       author_profile: false
+      read_time: true
       show_date: true # This turns on the date globally for all posts

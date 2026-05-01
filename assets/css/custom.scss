@@ -9,3 +9,49 @@
 @import "post";
 @import "taxonomy";
 @import "hero";   // ← add this
+/* ============================================================
+   FIX INDENTATION ON MYWORK ARCHIVE AND POST PAGES
+   Does not affect homepage (layout: splash)
+   ============================================================ */
+
+/* 1. Fix archive page (mywork.md) – remove indentation from category headings and post titles */
+.layout--categories_work .taxonomy__section h2,
+.layout--categories_work .archive__item-title {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+/* 2. Keep title and calendar icon on same line, no extra left margin */
+.layout--categories_work .archive__item {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin-left: 0 !important;
+}
+
+.layout--categories_work .page__meta {
+    margin-left: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+}
+
+/* 3. Fix individual post pages – remove unwanted indentation from calendar icon and title */
+body.layout--posts .page__title,
+body.layout--posts .page__meta {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+/* 4. Ensure the calendar icon stays inline with the date */
+body.layout--posts .page__meta {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.25rem;
+}
+
+/* 5. If your post content paragraphs still have indentation and you want to keep it, leave as is */
+/*    but if you also want paragraphs flush left on posts, add: */
+/* body.layout--posts .page__content p {
+    margin-left: 0 !important;
+} */

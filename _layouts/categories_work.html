@@ -40,8 +40,8 @@ layout: archive
   document.addEventListener('DOMContentLoaded', function() {
     var metas = document.querySelectorAll('.page__meta');
     metas.forEach(function(meta) {
-      meta.style.paddingLeft = '0';
-      meta.style.marginLeft = '0';   // also remove any margin
+      meta.style.setProperty('padding-left', '0', 'important');
+      meta.style.setProperty('margin-left', '0', 'important');
     });
   });
 </script>

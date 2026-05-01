@@ -112,8 +112,4 @@ img.gallery {
   margin-top: 10px !important;
   border: thin solid #ccc !important;
 }
-
-/* Align calendar icon on post pages – guaranteed to override anything */
-#main .page__meta {
-    margin-left: 0.2em !important;
-}
+.page__meta:has(.fa-calendar-alt) { padding-left: 0 !important; }

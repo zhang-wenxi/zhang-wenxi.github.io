@@ -1,17 +1,33 @@
 /* ── HERO FULLSCREEN ── */
+/* ── HERO FULLSCREEN ── */
 .hero-section {
   position: relative;
   width: 100vw;
   left: 50%;
   transform: translateX(-50%);
-  min-height: 90vh;          /* optional: reduce from 100vh to 90vh */
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;   /* was space-between */
+  justify-content: center;
   text-align: center;
-  padding: 40px 24px 60px;   /* less bottom padding */
+  padding: 40px 24px 60px;
+
+  /* Background gradient + image (moved from inline style) */
+  background-image: linear-gradient(
+      to right,
+      rgba(201, 122, 122, 0.95) 0%,
+      rgba(210, 130, 130, 0.75) 30%,
+      rgba(210, 130, 130, 0.75) 70%,
+      rgba(201, 122, 122, 0.95) 100%
+    ),
+    url('/assets/images/portfolio/banner.png');
+  background-size: cover, 100% 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
 }
+
+/* rest of your existing hero styles (avatar, title, nav, scroll-cue, etc.) remain unchanged */
 
 .hero-section::before {
   content: '';

@@ -2,16 +2,17 @@
 layout: posts
 title: "Why better features will always beat better tuning"
 author_profile: false
-date:   2026-03-02
+date:   2026-03-02 00:00:00 +0800
 excerpt: "Why better features will always beat better tuning."
 categories: [writing]
 header:
-  overlay_image: "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" # This shows in the grid
-  overlay_color: "transparent" 
-  teaser: "[/assets/images/articles/windsurf/teaser.png](https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")" # This shows in the grid
-tags: ["Machine Learning"] # Or whatever name you want for the blue bar
+  overlay_image: "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  overlay_color: "transparent"
+  teaser: "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  caption: "Photo credit: [Unsplash: Deng Xiang](https://unsplash.com/@dengxiangs)"
+tags: ["Machine Learning"]
 tagline: "Machine Learning"
-highlight_home: true     # Must be true to show on the homepage
+highlight_home: true
 ---
 
 <style>

@@ -38,14 +38,16 @@ layout: archive
 {% endfor %}
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // Fix date indentation
+    // Set a consistent left margin for both title and date (e.g., 0.3em)
+    var leftMargin = '0.3em';   // adjust to your taste (0.2em, 0.4em, etc.)
+
     document.querySelectorAll('.page__meta').forEach(function(meta) {
+      meta.style.setProperty('margin-left', leftMargin, 'important');
       meta.style.setProperty('padding-left', '0', 'important');
-      meta.style.setProperty('margin-left', '0', 'important');
     });
-    // Fix post title indentation (align with date)
+
     document.querySelectorAll('.archive__item-title').forEach(function(title) {
-      title.style.setProperty('margin-left', '0', 'important');
+      title.style.setProperty('margin-left', leftMargin, 'important');
       title.style.setProperty('padding-left', '0', 'important');
     });
   });

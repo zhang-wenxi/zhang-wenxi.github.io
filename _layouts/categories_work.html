@@ -36,3 +36,12 @@ layout: archive
     </section>
   {% endif %}
 {% endfor %}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var metas = document.querySelectorAll('.page__meta');
+    metas.forEach(function(meta) {
+      meta.style.paddingLeft = '0';
+      meta.style.marginLeft = '0';   // also remove any margin
+    });
+  });
+</script>

@@ -2,6 +2,10 @@ engineering:
   - title: Python
     level: Advanced
   - title: SQL
+    level: Advanced  
+  - title: CrewAI
+    level: Advanced
+  - title: n8n
     level: Advanced
   - title: dbt
     level: Advanced

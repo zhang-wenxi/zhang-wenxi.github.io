@@ -75,9 +75,9 @@ redirect_from:
   <summary><b>Independent Analytics Projects (2025 – 2026)</b></summary>
   <blockquote>
     • <a href="https://jobmarketsalary.streamlit.app" target="_blank">Singapore Salary Dashboard</a> – Python, Streamlit<br>
-    • <a href="https://github.com/zhang-wenxi/2026-02-06_DS4_GP5_olist" target="_blank">Medallion ELT Pipeline</a> – dbt, Meltano, Dagster, BigQuery, Kimball star-schema<br>
-    • <a href="https://dataco.streamlit.app" target="_blank">MLOps Late-Delivery Predictor</a> – ZenML, MLflow, XGBoost, SHAP; F1-weighted 0.689<br>
-    • <a href="https://huggingface.co/spaces/zhang-wenxi/job-score-analysis" target="_blank">Multi-Agent Job Scoring System</a> – CrewAI, Groq/Ollama, MCF live API<br>
+    • <a href="https://github.com/zhang-wenxi/2026-02-06_DS4_GP5_olist" target="_blank">Medallion Olist eCommerce ELT Pipeline</a> – dbt, Meltano, Dagster, BigQuery, Kimball star-schema<br>
+    • <a href="https://dataco.streamlit.app" target="_blank">MLOps Supply Chain Late-Delivery Predictor</a> – ZenML, MLflow, XGBoost, SHAP; F1-weighted 0.689<br>
+    • <a href="https://huggingface.co/spaces/zhang-wenxi/job-score-analysis" target="_blank">Agentic AI Job Scoring System</a> – CrewAI, Groq/Ollama, MCF live API<br>
     <em>Built to demonstrate modern data engineering and ML literacy alongside my enterprise systems career.</em>
   </blockquote>
 </details>

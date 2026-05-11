@@ -119,7 +119,7 @@ permalink: /about/
 {: .align-left}
 ![Zhang Wen Xi](/assets/images/me.png){:width="400px"}
 
-## SAP Enterprise Systems, Analytics & AI/ML Leader
+## SAP Enterprise Systems Transformation, Analytic, AI and ML
 
 I began as a software engineer, then spent over a decade delivering SAP S/4HANA implementations across supply chain, finance, and HR for clients in APAC, EMEA, and NA.
 

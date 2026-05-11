@@ -45,12 +45,12 @@ redirect_from:
 </blockquote>
 <p class="career"><b>2012 – 2014</b></p>
 <blockquote>
-  <b>Business Analyst</b> – Japanese IT Service Provider <br>
+  <b>Senior Business Analyst</b> – Japanese IT Service Provider <br>
   <em>Led development of 50+ reports and dashboards (<a href="https://www.qlik.com" target="_blank">QlikSense/QlikView</a>) covering APAC sales performance and billing analysis. Primary <a href="https://www.sap.com" target="_blank">SAP</a> MM/SD/FI support resource; bridge between COE development teams and domain experts.</em>
 </blockquote>
 <p class="career"><b>2007 – 2010</b></p>
 <blockquote>
-  <b>Senior Systems Analyst</b> – Local Transport Company  <br>
+  <b>Senior System Analyst</b> – Local Transport Company  <br>
   <em>Delivered RFID stocking for 2 warehouses and resolved procurement AMS tickets.</em>
 </blockquote>
 <p class="career"><b>2006 – 2007</b></p>

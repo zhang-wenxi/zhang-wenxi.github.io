@@ -1,14 +1,18 @@
 sap:
-  - title: SAP SD (Sales & Distribution)
-  - title: Order-to-Cash (O2C)
+  - title: SAP SCM
+  - title: Order-to-Cash 
+  - title: Procure-to-Pay
+  - title: Warehouse Management
+  - title: Financial Accounting
+  - title: Process Integration
   - title: S/4HANA Private Cloud
-  - title: MM / WM / FI Integration
   - title: Master Data Governance
-  - title: COE Governance & Process Std
-  - title: SAP Signavio (BPM)
+  - title: COE Excellence
   - title: SAP Fiori
   - title: SAP Build Process Automation
   - title: SAP Concur
+  - title: SAP Signavio (BPM)
+  - title: SAP LeanIX
   - title: ABAP Debugging
 
 engineering:

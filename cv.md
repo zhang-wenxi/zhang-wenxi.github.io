@@ -41,7 +41,7 @@ redirect_from:
 <p class="career"><b>2014 – 2017</b></p>
 <blockquote>
   <b>Business Analyst</b> – <a href="https://www.razer.com" target="_blank">Razer (Asia Pacific)</a><br>
-  <em>Global <a href="https://www.sap.com" target="_blank">SAP</a> template rollout across Greater China using ASAP methodology. Led <a href="https://www.prosci.com" target="_blank">change management</a>, <a href="https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/introduction-to-sap-s-4hana-advanced-intercompany-sales/ba-p/14009123" target="_blank">intercompany sales</em>a(now depreciated, click link for new updates in Scope Item 5D2)> and POS–SAP integration projects. Bridge between development teams and sales domain experts.</em>
+  <em>Global <a href="https://www.sap.com" target="_blank">SAP</a> template rollout across Greater China using ASAP methodology. Led <a href="https://www.prosci.com" target="_blank">change management</a>, intercompany sales (see <a href="https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/introduction-to-sap-s-4hana-advanced-intercompany-sales/ba-p/14009123" target="_blank">SAP S/4HANA Advanced Intercompany Sales – Scope Item 5D2</a>), and POS–SAP integration projects. Bridge between development teams and sales domain experts.</em>
 </blockquote>
 <p class="career"><b>2012 – 2014</b></p>
 <blockquote>

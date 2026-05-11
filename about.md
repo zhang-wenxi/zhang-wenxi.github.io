@@ -126,7 +126,7 @@ I began as a software engineer, then spent over a decade delivering SAP S/4HANA 
 20+ years in enterprise systems + modern data engineering. I bridge the gap between business operations and analytics — because I've lived both sides.
 
 **What I deliver:**
-- **S/4HANA transformation in SCM** – regional rollouts, process standardisation, executive advisory
+- **S/4HANA transformation in SCM** – Delivered two greenfield S/4HANA rollouts, two major upgrades (S/4HANA 2021 FI/SD/MM and SuccessFactors HCM 2023), an SAP Concur cloud implementation, and multiple third party integrations (POS, SESAMi to SAP)
 - **Production-grade ML & AI** – end-to-end MLOps, supply chain prediction, LLM-powered automation
 - **Analytics engineering** – dbt, BigQuery, Power BI, Streamlit
 

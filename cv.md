@@ -26,7 +26,7 @@ redirect_from:
 <p class="career"><b>2022 – 2025</b></p>
 <blockquote>
   <b>Senior Lead Consultant (SAP SD/MM/FI)</b> – NCS Singapore<br>
-  <em>Led a team of 10 delivering regional SAP projects: 9% GST upgrade, ATP→AATP, S/4HANA 2021 technical upgrade, Fiori + RFID logistics app. Governed solution designs, managed $3.5M support budget, presented to senior stakeholders. Reduced support tickets by 40%.</em>
+  <em>Led a team of 10 delivering regional SAP projects: 9% GST upgrade, ATP→AATP, S/4HANA 2021 technical upgrade, Fiori + RFID logistics app. Governed solution designs, provided functional consultant support to an AMS project valued at $3.5M, presented to senior stakeholders. Reduced support tickets by 40%.</em>
 </blockquote>
 
 <p class="career"><b>2021 – 2022</b></p>

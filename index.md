@@ -49,7 +49,7 @@ header:
 
 <div id="home-content"></div>
 
-{% assign current_time = 'now' | date: '%s' | plus: 0 %}
+{% assign current_time = site.time | date: '%s' | plus: 0 %}
 
 <h3 class="archive__subtitle" data-aos="fade-up" data-aos-duration="600">My Favorite Work</h3>
 <div class="entries-grid" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
@@ -99,7 +99,7 @@ header:
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-  AOS.init({ once: false, easing: 'ease-out-cubic', offset: 80, duration: 1500 });  
+  AOS.init({ once: true, easing: 'ease-out-cubic', offset: 80 });
   document.querySelector('.scroll-to-home').addEventListener('click', function(e) {
     e.preventDefault();
     document.getElementById('home-content').scrollIntoView({ behavior: 'smooth' });

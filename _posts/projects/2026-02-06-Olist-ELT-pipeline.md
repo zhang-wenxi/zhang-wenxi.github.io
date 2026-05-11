@@ -10,7 +10,7 @@ author: wenxi
 classes: wide
 tags:  ["BigData"]
 tagline: "Olist eCommerce Medallion ELT pipeline."
-description: "An end-to-end production data pipeline built on the Brazilian Olist e-commerce dataset — orchestrating extraction, transformation, and visualization across a modern lakehouse stack."
+description: "An end-to-end production data pipeline built on the Brazilian Olist e-commerce dataset. It covers orchestration, extraction, transformation, and visualization across a modern lakehouse stack."
 header:
   overlay_image: "https://media.istockphoto.com/id/2204965084/photo/fiber-optic-cables-on-ocean-floor-transmitting-data.jpg?s=2048x2048&w=is&k=20&c=qtkZ3DLe7VIN9VsZroz9_sbzzmNnNR9t5oofM72o-dQ="
   overlay_color: "transparent" 

@@ -25,42 +25,42 @@ redirect_from:
 
 <p class="career"><b>2022 – 2025</b></p>
 <blockquote>
-  <b>Senior Lead Consultant (SAP SD/MM/HCM)</b> – <a href="https://www.ncs.co" target="_blank">NCS Singapore</a><br>
+  <b>Senior Consultant (SAP SD/MM/HCM)</b> – Local Consulting Firm <br>
   <em>Led a team of 10 delivering regional <a href="https://www.sap.com" target="_blank">SAP</a> projects: <a href="https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-rate-change/gst-rate-change-for-business/preparing-for-gst-rate-change" target="_blank">9% GST upgrade</a>, <a href="https://www.linkedin.com/pulse/atp-vs-aatp-sap-s4hana-comprehensive-comparison-nagaraj-patil-hjlff/" target="_blank">ATP→AATP</a>, <a href="https://www.sap.com/products/erp/s4hana.html" target="_blank">S/4HANA</a> 2021 technical upgrade, <a href="https://www.sap.com/products/technology-platform/fiori.html" target="_blank">Fiori</a> + RFID apps. Provided functional support to a $3.5M AMS project, governed solution designs, and improved support efficiency by 40%.</em>
 </blockquote>
 <p class="career"><b>2021 – 2022</b></p>
 <blockquote>
-  <b>SAP Consultant, APAC</b> – <a href="https://www.abeam.com" target="_blank">ABeam Consulting</a><br>
+  <b>SAP Consultant, APAC</b> – Local Consulting Firm <br>
   <em>Greenfield <a href="https://www.sap.com/products/erp/s4hana.html" target="_blank">S/4HANA</a> implementations (SD/MM/WM) for pharma and manufacturing clients. Led workshops, data migration (zero integrity issues), SIT/UAT, hypercare. Created 20+ <a href="https://www.omg.org/bpmn/" target="_blank">BPMN</a> models across 15 stakeholder workshops.</em>
 </blockquote>
 <p class="career"><b>2017 – 2018</b></p>
 <blockquote>
-  <b>SAP Manager</b> – <a href="https://www.besi.com" target="_blank">Besi Singapore</a><br>
+  <b>SAP Manager</b> – Semiconductor Company <br>
   <em>Led multi-million-dollar <a href="https://www.concur.com" target="_blank">SAP Concur</a> rollout across SG, MY and Netherlands; onboarded over 100 users in the first year. Built <a href="https://powerbi.microsoft.com" target="_blank">Power BI</a> dashboards tracking hundreds of thousands in T&E spend; presented insights to APAC senior leadership. Significant ROI within two years.</em>
 </blockquote>
 <p class="career"><b>2014 – 2017</b></p>
 <blockquote>
-  <b>Business Analyst</b> – <a href="https://www.razer.com" target="_blank">Razer (Asia Pacific)</a><br>
+  <b>Business Analyst</b> – Local Tech Company <br>
   <em>Global <a href="https://www.sap.com" target="_blank">SAP</a> template rollout across Greater China using ASAP methodology. Led <a href="https://www.prosci.com" target="_blank">change management</a>, intercompany sales (see <a href="https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/introduction-to-sap-s-4hana-advanced-intercompany-sales/ba-p/14009123" target="_blank">SAP S/4HANA Advanced Intercompany Sales – Scope Item 5D2</a> for the updated process), and POS–SAP integration projects. Bridge between development teams and sales domain experts.</em>
 </blockquote>
 <p class="career"><b>2012 – 2014</b></p>
 <blockquote>
-  <b>Business Analyst</b> – <a href="https://www.nec.com" target="_blank">NEC Asia</a><br>
+  <b>Business Analyst</b> – Japanese IT Service Provider <br>
   <em>Led development of 50+ reports and dashboards (<a href="https://www.qlik.com" target="_blank">QlikSense/QlikView</a>) covering APAC sales performance and billing analysis. Primary <a href="https://www.sap.com" target="_blank">SAP</a> MM/SD/FI support resource; bridge between COE development teams and domain experts.</em>
 </blockquote>
 <p class="career"><b>2007 – 2010</b></p>
 <blockquote>
-  <b>Senior Systems Analyst</b> – <a href="https://www.smrt.com.sg" target="_blank">SMRT Corporation</a><br>
+  <b>Senior Systems Analyst</b> – Local Transport Company  <br>
   <em>Delivered fully automated RFID warehouse management system (Changi and Ulu Pandan depots) supporting <a href="https://www.sap.com" target="_blank">SAP</a> MM procurement workflows. Resolved 100+ monthly AMS tickets.</em>
 </blockquote>
 <p class="career"><b>2006 – 2007</b></p>
 <blockquote>
-  <b>Senior Software Engineer</b> – <a href="https://www.smu.edu.sg" target="_blank">Singapore Management University</a><br>
+  <b>Senior Software Engineer</b> – Local University  <br>
   <em><a href="https://www.sap.com" target="_blank">SAP</a> MM/HR/FI change requests, incidents and problem management to SLA. Standardised processes for SOX compliance. Developed <a href="https://dotnet.microsoft.com/en-us/apps/aspnet" target="_blank">ASP.NET</a>/<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a> student enrolment application.</em>
 </blockquote>
 <p class="career"><b>2003 – 2005</b></p>
 <blockquote>
-  <b>Senior Software Engineer</b> – <a href="https://www.dsta.gov.sg" target="_blank">Defence Science & Technology Agency</a><br>
+  <b>Senior Software Engineer</b> – Statutory Board <br>
   <em>Implemented <a href="https://www.sap.com" target="_blank">SAP</a> ECC MM/WM modules (RFCs, BADI, IDOC). Delivered <a href="https://www.oracle.com" target="_blank">Oracle</a> Reports for eProcurement and HR systems. Full-stack <a href="https://www.appeon.com/products/powerbuilder" target="_blank">PowerBuilder</a> development; PL/SQL backend with <a href="https://www.oracle.com" target="_blank">Oracle</a> and <a href="https://www.microsoft.com/en-us/sql-server" target="_blank">MS SQL Server</a>.</em>
 </blockquote>
 <details style="margin-top: 20px;">

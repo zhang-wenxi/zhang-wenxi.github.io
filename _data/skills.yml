@@ -18,14 +18,15 @@ sap:
 engineering:
   - title: Python
   - title: SQL
-  - title: CrewAI
-  - title: n8n
+  - title: PowerBI
   - title: dbt
   - title: BigQuery
   - title: Medallion Architecture
   - title: Dagster and Meltano
   - title: Kimball Star-Schema
   - title: Pandas and Plotly
+  - title: CrewAI
+  - title: n8n
 
 experience:
   - title: XGBoost
@@ -39,7 +40,8 @@ experience:
 
 operations:
   - title: SCM and Procurement
-  - title: Finance and HR Ops
+  - title: Finance 
+  - title: HCM
   - title: ERP Data Modelling
   - title: RFM Segmentation
   - title: Supply Chain Analytics

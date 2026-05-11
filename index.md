@@ -22,9 +22,9 @@ header:
 
     <span class="intro-paragraph"
           data-aos="fade-down" data-aos-duration="900" data-aos-delay="300">
-      I'm Wen Xi, an Enterprise Systems &amp; AI Data Platform Specialist
-      who transforms complex ERPs into intelligent decision platforms,
-      designing scalable data pipelines and analytics dashboards powered by modern AI.
+      I lead SAP S/4HANA transformation across APAC – standardising Order‑to‑Cash, governing master data, advising CFOs.
+  I also build modern data platforms (ELT, MLOps, dashboards) to connect ERP data with decisions.
+  <strong>One career: SAP depth + analytics literacy.</strong>
     </span>
     <div class="intro-nav-links">
       <a href="#home-content" class="scroll-to-home"

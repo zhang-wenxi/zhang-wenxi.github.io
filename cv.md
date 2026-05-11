@@ -25,52 +25,44 @@ redirect_from:
 
 <p class="career"><b>2022 – 2025</b></p>
 <blockquote>
-  <b>Senior Lead Consultant (SAP SD/MM/FI)</b> – NCS Singapore<br>
-  <em>Led a team of 10 delivering regional SAP projects: 9% GST upgrade, ATP→AATP, S/4HANA 2021 technical upgrade, Fiori + RFID logistics app. Governed solution designs, provided functional consultant support to an AMS project valued at $3.5M, presented to senior stakeholders. Reduced support tickets by 40%.</em>
+  <b>Senior Lead Consultant (SAP SD/MM/FI)</b> – <a href="https://www.ncs.co" target="_blank">NCS Singapore</a><br>
+  <em>Led a team of 10 delivering regional <a href="https://www.sap.com" target="_blank">SAP</a> projects: 9% GST upgrade, ATP→AATP, <a href="https://www.sap.com/products/erp/s4hana.html" target="_blank">S/4HANA</a> 2021 technical upgrade, <a href="https://www.sap.com/products/technology-platform/fiori.html" target="_blank">Fiori</a> + RFID logistics app. Governed solution designs, provided functional consultant support to an AMS project valued at $3.5M, presented to senior stakeholders. Reduced support tickets by 40%.</em>
 </blockquote>
-
 <p class="career"><b>2021 – 2022</b></p>
 <blockquote>
-  <b>SAP Consultant, APAC</b> – ABeam Consulting<br>
-  <em>Greenfield S/4HANA implementations (SD/MM/WM) for pharma and manufacturing clients. Led workshops, data migration (zero integrity issues), SIT/UAT, hypercare. Created 20+ BPMN models across 15 stakeholder workshops.</em>
+  <b>SAP Consultant, APAC</b> – <a href="https://www.abeam.com" target="_blank">ABeam Consulting</a><br>
+  <em>Greenfield <a href="https://www.sap.com/products/erp/s4hana.html" target="_blank">S/4HANA</a> implementations (SD/MM/WM) for pharma and manufacturing clients. Led workshops, data migration (zero integrity issues), SIT/UAT, hypercare. Created 20+ BPMN models across 15 stakeholder workshops.</em>
 </blockquote>
-
 <p class="career"><b>2017 – 2018</b></p>
 <blockquote>
-  <b>SAP Manager</b> – Besi Singapore<br>
-  <em>Led multi-million-dollar SAP Concur rollout across SG, MY and Netherlands; onboarded 150 users in 12 months. Built Power BI dashboards tracking $500K T&E spend; presented insights to CFO and APAC senior leadership. 250% ROI in 24 months.</em>
+  <b>SAP Manager</b> – <a href="https://www.besi.com" target="_blank">Besi Singapore</a><br>
+  <em>Led multi-million-dollar <a href="https://www.concur.com" target="_blank">SAP Concur</a> rollout across SG, MY and Netherlands; onboarded 150 users in 12 months. Built <a href="https://powerbi.microsoft.com" target="_blank">Power BI</a> dashboards tracking $500K T&E spend; presented insights to CFO and APAC senior leadership. 250% ROI in 24 months.</em>
 </blockquote>
-
 <p class="career"><b>2014 – 2017</b></p>
 <blockquote>
-  <b>Business Analyst</b> – Razer (Asia Pacific)<br>
-  <em>Global SAP template rollout across Greater China using ASAP methodology. Led change management, intercompany sales and POS–SAP integration projects. Bridge between development teams and sales domain experts.</em>
+  <b>Business Analyst</b> – <a href="https://www.razer.com" target="_blank">Razer (Asia Pacific)</a><br>
+  <em>Global <a href="https://www.sap.com" target="_blank">SAP</a> template rollout across Greater China using ASAP methodology. Led change management, intercompany sales and POS–SAP integration projects. Bridge between development teams and sales domain experts.</em>
 </blockquote>
-
 <p class="career"><b>2012 – 2014</b></p>
 <blockquote>
-  <b>Business Analyst</b> – NEC Asia<br>
-  <em>Led development of 50+ reports and dashboards (QlikSense/QlikView) covering APAC sales performance and billing analysis. Primary SAP MM/SD/FI support resource; bridge between COE development teams and domain experts.</em>
+  <b>Business Analyst</b> – <a href="https://www.nec.com" target="_blank">NEC Asia</a><br>
+  <em>Led development of 50+ reports and dashboards (<a href="https://www.qlik.com" target="_blank">QlikSense/QlikView</a>) covering APAC sales performance and billing analysis. Primary <a href="https://www.sap.com" target="_blank">SAP</a> MM/SD/FI support resource; bridge between COE development teams and domain experts.</em>
 </blockquote>
-
 <p class="career"><b>2007 – 2010</b></p>
 <blockquote>
-  <b>Senior Systems Analyst</b> – SMRT Corporation<br>
-  <em>Delivered fully automated RFID warehouse management system (Changi and Ulu Pandan depots) supporting SAP MM procurement workflows. Resolved 100+ monthly AMS tickets.</em>
+  <b>Senior Systems Analyst</b> – <a href="https://www.smrt.com.sg" target="_blank">SMRT Corporation</a><br>
+  <em>Delivered fully automated RFID warehouse management system (Changi and Ulu Pandan depots) supporting <a href="https://www.sap.com" target="_blank">SAP</a> MM procurement workflows. Resolved 100+ monthly AMS tickets.</em>
 </blockquote>
-
 <p class="career"><b>2006 – 2007</b></p>
 <blockquote>
-  <b>Senior Software Engineer</b> – Singapore Management University<br>
-  <em>SAP MM/HR/FI change, incident and problem management to SLA. Standardised processes for SOX compliance. Developed ASP.NET/JavaScript student enrolment application.</em>
+  <b>Senior Software Engineer</b> – <a href="https://www.smu.edu.sg" target="_blank">Singapore Management University</a><br>
+  <em><a href="https://www.sap.com" target="_blank">SAP</a> MM/HR/FI change, incident and problem management to SLA. Standardised processes for SOX compliance. Developed <a href="https://dotnet.microsoft.com/en-us/apps/aspnet" target="_blank">ASP.NET</a>/JavaScript student enrolment application.</em>
 </blockquote>
-
 <p class="career"><b>2003 – 2005</b></p>
 <blockquote>
-  <b>Senior Software Engineer</b> – Defence Science & Technology Agency<br>
-  <em>Implemented SAP ECC MM/WM modules (RFCs, BADI, IDOC). Delivered Oracle Reports for eProcurement and HR systems. Full-stack PowerBuilder development; PL/SQL backend with Oracle and MS SQL Server.</em>
+  <b>Senior Software Engineer</b> – <a href="https://www.dsta.gov.sg" target="_blank">Defence Science & Technology Agency</a><br>
+  <em>Implemented <a href="https://www.sap.com" target="_blank">SAP</a> ECC MM/WM modules (RFCs, BADI, IDOC). Delivered <a href="https://www.oracle.com" target="_blank">Oracle</a> Reports for eProcurement and HR systems. Full-stack <a href="https://www.appeon.com/products/powerbuilder" target="_blank">PowerBuilder</a> development; PL/SQL backend with <a href="https://www.oracle.com" target="_blank">Oracle</a> and <a href="https://www.microsoft.com/en-us/sql-server" target="_blank">MS SQL Server</a>.</em>
 </blockquote>
-
 <details style="margin-top: 20px;">
   <summary><b>Independent Analytics Projects (2025 – 2026)</b></summary>
   <blockquote>

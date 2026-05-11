@@ -43,13 +43,13 @@ redirect_from:
 
 <p class="career"><b>2014 – 2017</b></p>
 <blockquote>
-  <b>Lead Business Analyst</b> – Razer (Asia Pacific)<br>
+  <b>Business Analyst</b> – Razer (Asia Pacific)<br>
   <em>Global SAP template rollout across Greater China using ASAP methodology. Led change management, intercompany sales and POS–SAP integration projects. Bridge between development teams and sales domain experts.</em>
 </blockquote>
 
 <p class="career"><b>2012 – 2014</b></p>
 <blockquote>
-  <b>Senior Business Analyst</b> – NEC Asia<br>
+  <b>Business Analyst</b> – NEC Asia<br>
   <em>Led development of 50+ reports and dashboards (QlikSense/QlikView) covering APAC sales performance and billing analysis. Primary SAP MM/SD/FI support resource; bridge between COE development teams and domain experts.</em>
 </blockquote>
 

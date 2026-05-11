@@ -56,7 +56,7 @@ redirect_from:
 <p class="career"><b>2006 – 2007</b></p>
 <blockquote>
   <b>Senior Software Engineer</b> – <a href="https://www.smu.edu.sg" target="_blank">Singapore Management University</a><br>
-  <em><a href="https://www.sap.com" target="_blank">SAP</a> MM/HR/FI change, incident and problem management to SLA. Standardised processes for SOX compliance. Developed <a href="https://dotnet.microsoft.com/en-us/apps/aspnet" target="_blank">ASP.NET</a>/<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a> student enrolment application.</em>
+  <em><a href="https://www.sap.com" target="_blank">SAP</a> MM/HR/FI change requests, incidents and problem management to SLA. Standardised processes for SOX compliance. Developed <a href="https://dotnet.microsoft.com/en-us/apps/aspnet" target="_blank">ASP.NET</a>/<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a> student enrolment application.</em>
 </blockquote>
 <p class="career"><b>2003 – 2005</b></p>
 <blockquote>

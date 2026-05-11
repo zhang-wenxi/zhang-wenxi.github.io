@@ -51,7 +51,7 @@ header:
 
 {% assign current_time = site.time | date: '%s' | plus: 0 %}
 
-<h3 class="archive__subtitle" data-aos="fade-up" data-aos-duration="600">My Favorite Work</h3>
+<h3 class="archive__subtitle" data-aos="fade-up" data-aos-duration="600">My Work</h3>
 <div class="entries-grid" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   {% for post in site.posts %}
     {% if post.highlight_home and post.categories contains 'work' %}
@@ -67,7 +67,7 @@ header:
   {% endfor %}
 </div>
 
-<h3 class="archive__subtitle" data-aos="fade-up" data-aos-duration="600">My Favorite Writing</h3>
+<h3 class="archive__subtitle" data-aos="fade-up" data-aos-duration="600">My Writing</h3>
 <div class="entries-grid" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   {% for post in site.posts %}
     {% if post.highlight_home and post.categories contains 'writing' %}

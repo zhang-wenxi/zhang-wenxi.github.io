@@ -26,12 +26,12 @@ redirect_from:
 <p class="career"><b>2022 – 2025</b></p>
 <blockquote>
   <b>Senior Lead Consultant (SAP SD/MM/HCM)</b> – <a href="https://www.ncs.co" target="_blank">NCS Singapore</a><br>
-  <em>Led a team of 10 delivering regional <a href="https://www.sap.com" target="_blank">SAP</a> projects: 9% GST upgrade, ATP→AATP, <a href="https://www.sap.com/products/erp/s4hana.html" target="_blank">S/4HANA</a> 2021 technical upgrade, <a href="https://www.sap.com/products/technology-platform/fiori.html" target="_blank">Fiori</a> + RFID logistics app. Governed solution designs, provided functional consultant support to an AMS project valued at $3.5M, presented to senior stakeholders. Reduced support tickets by 40%.</em>
+  <em>Led a team of 10 delivering regional <a href="https://www.sap.com" target="_blank">SAP</a> projects: 9% GST upgrade, <a href="https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/atp" target="_blank">ATP</a>→<a href="https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/aatp" target="_blank">AATP</a>, <a href="https://www.sap.com/products/erp/s4hana.html" target="_blank">S/4HANA</a> 2021 technical upgrade, <a href="https://www.sap.com/products/technology-platform/fiori.html" target="_blank">Fiori</a> + RFID logistics app. Governed solution designs, provided functional consultant support to an AMS project valued at $3.5M, presented to senior stakeholders. Reduced support tickets by 40%.</em>
 </blockquote>
 <p class="career"><b>2021 – 2022</b></p>
 <blockquote>
   <b>SAP Consultant, APAC</b> – <a href="https://www.abeam.com" target="_blank">ABeam Consulting</a><br>
-  <em>Greenfield <a href="https://www.sap.com/products/erp/s4hana.html" target="_blank">S/4HANA</a> implementations (SD/MM/WM) for pharma and manufacturing clients. Led workshops, data migration (zero integrity issues), SIT/UAT, hypercare. Created 20+ BPMN models across 15 stakeholder workshops.</em>
+  <em>Greenfield <a href="https://www.sap.com/products/erp/s4hana.html" target="_blank">S/4HANA</a> implementations (SD/MM/WM) for pharma and manufacturing clients. Led workshops, data migration (zero integrity issues), SIT/UAT, hypercare. Created 20+ <a href="https://www.omg.org/bpmn/" target="_blank">BPMN</a> models across 15 stakeholder workshops.</em>
 </blockquote>
 <p class="career"><b>2017 – 2018</b></p>
 <blockquote>

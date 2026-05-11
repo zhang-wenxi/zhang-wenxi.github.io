@@ -22,8 +22,7 @@ header:
 
     <span class="intro-paragraph"
           data-aos="fade-down" data-aos-duration="900" data-aos-delay="300">
-      I lead SAP-driven business transformation across APAC, covering Procure-to-Pay, Order-to-Cash, Warehouse Management and FI, governing master data, and advising regional leaders and senior stakeholders.
-  I also build modern data platforms (ELT, MLOps, dashboards) to connect ERP data with decisions.
+       I delivered SAP-driven business transformation across APAC, covering Procure-to-Pay, Order-to-Cash, Warehouse Management, and FI, governing master data, and assisted in bridging solutions with regional leaders and senior stakeholders' decisions.
   <strong>One career: SAP depth + analytics literacy.</strong>
     </span>
     <div class="intro-nav-links">

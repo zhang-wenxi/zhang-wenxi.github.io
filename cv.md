@@ -26,7 +26,7 @@ redirect_from:
 <p class="career"><b>2022 – 2025</b></p>
 <blockquote>
   <b>Senior Lead Consultant (SAP SD/MM/HCM)</b> – <a href="https://www.ncs.co" target="_blank">NCS Singapore</a><br>
-  <em>Led a team of 10 delivering regional <a href="https://www.sap.com" target="_blank">SAP</a> projects: 9% GST upgrade, <a href="https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/atp" target="_blank">ATP</a>→<a href="https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/aatp" target="_blank">AATP</a>, <a href="https://www.sap.com/products/erp/s4hana.html" target="_blank">S/4HANA</a> 2021 technical upgrade, <a href="https://www.sap.com/products/technology-platform/fiori.html" target="_blank">Fiori</a> + RFID logistics app. Governed solution designs, provided functional consultant support to an AMS project valued at $3.5M, presented to senior stakeholders. Reduced support tickets by 40%.</em>
+  <em>Led a team of 10 delivering regional <a href="https://www.sap.com" target="_blank">SAP</a> projects: 9% GST upgrade, <a href="https://www.linkedin.com/pulse/atp-vs-aatp-sap-s4hana-comprehensive-comparison-nagaraj-patil-hjlff/" target="_blank">ATP→AATP</a>, <a href="https://www.sap.com/products/erp/s4hana.html" target="_blank">S/4HANA</a> 2021 technical upgrade, <a href="https://www.sap.com/products/technology-platform/fiori.html" target="_blank">Fiori</a> + RFID logistics app. Governed solution designs, provided functional consultant support to an AMS project valued at $3.5M, presented to senior stakeholders. Reduced support tickets by 40%.</em>
 </blockquote>
 <p class="career"><b>2021 – 2022</b></p>
 <blockquote>

@@ -119,12 +119,16 @@ permalink: /about/
 {: .align-left}
 ![Zhang Wen Xi](/assets/images/me.png){:width="400px"}
 
-## Data Platform & AI Systems Specialist
-I began as a software engineer developing full-stack applications across front-end interfaces, back-end logic, and relational databases, before spending over a decade delivering business intelligence solutions with Power BI and Tableau across SCM, Finance, and HR.
+## SAP Enterprise Systems, Analytics & AI/ML Leader
 
-Today I design scalable data platforms that connect enterprise operations with modern analytics and AI — from ELT pipelines and Medallion architecture to predictive modelling and MLOps deployment.
+I began as a software engineer, then spent over a decade delivering SAP S/4HANA implementations across supply chain, finance, and HR for clients in APAC, EMEA, and NA.
 
-My focus: turning operational data into AI-ready decision platforms through data engineering and product strategy.
+Today I lead SAP transformation (SD/MM with FI support, COE governance, O2C standardisation, master data) **and** build modern data platforms (ELT pipelines, MLOps, executive dashboards) to bridge enterprise systems with analytics.
+
+**What I deliver:**
+- S/4HANA transformation in SCM – regional rollouts, process standardisation, executive advisory
+- Production-grade ML & AI – end-to-end MLOps, supply chain prediction, LLM-powered automation
+- Analytics engineering – dbt, BigQuery, Power BI, Streamlit
 
 <h3 class="archive__subtitle">My Skills</h3>
 

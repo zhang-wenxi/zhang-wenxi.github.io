@@ -7,5 +7,5 @@ author: wenxi
 classes: wide
 ---
 
-I’m passionate about sharing knowledge through technology articles. Explore the categories that interest you, and feel free to share feedback or suggestions. If there’s a topic you’d like covered, connect with me on LinkedIn. Enjoy reading, and check back soon for fresh insights.
+These are articles I write in my own time, covering SAP, machine learning, supply chain, and the gaps between what looks good in a notebook and what actually works in production. No sponsored content, no filler. Just topics I have worked through and wanted to write down properly.
 

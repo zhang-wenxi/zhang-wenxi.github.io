@@ -41,7 +41,7 @@ redirect_from:
 <p class="career"><b>2014 – 2017</b></p>
 <blockquote>
   <b>Business Analyst</b> – <a href="https://www.razer.com" target="_blank">Razer (Asia Pacific)</a><br>
-  <em>Global <a href="https://www.sap.com" target="_blank">SAP</a> template rollout across Greater China using ASAP methodology. Led change management, intercompany sales and POS–SAP integration projects. Bridge between development teams and sales domain experts.</em>
+  <em>Global <a href="https://www.sap.com" target="_blank">SAP</a> template rollout across Greater China using ASAP methodology. Led <a href="https://www.prosci.com" target="_blank">change management</a>, intercompany sales and POS–SAP integration projects. Bridge between development teams and sales domain experts.</em>
 </blockquote>
 <p class="career"><b>2012 – 2014</b></p>
 <blockquote>

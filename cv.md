@@ -12,7 +12,7 @@ redirect_from:
   <img src="/assets/images/me.png" class="avatar-main">
   <div class="info-block">
     <div class="metrics-section">
-      <p>For a tailored CV, <a href="https://www.linkedin.com/in/zhangwenxi" target="_blank">message me on LinkedIn</a>.</p>
+      <p>For a tailored CV, <a href="https://www.linkedin.com/in/zhangwenxi" target="_blank">contact me on LinkedIn</a>.</p>
       <p>See my <a href="{{ site.baseurl }}{% link mywork.md %}">project portfolio</a> for live demos and code.</p>
     </div>
   </div>

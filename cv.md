@@ -36,7 +36,7 @@ redirect_from:
 <p class="career"><b>2017 – 2018</b></p>
 <blockquote>
   <b>SAP Manager</b> – <a href="https://www.besi.com" target="_blank">Besi Singapore</a><br>
-  <em>Led multi-million-dollar <a href="https://www.concur.com" target="_blank">SAP Concur</a> rollout across SG, MY and Netherlands; onboarded 150 users in 12 months. Built <a href="https://powerbi.microsoft.com" target="_blank">Power BI</a> dashboards tracking $500K T&E spend; presented insights to CFO and APAC senior leadership. 250% ROI in 24 months.</em>
+  <em>Led multi-million-dollar <a href="https://www.concur.com" target="_blank">SAP Concur</a> rollout across SG, MY and Netherlands; onboarded 150 users in 12 months. Built <a href="https://powerbi.microsoft.com" target="_blank">Power BI</a> dashboards tracking $500K T&E spend; presented insights to APAC senior leadership. 250% ROI in 24 months.</em>
 </blockquote>
 <p class="career"><b>2014 – 2017</b></p>
 <blockquote>

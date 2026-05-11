@@ -51,7 +51,7 @@ redirect_from:
 <p class="career"><b>2007 – 2010</b></p>
 <blockquote>
   <b>Senior Systems Analyst</b> – Local Transport Company  <br>
-  <em>Delivered fully automated RFID warehouse management system (Changi and Ulu Pandan depots) supporting <a href="https://www.sap.com" target="_blank">SAP</a> MM procurement workflows. Resolved 100+ monthly AMS tickets.</em>
+  <em>Delivered RFID stocking for 2 warehouses and resolved procurement AMS tickets.</em>
 </blockquote>
 <p class="career"><b>2006 – 2007</b></p>
 <blockquote>

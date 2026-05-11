@@ -1,10 +1,9 @@
 sap:
-  - title: SAP SCM
-  - title: Order-to-Cash 
-  - title: Procure-to-Pay
-  - title: Warehouse Management
-  - title: Financial Accounting
-  - title: Process Integration
+  - title: SAP S/4HANA SD(Order-to-Cash)
+  - title: SAP S/4HANA MM(Procure-to-Pay)
+  - title: SAP S/4HANA Warehouse Management
+  - title: SAP S/4HANA Financial Accounting
+  - title: SAP S/4HANA Process Integration
   - title: S/4HANA Private Cloud
   - title: SAP Fiori
   - title: SAP Build Process Automation

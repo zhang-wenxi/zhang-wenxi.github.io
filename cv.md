@@ -74,10 +74,10 @@ redirect_from:
 <details style="margin-top: 20px;">
   <summary><b>Independent Analytics Projects (2025 – 2026)</b></summary>
   <blockquote>
-    • <a href="https://jobmarketsalary.streamlit.app" target="_blank">Singapore Salary Dashboard</a> – Python, Streamlit<br>
-    • <a href="https://github.com/zhang-wenxi/2026-02-06_DS4_GP5_olist" target="_blank">Medallion Olist eCommerce ELT Pipeline</a> – dbt, Meltano, Dagster, BigQuery, Kimball star-schema<br>
-    • <a href="https://dataco.streamlit.app" target="_blank">MLOps Supply Chain Late-Delivery Predictor</a> – ZenML, MLflow, XGBoost, SHAP; F1-weighted 0.689<br>
-    • <a href="https://huggingface.co/spaces/zhang-wenxi/job-score-analysis" target="_blank">Agentic AI Job Scoring System</a> – CrewAI, Groq/Ollama, MCF live API<br>
+    • <a href="https://jobmarketsalary.streamlit.app" target="_blank">Singapore Salary Dashboard</a> – <a href="https://www.python.org" target="_blank">Python</a>, <a href="https://streamlit.io" target="_blank">Streamlit</a><br>
+    • <a href="https://github.com/zhang-wenxi/2026-02-06_DS4_GP5_olist" target="_blank">Medallion Olist eCommerce ELT Pipeline</a> – <a href="https://www.getdbt.com" target="_blank">dbt</a>, <a href="https://meltano.com" target="_blank">Meltano</a>, <a href="https://dagster.io" target="_blank">Dagster</a>, <a href="https://cloud.google.com/bigquery" target="_blank">BigQuery</a>, Kimball star-schema<br>
+    • <a href="https://dataco.streamlit.app" target="_blank">MLOps Supply Chain Late-Delivery Predictor</a> – <a href="https://www.zenml.io" target="_blank">ZenML</a>, <a href="https://mlflow.org" target="_blank">MLflow</a>, <a href="https://xgboost.readthedocs.io" target="_blank">XGBoost</a>, <a href="https://shap.readthedocs.io" target="_blank">SHAP</a>; F1-weighted 0.689<br>
+    • <a href="https://huggingface.co/spaces/zhang-wenxi/job-score-analysis" target="_blank">Agentic AI Job Scoring System</a> – <a href="https://www.crewai.com" target="_blank">CrewAI</a>, <a href="https://groq.com" target="_blank">Groq</a>/<a href="https://ollama.com" target="_blank">Ollama</a>, <a href="https://www.mycareersfuture.gov.sg" target="_blank">MCF live API</a><br>
     <em>Built to demonstrate modern data engineering and ML literacy alongside my enterprise systems career.</em>
   </blockquote>
 </details>

@@ -22,7 +22,7 @@ header:
 
     <span class="intro-paragraph"
           data-aos="fade-down" data-aos-duration="900" data-aos-delay="300">
-      I lead SAP S/4HANA transformation across APAC – standardising Order‑to‑Cash, governing master data, advising CFOs.
+      I lead SAP S/4HANA transformation across APAC – standardising Order‑to‑Cash, governing master data, advising senior stakeholders.
   I also build modern data platforms (ELT, MLOps, dashboards) to connect ERP data with decisions.
   <strong>One career: SAP depth + analytics literacy.</strong>
     </span>

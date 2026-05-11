@@ -32,7 +32,7 @@ redirect_from:
 <p class="career"><b>2021 – 2022</b></p>
 <blockquote>
   <b>SAP Consultant, APAC</b> – ABeam Consulting<br>
-  <em>Greenfield S/4HANA implementations (SD/MM/WM/FI) for pharma and manufacturing clients. Led workshops, data migration (zero integrity issues), SIT/UAT, hypercare. Created 20+ BPMN models across 15 stakeholder workshops.</em>
+  <em>Greenfield S/4HANA implementations (SD/MM/WM) for pharma and manufacturing clients. Led workshops, data migration (zero integrity issues), SIT/UAT, hypercare. Created 20+ BPMN models across 15 stakeholder workshops.</em>
 </blockquote>
 
 <p class="career"><b>2017 – 2018</b></p>

@@ -18,7 +18,7 @@ header:
   caption: "Photo credit: [PonyWang via iStock](https://www.istockphoto.com/portfolio/PonyWang?mediatype=photography)"
 expiry_date: 2030-01-01
 ---
-I built an  end-to-end agentic job discovery system ([HuggingFace](https://huggingface.co/spaces/zhang-wenxi/job-score-analysis)) that fetches job postings, screens for quality and authenticity, scores CV-to-job fit with LLM agents, enriches with full job descriptions, and ranks via the Skills Framework — surfaced in a Streamlit dashboard.
+I built an  end-to-end agentic job discovery system ([HuggingFace](https://huggingface.co/spaces/zhang-wenxi/job-score-analysis)) that fetches job postings, screens for quality and authenticity, scores CV-to-job fit with LLM agents, enriches with full job descriptions, and ranks via the Skills Framework. Surfaced in a Streamlit dashboard.
 <div style="padding-left: 40px; margin-top: 20px; margin-bottom: 60px; clear: both;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
     <iframe src="https://www.youtube.com/embed/rciYHO-s2fo"

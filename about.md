@@ -123,12 +123,12 @@ permalink: /about/
 
 I began as a software engineer, then spent over a decade delivering SAP S/4HANA implementations across supply chain, finance, and HR for clients in APAC, EMEA, and NA.
 
-Today I lead SAP transformation (SD/MM with FI support, COE governance, O2C standardisation, master data) **and** build modern data platforms (ELT pipelines, MLOps, executive dashboards) to bridge enterprise systems with analytics.
+Today I lead SAP transformation (SD/MM with FI support, COE governance, O2C/P2P standardisation, master data) and build modern data platforms (ELT pipelines, MLOps, executive dashboards) to bridge enterprise systems with analytics.
 
 **What I deliver:**
-- S/4HANA transformation in SCM – regional rollouts, process standardisation, executive advisory
-- Production-grade ML & AI – end-to-end MLOps, supply chain prediction, LLM-powered automation
-- Analytics engineering – dbt, BigQuery, Power BI, Streamlit
+- **S/4HANA transformation in SCM** – regional rollouts, process standardisation, executive advisory
+- **Production-grade ML & AI** – end-to-end MLOps, supply chain prediction, LLM-powered automation
+- **Analytics engineering** – dbt, BigQuery, Power BI, Streamlit
 
 <h3 class="archive__subtitle">My Skills</h3>
 

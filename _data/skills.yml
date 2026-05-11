@@ -1,73 +1,53 @@
+sap:
+  - title: SAP SD (Sales & Distribution)
+  - title: Order-to-Cash (O2C)
+  - title: S/4HANA Private Cloud
+  - title: MM / WM / FI Integration
+  - title: Master Data Governance
+  - title: COE Governance & Process Std
+  - title: SAP Signavio (BPM)
+  - title: SAP Fiori
+  - title: SAP Build Process Automation
+  - title: SAP Concur
+  - title: ABAP Debugging
+
 engineering:
   - title: Python
-    level: Advanced
   - title: SQL
-    level: Advanced  
   - title: CrewAI
-    level: Advanced
   - title: n8n
-    level: Advanced
   - title: dbt
-    level: Advanced
   - title: BigQuery
-    level: Advanced
   - title: Medallion Architecture
-    level: Advanced
   - title: Dagster and Meltano
-    level: Advanced
   - title: Kimball Star-Schema
-    level: Advanced
   - title: Pandas and Plotly
-    level: Advanced
 
 experience:
   - title: XGBoost
-    level: Advanced
   - title: Scikit-learn
-    level: Advanced
   - title: SHAP Explainability
-    level: Advanced
   - title: ZenML and MLflow
-    level: Advanced
   - title: MLOps Pipelines
-    level: Advanced
   - title: Stacking Ensemble
-    level: Advanced
   - title: Binary Classification
-    level: Advanced
   - title: Predictive Modelling
-    level: Advanced
 
 operations:
   - title: SCM and Procurement
-    level: Advanced
   - title: Finance and HR Ops
-    level: Advanced
   - title: ERP Data Modelling
-    level: Advanced
   - title: RFM Segmentation
-    level: Advanced
   - title: Supply Chain Analytics
-    level: Advanced
   - title: Business Analysis
-    level: Advanced
   - title: Data Strategy
-    level: Advanced
 
 product:
   - title: JIRA and Confluence
-    level: Advanced
   - title: GitHub
-    level: Advanced
   - title: Power BI
-    level: Advanced
   - title: Streamlit
-    level: Advanced
   - title: Excel
-    level: Advanced
   - title: Project Management
-    level: Advanced
   - title: PMP Certified
-    level: Advanced
   - title: Change Management
-    level: Advanced

@@ -180,8 +180,8 @@ body:not(.layout--single) .archive__item-excerpt {
 
 .skills-column:first-child {
   /* reserves space for 'Product Management' */
-  flex: 1 1 200px !important; /* Grow and shrink as needed, starting at 200px */
-  max-width: 350px !important; 
+  flex: 1 1 240px !important; /* Grow and shrink as needed, starting at 200px */
+  max-width: 400px !important; 
   margin-right: 15px !important;
   padding-left: 0 !important;
 }
@@ -224,7 +224,7 @@ body:not(.layout--single) .archive__item-excerpt {
   font-size: 0.95rem !important;
   color: #666 !important;
   padding: 0.15em 0 !important; 
-  white-space: normal !important;
+  white-space: nowrap !important;
 
 }
 

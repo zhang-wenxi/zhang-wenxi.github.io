@@ -119,7 +119,7 @@ permalink: /about/
 
 ## Analytical Geek. Data · AI · Enterprise DNA.
 
-I started as a software engineer. I became an enterprise systems specialist. Now I build data pipelines, ML models, and dashboards that turn complex business data into decisions that actually land.
+I started as a software engineer. I became an enterprise systems specialist. Now I build data pipelines, ML models, and dashboards that turn complex business data into decisions that land.
 
 Twenty years inside ERP systems taught me something most analysts never get. The data problem is almost never the data. It is the business process behind it. I understand both sides because I have lived both sides.
 

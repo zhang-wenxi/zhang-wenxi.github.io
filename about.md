@@ -127,9 +127,9 @@ Today I design and build end to end. From analytics pipelines to executive dashb
 
 ## What I deliver:
 <div markdown="1">
-- <span style="color:#F25270;>Analytics Engineering</span> — dbt, BigQuery, Medallion architecture, Kimball star-schema, Streamlit, Power BI
-- <span style="color:#F25270;>ML and AI</span> — end-to-end MLOps, supply chain prediction, LLM-powered automation, CrewAI agents
-- <span style="color:#F25270;>Enterprise Systems</span> — S/4HANA implementations across SCM, Finance and HR for clients in APAC, EMEA and NA
+- <span style="color:#F25270;>Analytics Engineering</span> dbt, BigQuery, Medallion architecture, Kimball star-schema, Streamlit, Power BI
+- <span style="color:#F25270;>ML and AI</span> end-to-end MLOps, supply chain prediction, LLM-powered automation, CrewAI agents
+- <span style="color:#F25270;>Enterprise Systems</span> S/4HANA implementations across SCM, Finance and HR for clients in APAC, EMEA and NA
 </div>
 <h3 class="archive__subtitle">My Skills</h3>
 {% include skills-grid.html %}

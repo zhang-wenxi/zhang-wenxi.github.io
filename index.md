@@ -19,12 +19,11 @@ header:
           data-aos="fade-down" data-aos-duration="900" data-aos-delay="100">
       Hey, There!
     </span>
-
     <span class="intro-paragraph"
-          data-aos="fade-down" data-aos-duration="900" data-aos-delay="300">
-       I delivered SAP-driven business transformation across APAC, covering Procure-to-Pay, Order-to-Cash, Warehouse Management, and FI, governing master data, and assisted in bridging solutions with regional leaders and senior stakeholders' decisions.
-  <strong>One career: SAP depth + analytics literacy.</strong>
-    </span>
+      data-aos="fade-down" data-aos-duration="900" data-aos-delay="300">
+  I turn enterprise complexity into clear decisions. Twenty years in ERP taught me something most analysts miss. The data problem is almost never the data. It is the business process.
+  <strong>I build things that actually ship.</strong>
+</span>
     <div class="intro-nav-links">
       <a href="#home-content" class="scroll-to-home"
          data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">Home</a>

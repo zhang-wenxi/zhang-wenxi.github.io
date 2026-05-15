@@ -114,23 +114,23 @@ permalink: /about/
     });
   }
 </script>
-
-
 {: .align-left}
 ![Zhang Wen Xi](/assets/images/me.png){:width="400px"}
 
-## SAP Enterprise Systems Transformation, Analytic, AI and ML
+## Analytical Geek. Data · AI · Enterprise DNA.
 
-I began as a software engineer, then spent over a decade delivering SAP S/4HANA implementations across supply chain, finance, and HR for clients in APAC, EMEA, and NA.
+I started as a software engineer. I became an enterprise systems specialist. Now I build data pipelines, ML models, and dashboards that turn complex business data into decisions that actually land.
 
-20+ years in enterprise systems + modern data engineering. I bridge the gap between business operations and analytics — because I've lived both sides.
+Twenty years inside ERP systems taught me something most analysts never get. The data problem is almost never the data. It is the business process behind it. I understand both sides because I have lived both sides.
+
+Today I design and build end to end. From analytics pipelines to executive dashboards to AI agents. The enterprise depth is the advantage, not the baggage.
 
 **What I deliver:**
-- **S/4HANA transformation in SCM** – Delivered two greenfield S/4HANA rollouts, two major upgrades (S/4HANA 2021 FI/SD/MM and SuccessFactors HCM 2023), an SAP Concur cloud implementation, and multiple third party integrations (POS, SESAMi to SAP)
-- **Production-grade ML & AI** – end-to-end MLOps, supply chain prediction, LLM-powered automation
-- **Analytics engineering** – dbt, BigQuery, Power BI, Streamlit
+
+- **Analytics Engineering** — dbt, BigQuery, Medallion architecture, Kimball star-schema, Streamlit, Power BI
+- **ML and AI** — end-to-end MLOps, supply chain prediction, LLM-powered automation, CrewAI agents
+- **Enterprise Systems** — S/4HANA implementations across SCM, Finance and HR for clients in APAC, EMEA and NA
 
 <h3 class="archive__subtitle">My Skills</h3>
-
 {% include skills-grid.html %}
 

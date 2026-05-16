@@ -121,21 +121,11 @@ permalink: /about/
 
 I started with logic and structure, learning how systems actually work under the hood. This was my primary passion. It led me to choose computer science as my first tertiary education after O levels. I continued to pursue a degree in computing with a major in systems development. I was thrilled with the delivery of bespoke applications in procurement and HR domains.
 
-Then I spent years inside enterprise systems, living inside the messy 
-reality of how organisations actually run. SAP projects across supply 
-chain, finance, and HR. Implementations in APAC, EMEA, and NA. 
-Stakeholders who needed data they could trust, in a language they 
-could act on.
+Then I spent years inside enterprise systems, learning how organisations run. SAP projects across supply chain, finance, and HR. Implementations in APAC, EMEA, and NA. Stakeholders who needed data they could trust, in a language they could act on.
 
-The insight that changed how I work: the data problem is almost never 
-the data. It is the business process behind it. Most analysts never 
-get close enough to see this. I lived it from both sides.
+The insight that changed how I work: the data problem is almost never the data. It is the business process behind it. I have lived both sides.
 
-Today I bring all three together. The engineering rigour of a developer, 
-the process depth of an enterprise consultant, and the analytical 
-instinct of someone who has sat in the room when decisions get made. 
-I build dashboards that actually get used. I run transformation 
-programmes that actually land. I ship AI agents that run live.
+I build dashboards that get used. I run transformation programmes that land. I ship AI agents that run live.
 
 The enterprise depth is the advantage.
 
@@ -143,14 +133,11 @@ The enterprise depth is the advantage.
 
 <span style="color:#F25270; font-weight:bold;">Analytics Engineering</span> 
 dbt, BigQuery, Medallion architecture, Kimball star-schema
-
-<br><br><span style="color:#F25270; font-weight:bold;">BI and Visualisation</span> 
+<br><span style="color:#F25270; font-weight:bold;">BI and Visualisation</span> 
 Power BI, Tableau, QlikView, Streamlit dashboards
-
-<br><br><span style="color:#F25270; font-weight:bold;">ML and AI</span> 
+<br><span style="color:#F25270; font-weight:bold;">ML and AI</span> 
 end-to-end MLOps, supply chain prediction, LLM-powered automation, CrewAI agents
-
-<br><br><span style="color:#F25270; font-weight:bold;">Enterprise Systems</span> 
+<br><span style="color:#F25270; font-weight:bold;">Enterprise Systems</span> 
 S/4HANA implementations across SCM, Finance and HR for clients in APAC, EMEA and NA
 
 <h3 class="archive__subtitle">My Skills</h3>

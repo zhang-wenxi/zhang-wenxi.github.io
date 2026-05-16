@@ -121,13 +121,7 @@ permalink: /about/
 
 I started with logic and structure, learning how systems actually work under the hood. This was my primary passion. It led me to choose computer science as my first tertiary education after O levels. I continued to pursue a degree in computing with a major in systems development. I was thrilled with the delivery of bespoke applications in procurement and HR domains.
 
-Then I spent years inside enterprise systems, learning how organisations run. SAP projects across supply chain, finance, and HR. Implementations in APAC, EMEA, and NA. Stakeholders who needed data they could trust, in a language they could act on.
-
-The insight that changed how I work: the data problem is almost never the data. It is the business process behind it. I have lived both sides.
-
-I build dashboards that get used. I run transformation programmes that land. I ship AI agents that run live.
-
-The enterprise depth is the advantage.
+Then I spent years inside enterprise systems, learning how organisations run. SAP projects across supply chain, finance, and HR. Implementations in APAC, EMEA, and NA. Stakeholders who needed data they could trust, in a language they could act on. The insight that changed how I work: the data problem is almost never the data. It is the business process behind it. I have lived both sides. I build dashboards that get used. I run transformation programmes that land. I ship AI agents that run live. The enterprise depth is the advantage.
 
 ## What I deliver:
 

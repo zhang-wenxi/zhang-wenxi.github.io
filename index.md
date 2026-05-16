@@ -21,8 +21,13 @@ header:
     </span>
     <span class="intro-paragraph"
       data-aos="fade-down" data-aos-duration="900" data-aos-delay="300">
-  I turn enterprise complexity into clear decisions. Twenty years in ERP taught me something most analysts miss. The data problem is almost never the data. It is the business process.
-  <strong>I build things that actually ship.</strong>
+  I turn enterprise complexity into decisions that land.
+
+I have worked across SAP, BI, data analytics, and AI. I understand business process because I lived inside transformation projects. I understand data because I built the pipelines and delivered dashboard insights. I understand AI because I have shipped agents that ship and run live today.
+
+I lead teams that deliver. I pay attention to process and security. I run digital transformation programmes and own the analytics that prove it worked. I bridge enterprise data, from source systems to insight layers. I take predictive analytics from business requirement through UAT to deployment.
+
+Decades of delivery across supply chain, finance, HR, and retail. PMP certified. SAP S/4HANA certified.</strong>
 </span>
     <div class="intro-nav-links">
       <a href="#home-content" class="scroll-to-home"

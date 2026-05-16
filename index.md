@@ -23,7 +23,7 @@ header:
       data-aos="fade-down" data-aos-duration="900" data-aos-delay="300">
   I turn enterprise complexity into decisions that land.
   <br><br>
-  I have worked across SAP, BI, data analytics, and AI. I understand business process because I lived inside transformation projects. I built the data pipelines and delivered dashboard insights. I have shipped AI agents that run live today.
+  I have worked across SAP, BI, data analytics, and AI. I understand business process because I lived inside transformation projects. I built the data pipelines and delivered dashboard insights.
   <br><br>
   SAP. BI. Data analytics. AI. Delivery across supply chain, finance, HR, and retail.
   <br><br>

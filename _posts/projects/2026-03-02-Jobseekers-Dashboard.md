@@ -8,7 +8,7 @@ highlight_home: true
 author_profile: true
 author: wenxi
 classes: wide
-tags:  ["Data Visualisation"]
+tags:  ["Data Visualisation", "Streamlit"]
 tagline: "A data visualisation project for salary fairness"
 description: "This is a data visualisation dashboard for job seekers to analysis fair salary in the job market."
 header:

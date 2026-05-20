@@ -1,0 +1,62 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<!-- 1. The Taxonomy Index (Blue Tags) -->
+<ul class="taxonomy__index">
+  {% assign sorted_tags = site.tags | sort %}
+  {% for tag in sorted_tags %}
+    {% comment %} tag[0] is name, tag[1] is the array of posts {% endcomment %}
+    {% if tag[0] contains "Part" %}
+      {% continue %}
+    {% endif %}
+
+    {% assign cat_posts = tag[1] | where: "categories", "toolbox" %}
+    {% if cat_posts.size > 0 %}
+      <li>
+        <a href="#{{ tag[0] | slugify }}">
+          <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ cat_posts.size }}</span>
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<!-- 2. The Post Sections (Grid) -->
+{% assign entries_layout = page.entries_layout | default: 'grid' %}
+{% for tag in sorted_tags %}
+  {% if tag[0] contains "Part" %}
+    {% continue %}
+  {% endif %}
+
+  {% assign cat_posts = tag[1] | where: "categories", "toolbox" %}
+  {% if cat_posts.size > 0 %}
+    <section id="{{ tag[0] | slugify }}" class="taxonomy__section">
+      <h2 class="archive__subtitle">{{ tag[0] }}</h2>
+      <div class="entries-{{ entries_layout }}">
+        {% for post in cat_posts %}
+          {% include archive-single.html type=entries_layout %}
+        {% endfor %}
+      </div>
+      <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+    </section>
+  {% endif %}
+{% endfor %}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Set a consistent left margin for both title and date (e.g., 0.3em)
+    var leftMargin = '0.3em';   // adjust to your taste (0.2em, 0.4em, etc.)
+
+    document.querySelectorAll('.page__meta').forEach(function(meta) {
+      meta.style.setProperty('margin-left', leftMargin, 'important');
+      meta.style.setProperty('padding-left', '0', 'important');
+    });
+
+    document.querySelectorAll('.archive__item-title').forEach(function(title) {
+      title.style.setProperty('margin-left', leftMargin, 'important');
+      title.style.setProperty('padding-left', '0', 'important');
+    });
+  });
+</script>

@@ -38,8 +38,10 @@ header:
          data-aos="fade-right" data-aos-duration="600" data-aos-delay="740">Writing</a>
       <a href="/mytoolbox/"
          data-aos="fade-right" data-aos-duration="600" data-aos-delay="740">Toolbox</a>
+      <a href="/cv/"
+         data-aos="fade-right" data-aos-duration="600" data-aos-delay="740">CV</a>
       <a href="/about/"
-         data-aos="fade-left" data-aos-duration="600" data-aos-delay="860">About Me</a>
+         data-aos="fade-left" data-aos-duration="600" data-aos-delay="860">About</a>
     </div>
 
   </div>

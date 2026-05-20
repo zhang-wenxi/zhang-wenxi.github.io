@@ -25,7 +25,7 @@ header:
   <br><br>
   I have worked across SAP, BI, data analytics, and AI. I understand business process because I lived inside transformation projects. I built the data pipelines and delivered dashboard insights.
   <br><br>
-  SAP. BI. Data analytics. AI. Delivery across supply chain, finance, HR, and retail.
+  Delivery across supply chain, finance, HR, and retail.
   <br><br>
   PMP certified. SAP S/4HANA certified. CRISC trained.
 </span>

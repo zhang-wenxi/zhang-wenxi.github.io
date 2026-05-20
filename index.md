@@ -34,6 +34,8 @@ header:
          data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">Home</a>
       <a href="/mywork/"
          data-aos="fade-left" data-aos-duration="600" data-aos-delay="620">My Work</a>
+      <a href="/mytoolbox/"
+         data-aos="fade-right" data-aos-duration="600" data-aos-delay="740">Toolbox</a>
       <a href="/mywriting/"
          data-aos="fade-right" data-aos-duration="600" data-aos-delay="740">Writing</a>
       <a href="/about/"
@@ -58,6 +60,22 @@ header:
 <div class="entries-grid" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   {% for post in site.posts %}
     {% if post.highlight_home and post.categories contains 'work' %}
+      {% if post.expiry_date %}
+        {% assign post_expiry = post.expiry_date | date: '%s' | plus: 0 %}
+        {% if post_expiry > current_time %}
+          {% include archive-single.html type="grid" %}
+        {% endif %}
+      {% else %}
+        {% include archive-single.html type="grid" %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h3 class="archive__subtitle" data-aos="fade-up" data-aos-duration="600">My Tookbox</h3>
+<div class="entries-grid" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+  {% for post in site.posts %}
+    {% if post.highlight_home and post.categories contains 'toolbox' %}
       {% if post.expiry_date %}
         {% assign post_expiry = post.expiry_date | date: '%s' | plus: 0 %}
         {% if post_expiry > current_time %}

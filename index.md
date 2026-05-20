@@ -34,10 +34,10 @@ header:
          data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">Home</a>
       <a href="/mywork/"
          data-aos="fade-left" data-aos-duration="600" data-aos-delay="620">My Work</a>
-      <a href="/mytoolbox/"
-         data-aos="fade-right" data-aos-duration="600" data-aos-delay="740">Toolbox</a>
       <a href="/mywriting/"
-         data-aos="fade-right" data-aos-duration="600" data-aos-delay="740">Writing</a>
+         data-aos="fade-right" data-aos-duration="600" data-aos-delay="740">My Writing</a>
+      <a href="/mytoolbox/"
+         data-aos="fade-right" data-aos-duration="600" data-aos-delay="740">My Toolbox</a>
       <a href="/about/"
          data-aos="fade-left" data-aos-duration="600" data-aos-delay="860">About Me</a>
     </div>
@@ -72,10 +72,10 @@ header:
   {% endfor %}
 </div>
 
-<h3 class="archive__subtitle" data-aos="fade-up" data-aos-duration="600">My Tookbox</h3>
+<h3 class="archive__subtitle" data-aos="fade-up" data-aos-duration="600">My Writing</h3>
 <div class="entries-grid" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   {% for post in site.posts %}
-    {% if post.highlight_home and post.categories contains 'toolbox' %}
+    {% if post.highlight_home and post.categories contains 'writing' %}
       {% if post.expiry_date %}
         {% assign post_expiry = post.expiry_date | date: '%s' | plus: 0 %}
         {% if post_expiry > current_time %}
@@ -88,10 +88,10 @@ header:
   {% endfor %}
 </div>
 
-<h3 class="archive__subtitle" data-aos="fade-up" data-aos-duration="600">My Writing</h3>
+<h3 class="archive__subtitle" data-aos="fade-up" data-aos-duration="600">My Tookbox</h3>
 <div class="entries-grid" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   {% for post in site.posts %}
-    {% if post.highlight_home and post.categories contains 'writing' %}
+    {% if post.highlight_home and post.categories contains 'toolbox' %}
       {% if post.expiry_date %}
         {% assign post_expiry = post.expiry_date | date: '%s' | plus: 0 %}
         {% if post_expiry > current_time %}

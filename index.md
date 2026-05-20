@@ -33,11 +33,11 @@ header:
       <a href="#home-content" class="scroll-to-home"
          data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">Home</a>
       <a href="/mywork/"
-         data-aos="fade-left" data-aos-duration="600" data-aos-delay="620">My Work</a>
+         data-aos="fade-left" data-aos-duration="600" data-aos-delay="620">Work</a>
       <a href="/mywriting/"
-         data-aos="fade-right" data-aos-duration="600" data-aos-delay="740">My Writing</a>
+         data-aos="fade-right" data-aos-duration="600" data-aos-delay="740">Writing</a>
       <a href="/mytoolbox/"
-         data-aos="fade-right" data-aos-duration="600" data-aos-delay="740">My Toolbox</a>
+         data-aos="fade-right" data-aos-duration="600" data-aos-delay="740">Toolbox</a>
       <a href="/about/"
          data-aos="fade-left" data-aos-duration="600" data-aos-delay="860">About Me</a>
     </div>

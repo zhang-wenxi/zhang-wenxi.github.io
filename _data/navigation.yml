@@ -3,6 +3,8 @@ main:
     url: "/mywork/"
   - title: "My Writing"
     url: "/mywriting/"
+  - title: "My Toolbox"
+    url: "/mytoolbox/"
   - title: "CV"
     url: /cv/
   - title: "About Me"

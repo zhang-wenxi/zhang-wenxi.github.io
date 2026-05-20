@@ -1,6 +1,6 @@
 ---
 permalink: /mytoolbox/
-layout: categories_writing
+layout: categories_toolbox
 title: "My Toolbox"
 author_profile: true
 author: wenxi

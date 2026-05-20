@@ -82,7 +82,7 @@
 .intro-nav-links {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 28px;
   justify-content: center;
   margin-top: 8px;

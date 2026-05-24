@@ -29,18 +29,6 @@ In this video I demo a multi-page Power BI sales intelligence dashboard built fo
   </div>
 </div>
 
-[00:00](https://www.youtube.com/watch?v=ZUQH7UHIqNI) Introduction on MS cloud infrastructure and Power BI
-
-[00:25](https://www.youtube.com/watch?v=ZUQH7UHIqNI&t=25s) Business pain point this scenario solves
-
-[00:36](https://www.youtube.com/watch?v=ZUQH7UHIqNI&t=36s) Sales Overview page: Sales vs Target KPI, Sales performance by period, Treemap on linked product chain, Total Sales by district and location map clickthrough, powered with Year and District filters
-
-[01:32](https://www.youtube.com/watch?v=ZUQH7UHIqNI&t=92s) Sales Analysis page: Tabular sales detail view on margins by year, Market density map, Margin % by product category and Month over Month sales variance
-
-[02:21](https://www.youtube.com/watch?v=ZUQH7UHIqNI&t=141s) Mobile display for onsite view on district sales details
-
-[03:22](https://www.youtube.com/watch?v=ZUQH7UHIqNI&t=202s) Statistical bird's eye view of column distribution, profiling and quality check in Power Query Engine
-
 📊 KEY RESULTS
 
 Sales Overview and Analysis dashboard on web and mobile with shared Year and District slicers. Tooltip page design showing city-level pie breakdown on map hover. Drill through product detail page.

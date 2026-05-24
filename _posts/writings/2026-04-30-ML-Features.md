@@ -10,7 +10,7 @@ header:
   overlay_color: "transparent"
   teaser: "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   caption: "Photo credit: [Unsplash: Deng Xiang](https://unsplash.com/@dengxiangs)"
-tags: ["Machine Learning", "Supply Chain", "MLOps"]
+tags: ["Machine Learning", "Supply Chain"]
 tagline: "Machine Learning"
 highlight_home: true
 ---

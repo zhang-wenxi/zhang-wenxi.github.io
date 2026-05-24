@@ -17,13 +17,24 @@ highlight_home: true
 
 The DataCo Late Delivery Predictor is an end-to-end MLOps pipeline trained on 180,000 shipment records. It predicts late deliveries before they ship.
 
-
-| Metric | Value |
-|---|---|
-| F1-weighted score | 0.69 |
-| Improvement vs. DummyClassifier baseline | +66% |
-| Validation method | 37-month walk-forward backtest |
-| Top SHAP driver | Shipping mode |
+<table border="0" cellpadding="4" cellspacing="0">
+  <tr>
+    <td valign="top"><strong>F1-weighted score</strong></td>
+    <td valign="top">0.69</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Improvement vs. DummyClassifier baseline</strong></td>
+    <td valign="top">+66%</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Validation method</strong></td>
+    <td valign="top">37-month walk-forward backtest</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Top SHAP driver</strong></td>
+    <td valign="top">Shipping mode</td>
+  </tr>
+</table>
 
 <h3 class="archive__subtitle">Why Feature Engineering Comes First</h3>
 

@@ -17,6 +17,36 @@ a:visited {
   width: auto !important;
 }
 
+/* Clean table styling - no borders */
+.post-table table,
+.post-table th,
+.post-table td {
+  border: none !important;
+  border-collapse: collapse !important;
+}
+
+.post-table th,
+.post-table td {
+  padding: 8px 16px 8px 0 !important;
+  text-align: left !important;
+  vertical-align: top !important;
+}
+
+.post-table th {
+  font-weight: 600 !important;
+  color: #F25270 !important;
+}
+
+.post-table td {
+  color: #3D3635 !important;
+}
+
+/* Optional: subtle row separation without borders */
+.post-table tr:not(:last-child) td,
+.post-table tr:not(:last-child) th {
+  border-bottom: 1px solid #f0f0f0 !important;
+}
+
 h1, h2 {
   color: #F25270;
   font-family: 'Roboto', sans-serif !important;

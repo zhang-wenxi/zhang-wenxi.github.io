@@ -17,23 +17,31 @@ highlight_home: true
 
 The DataCo Late Delivery Predictor is an end-to-end MLOps pipeline trained on 180,000 shipment records. It predicts late deliveries before they ship.
 
-<table border="0" cellpadding="4" cellspacing="0">
-  <tr>
-    <td valign="top"><strong>F1-weighted score</strong></td>
-    <td valign="top">0.69</td>
-  </tr>
-  <tr>
-    <td valign="top"><strong>Improvement vs. DummyClassifier baseline</strong></td>
-    <td valign="top">+66%</td>
-  </tr>
-  <tr>
-    <td valign="top"><strong>Validation method</strong></td>
-    <td valign="top">37-month walk-forward backtest</td>
-  </tr>
-  <tr>
-    <td valign="top"><strong>Top SHAP driver</strong></td>
-    <td valign="top">Shipping mode</td>
-  </tr>
+<table style="margin-left: 2.5em; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="text-align: left; padding-right: 3em; font-weight: 600;">Metric</th>
+      <th style="text-align: left; font-weight: 600;">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left; padding-right: 3em;">F1-weighted score</td>
+      <td style="text-align: left;">0.69</td>
+    </tr>
+    <tr>
+      <td style="text-align: left; padding-right: 3em;">Improvement vs. DummyClassifier baseline</td>
+      <td style="text-align: left;">+66%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left; padding-right: 3em;">Validation method</td>
+      <td style="text-align: left;">37-month walk-forward backtest</td>
+    </tr>
+    <tr>
+      <td style="text-align: left; padding-right: 3em;">Top SHAP driver</td>
+      <td style="text-align: left;">Shipping mode</td>
+    </tr>
+  </tbody>
 </table>
 
 <h3 class="archive__subtitle">Why Feature Engineering Comes First</h3>

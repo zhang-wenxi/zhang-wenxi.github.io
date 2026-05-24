@@ -15,7 +15,7 @@ tagline: "Data Engineering"
 highlight_home: true
 ---
 
-Today, data does not come from one place. Orders sit in SAP. Customer records live in Salesforce. Finance runs on a separate SQL warehouse. The business still wants one dashboard. Complex questions require pulling across multiple systems at once. Power BI's Get Data is where this begins.
+Today, data does not come from one place. Different departments run on different systems. Modern BI platforms connect easily to multiple data sources. Snowflake, Azure Synapse, legacy SAP BW, relational databases, cloud storage, and real-time streams are all reachable from the same Get Data dialog. The connector library reflects how varied enterprise data infrastructure actually is. Power BI's Get Data is where this begins.
 
 The connector you pick is not just a technical setting. It determines data latency, query performance, available features, and governance. The right way to think about it is this: what is the source, what path does the data take, and what does the report actually require. That framing drives every good connector decision.
 
@@ -27,7 +27,7 @@ Microsoft Fabric unifies what was previously a collection of separate Azure serv
 
 Within Fabric, Dataflows Gen 2 is the transformation layer. It ingests from source systems, applies Power Query transformations, and lands results directly into Fabric data stores. No pipeline code required. Lakehouses store data in open Delta format on OneLake. They serve as the central landing zone that multiple reports and semantic models can share. Warehouses provide a SQL endpoint for structured analytical workloads. KQL Databases handle real-time event streams.
 
-In a mature Fabric setup, Power BI does not connect to source systems directly at report time. It connects to governed Lakehouse or Warehouse tables that Dataflows Gen 2 has already prepared. The [Fabric well-architected guidance](https://learn.microsoft.com/en-us/fabric/well-architected/) is explicit on this point. The Get Data connector is the last step, not the first.
+In a mature Fabric setup, Power BI does not connect to source systems directly at report time. It connects to governed Lakehouse or Warehouse tables that Dataflows Gen 2 has already prepared. The [Microsoft Fabric enterprise BI guidance](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/analytics/enterprise-bi-microsoft-fabric) is explicit on this point. The Get Data connector is the last step, not the first.
 
 <h3 class="archive__subtitle">Databases: The Relational Workhorses</h3>
 

@@ -64,10 +64,27 @@ The code is available on [GitHub](https://github.com/zhang-wenxi).
 
 Hyperparameter tuning is not useless. It adds value after feature engineering is exhausted. The mistake is doing tuning first, or only.
 
-| Priority | Activity | Impact |
-|---|---|---|
-| 1 | Feature engineering | High (primary driver of lift) |
-| 2 | Hyperparameter tuning | Incremental (adds on top) |
+<table style="margin-left: 2.5em; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="text-align: left; padding-right: 3em; font-weight: 600;">Priority</th>
+      <th style="text-align: left; padding-right: 3em; font-weight: 600;">Activity</th>
+      <th style="text-align: left; font-weight: 600;">Impact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left; padding-right: 3em;">1</td>
+      <td style="text-align: left; padding-right: 3em;">Feature engineering</td>
+      <td style="text-align: left;">High (primary driver of lift)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left; padding-right: 3em;">2</td>
+      <td style="text-align: left; padding-right: 3em;">Hyperparameter tuning</td>
+      <td style="text-align: left;">Incremental (adds on top)</td>
+    </tr>
+  </tbody>
+</table>
 
 <h3 class="archive__subtitle">The Decision Order Matters</h3>
 

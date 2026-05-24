@@ -17,7 +17,7 @@ highlight_home: true
 
 The DataCo Late Delivery Predictor is an end-to-end MLOps pipeline trained on 180,000 shipment records. It predicts late deliveries before they ship.
 
-<div class="post-table">
+<div class="post-table" markdown="1">
 | Metric | Value |
 |---|---|
 | F1-weighted score | 0.69 |
@@ -46,7 +46,7 @@ The code is available on [GitHub](https://github.com/zhang-wenxi).
 
 Hyperparameter tuning is not useless. It adds value after feature engineering is exhausted. The mistake is doing tuning first, or only.
 
-<div class="post-table">
+<div class="post-table" markdown="1">
 | Priority | Activity | Impact |
 |---|---|---|
 | 1 | Feature engineering | High (primary driver of lift) |

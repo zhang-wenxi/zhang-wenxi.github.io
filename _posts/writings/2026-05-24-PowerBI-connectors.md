@@ -19,7 +19,7 @@ Today, data does not come from one place. Orders sit in SAP. Customer records li
 
 The connector you pick is not just a technical setting. It determines data latency, query performance, available features, and governance. The right way to think about it is this: what is the source, what path does the data take, and what does the report actually require. That framing drives every good connector decision.
 
-## Microsoft Fabric: The Modern Data Stack
+<h3 class="archive__subtitle">Microsoft Fabric: The Modern Data Stack</h3>
 
 ![Microsoft Fabric Get Data sources](/assets/images/articles/powerbi/image2.png)
 
@@ -29,7 +29,7 @@ Within Fabric, Dataflows Gen 2 is the transformation layer. It ingests from sour
 
 In a mature Fabric setup, Power BI does not connect to source systems directly at report time. It connects to governed Lakehouse or Warehouse tables that Dataflows Gen 2 has already prepared. The [Fabric well-architected guidance](https://learn.microsoft.com/en-us/fabric/well-architected/) is explicit on this point. The Get Data connector is the last step, not the first.
 
-## Databases: The Relational Workhorses
+<h3 class="archive__subtitle">Databases: The Relational Workhorses</h3>
 
 ![Database Get Data sources](/assets/images/articles/powerbi/image3.png)
 
@@ -39,7 +39,7 @@ SAP HANA deserves specific mention. In SAP environments, ABAP developers write [
 
 Pure DirectQuery on SAP HANA has [known limits](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-directquery-about#limitations-and-considerations). Cross-source joins are not supported unless Composite Mode is used. Some time intelligence DAX functions do not push down to the HANA engine. High-cardinality columns can degrade query performance. The practical solution is [Composite Mode](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-composite-models): import small reference and dimension tables, keep large fact tables on DirectQuery against HANA. This preserves data freshness where it matters while maintaining report performance.
 
-## Azure: Cloud-Native Sources
+<h3 class="archive__subtitle">Azure: Cloud-Native Sources</h3>
 
 ![Azure Get Data sources](/assets/images/articles/powerbi/image1.png)
 
@@ -47,7 +47,7 @@ Azure SQL Database and Azure Synapse Analytics SQL are the primary cloud relatio
 
 In hybrid environments where some workloads remain on-premise and others sit in Azure, these connectors bridge the two. Power BI developers are often the end consumers of Azure infrastructure that data engineering teams have already built. Knowing what sits behind a connector, and what it means for performance and data freshness, is what allows a practitioner to participate in architecture conversations meaningfully.
 
-## The DirectQuery Effect on Page Refresh
+<h3 class="archive__subtitle">The DirectQuery Effect on Page Refresh</h3>
 
 ![Power BI Page Refresh settings](/assets/images/articles/powerbi/image4.png)
 

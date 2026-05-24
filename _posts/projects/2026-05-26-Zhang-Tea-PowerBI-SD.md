@@ -42,11 +42,3 @@ Power BI Desktop · DAX · Power Query · Visual Maps · Decomposition Tree
 Most Power BI demos show one page with numerous KPIs and charts. This build shows how a real multi-stakeholder report works with storyboard page navigations, hover and drill-through details, and mobile screen design. Sales sees revenue vs target. Operations sees geographic volume. Each page answers a different business question from the same underlying model built in snowflake schema.
 
 Demo Data Notice: Dataset is based on a synthetic mockup of a Singapore retail tea business for portfolio demonstration purposes only.
-
-🔔 If this was helpful, Subscribe and hit the bell so you do not miss the next project walkthrough.
-
-🎥 Follow my channel: [@zhangdatascience](https://www.youtube.com/@zhangdatascience)
-
-👉 LinkedIn: [linkedin.com/in/zhangwenxi](https://www.linkedin.com/in/zhangwenxi/)
-
-#PowerBI #DAX #DataEngineering #BusinessIntelligence #SalesReport #Dashboard #PowerQuery #Analytics #ReportDesign #DirectQuery #DecompositionTree #DataVisualization

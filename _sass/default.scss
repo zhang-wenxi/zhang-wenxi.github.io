@@ -334,3 +334,26 @@ body:not(.layout--single) {
   }
 
 }
+
+/* Force table alignment - override theme defaults */
+.page__content table {
+  margin-left: 2em !important;
+  width: auto !important;
+}
+
+.page__content th,
+.page__content td {
+  text-align: left !important;
+  vertical-align: top !important;
+}
+
+.page__content th {
+  padding-right: 2em !important;
+}
+
+/* Remove borders if your theme adds them */
+.page__content table,
+.page__content th,
+.page__content td {
+  border: none !important;
+}

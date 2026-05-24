@@ -15,7 +15,7 @@ tagline: "Data Engineering"
 highlight_home: true
 ---
 
-Today, data does not come from one place. Different departments run on different systems. Modern BI platforms connect easily to multiple data sources. Snowflake, Azure Synapse, legacy SAP BW, relational databases, cloud storage, and real-time streams are all reachable from the same Get Data dialog. The connector library reflects how varied enterprise data infrastructure actually is. Power BI's Get Data is where this begins.
+Today, data does not come from one place. Sales orders sit in SAP. Leads live in Salesforce. Different departments run on different systems. Modern BI platforms connect easily to multiple data sources: Snowflake, Azure Synapse, even legacy SAP BW. Power BI's Get Data is where this begins.
 
 The connector you pick is not just a technical setting. It determines data latency, query performance, available features, and governance. The right way to think about it is this: what is the source, what path does the data take, and what does the report actually require. That framing drives every good connector decision.
 

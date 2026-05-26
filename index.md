@@ -23,12 +23,9 @@ header:
       data-aos="fade-down" data-aos-duration="900" data-aos-delay="300">
   I turn enterprise complexity into decisions that land.
   <br><br>
-  I have worked across SAP, BI, data analytics, and AI. I understand business process because I lived inside transformation projects. I built the data pipelines and delivered dashboard insights.
-  <br><br>
-  Delivery across supply chain, finance, HR, and retail.
-  <br><br>
+  I have worked across SAP, BI, data analytics, and AI. I understand business process because I lived inside transformation projects. I built the data pipelines and delivered dashboard insights. Delivery across supply chain, finance, HR, and retail.
   <br><br>PMP certified. SAP S/4HANA certified. CRISC trained.
-  Using data and AI to help organisations serve people better.
+  <br><br>Using data and AI to help organisations serve people better.
 </span>
     <div class="intro-nav-links">
       <a href="#home-content" class="scroll-to-home"

@@ -27,7 +27,8 @@ header:
   <br><br>
   Delivery across supply chain, finance, HR, and retail.
   <br><br>
-  PMP certified. SAP S/4HANA certified. CRISC trained.
+  <br><br>PMP certified. SAP S/4HANA certified. CRISC trained.
+  Using data and AI to help organisations serve people better.
 </span>
     <div class="intro-nav-links">
       <a href="#home-content" class="scroll-to-home"

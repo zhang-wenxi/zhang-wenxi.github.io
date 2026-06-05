@@ -12,10 +12,10 @@ tags: ["Tableau", "Data Visualisation"]
 tagline: "Zhang's Tea Tableau Sales Dashboard"
 description: "A single page Tableau sales dashboard built on dynamic measures and action parameters with symbol map tooltip design and federated Excel source for a synthetic Singapore retail tea business."
 header:
-  overlay_image: "https://images.unsplash.com/photo-1735393672274-b20d1d3e6d30?w=2048"
+  overlay_image: "https://raw.githubusercontent.com/zhang-wenxi/zhang-wenxi.github.io/main/assets/images/Galina%20Nelyubova2.png"
   overlay_color: "transparent"
-  teaser: "https://images.unsplash.com/photo-1735393672274-b20d1d3e6d30?w=2048"
-  caption: "Photo credit: [Galina Nelyubova via Unsplash](https://unsplash.com/@galka_nz)"
+  teaser: "https://raw.githubusercontent.com/zhang-wenxi/zhang-wenxi.github.io/main/assets/images/Galina%20Nelyubova2.png"
+  caption: "Photo credit: [Galina Nelyubova](https://unsplash.com/@galka_nz) on Unsplash"
 expiry_date: 2030-01-01
 ---
 Which store was quietly underperforming while everything else looked fine? The answer was not hidden in a complicated calculation. It was in the way the story was presented.

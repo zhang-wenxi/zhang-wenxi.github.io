@@ -12,9 +12,9 @@ tags: ["Power BI", "Data Visualisation"]
 tagline: "Power BI Built from Scratch Design Thinking"
 description: "Power BI Built from Scratch Design Thinking on the Amazing Mart EU Sales Dashboard in Power BI — covering regional sales performance across Spain, Italy & Portugal, profit trends from 2011 to 2014, and why high sales doesn't always mean high profit."
 header:
-  overlay_image: "https://raw.githubusercontent.com/zhang-wenxi/zhang-wenxi.github.io/main/assets/images/GalinaNelyubova1.png"
+  overlay_image: "https://raw.githubusercontent.com/zhang-wenxi/zhang-wenxi.github.io/main/assets/images/GalinaNelyubova1.jpg"
   overlay_color: "transparent"
-  teaser: "https://raw.githubusercontent.com/zhang-wenxi/zhang-wenxi.github.io/main/assets/images/GalinaNelyubova1.png"
+  teaser: "https://raw.githubusercontent.com/zhang-wenxi/zhang-wenxi.github.io/main/assets/images/GalinaNelyubova1.jpg"
   caption: "Photo credit: [Galina Nelyubova](https://unsplash.com/@galka_nz) on Unsplash"
 expiry_date: 2030-01-01
 ---

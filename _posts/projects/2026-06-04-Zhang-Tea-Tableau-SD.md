@@ -12,9 +12,9 @@ tags: ["Tableau", "Data Visualisation"]
 tagline: "Zhang's Tea Tableau Sales Dashboard"
 description: "A single page Tableau sales dashboard built on dynamic measures and action parameters with symbol map tooltip design and federated Excel source for a synthetic Singapore retail tea business."
 header:
-  overlay_image: "https://raw.githubusercontent.com/zhang-wenxi/zhang-wenxi.github.io/main/assets/images/Galina%20Nelyubova2.png"
+  overlay_image: "https://raw.githubusercontent.com/zhang-wenxi/zhang-wenxi.github.io/main/assets/images/GalinaNelyubova2.png"
   overlay_color: "transparent"
-  teaser: "https://raw.githubusercontent.com/zhang-wenxi/zhang-wenxi.github.io/main/assets/images/Galina%20Nelyubova2.png"
+  teaser: "https://raw.githubusercontent.com/zhang-wenxi/zhang-wenxi.github.io/main/assets/images/GalinaNelyubova2.png"
   caption: "Photo credit: [Galina Nelyubova](https://unsplash.com/@galka_nz) on Unsplash"
 expiry_date: 2030-01-01
 ---
